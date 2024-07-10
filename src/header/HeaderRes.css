@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+
+    .header_logo_container {
+        width: 10%;
+    }
+
+    .header_menu_wrapper {
+        display: none;
+    }
+
+    .header_main_wrapper_mobile {
+        display: block;
+        color: rgba(255, 255, 255, 1);
+        position: relative;
+    }
+
+    .header_mobile_menu {
+        width: 170px;
+        height: 40vh;
+        background: #17B788;
+        position: absolute;
+        left: -136px;
+        top: 100%;
+    }
+
+    .header_mobile_menu_Ul {
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 15px;
+    }
+
+}

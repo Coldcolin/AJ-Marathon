@@ -1,0 +1,141 @@
+.health_tip_mainBody {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.health_tip_hero_section {
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/nutrition1.svg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.health_hero_wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(164, 240, 218, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.health_tip_body_wrapper {
+    width: 95%;
+    border: 2px solid rgba(23, 183, 136, 1);
+    background: rgba(164, 240, 218, 0.06);
+    margin-top: 30px;
+}
+
+.health_tip_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.health_tip_main_body {
+    width: 95%;
+}
+
+.health_tip_H1 {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 84px;
+    color: rgba(35, 34, 34, 1);
+}
+
+.health_tip_card_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.health_card_body {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.health_card_body_H1 {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 84px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.health_card_body_P {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.health_image_card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.health_image_main_container{
+    width: 33%;
+    text-align: center;
+}
+
+.health_image_holder{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(23, 183, 136, 1);
+}
+
+.health_image{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 70px; */
+}
+
+.health_image_H1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.health_image2_card{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.health_learn_more_btn_container{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.health_learn_more_btn{
+    width: 30%;
+    height: 9vh;
+    background: rgba(245, 245, 245, 1);
+    border: 2px solid rgba(23, 183, 136, 1);
+    color: rgba(23, 183, 136, 1);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}

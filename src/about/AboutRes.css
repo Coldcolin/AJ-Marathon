@@ -1,0 +1,146 @@
+@media screen and (max-width: 576px) {
+
+    .about_hero_wrapper {
+        height: 40vh;
+        background: url(../assets/about2.png) no-repeat center center;
+    }
+
+    .about_hero_UL {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        justify-content: space-around;
+        padding: 30px;
+    }
+
+    .about_hero_UL li{
+    text-decoration: none;}
+
+    .about_menu_not_active{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+    .about_hero_img_wrapper {
+        display: none;
+    }
+
+    .about_AJCYM_project_div {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .about_AJYCM_project_article_right_image_container1 {
+        display: none;
+    }
+
+    .about_AJYCM_project_article_image_wrapper{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .about_AJYCM_project_article_left_image_container1{
+        display: none;
+    }
+
+    .about_AJYCM_project_article_right_image_container2 {
+        width: 100%;
+        flex-direction: row;
+        /* align-items: center; */
+    }
+
+    .about_AJYCM_project_article_right_image_container2_P1{
+        display: none;
+    }
+
+    .about_AJYCM_project_article_wrapper {
+        flex-direction: column;
+    }
+
+    .about_AJYCM_project_article_left_image {
+        display: none;
+    }
+
+    .about_AJYCM_project_article_right_image1 {
+        display: none;
+    }
+
+    .about_AJYCM_project_article_right_image2{
+        width: 50%;
+    }
+
+    .about_AJYCM_project_article{
+        width: 100%;
+    }
+
+    .about_AJCYM_project_marathon {
+        width: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about_AJYCM_project_article_P{
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+
+    .about_AJYCM_project_article_SPAN{
+        font-size: 16px;
+    }
+
+    .about_AJYCM_local_committee_body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_AJYCM_local_committee_body_H1{
+        font-size: 21px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .about_AJYCM_local_committee_body_P{
+        width: 80%;
+    }
+
+    .about_AJYCM_local_committee_card_body{
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_card_body{
+        width: 80%;
+    }
+
+    .about_card_name_committe_wrapper{
+        padding-top: 2px;
+    }
+
+    .about_card_name_committe_H2{
+        margin-top: 0px;
+        line-height: 16px;
+    }
+
+.about_card_name_committe_P{
+    font-size: 10px;
+}
+
+
+
+
+
+
+}

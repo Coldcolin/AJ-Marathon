@@ -1,0 +1,9 @@
+@media screen and (max-width: 576px) {
+
+    .get_involve_hero_container{
+        height: 35vh;
+        padding-left: 200px;
+        font-size: 20px;
+    }
+
+}

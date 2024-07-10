@@ -1,0 +1,197 @@
+.donate_main_body {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.donate_main_wrapper {
+    width: 80%;
+    /* height: 200vh; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.donate_wrapper {
+    width: 80%;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.donate_wrapper_H1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    color: rgba(31, 227, 169, 1);
+}
+
+.donate_wrapper_P {
+    font-weight: 400;
+    color: rgba(124, 124, 124, 1);
+    font-size: 24px;
+    line-height: 45px;
+    width: 89%;
+}
+
+.donate_wrapper_H2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52.5px;
+    color: rgba(23, 183, 136, 1);
+    width: 100%;
+    border-bottom: 1px solid rgba(89, 84, 84, 1);
+}
+
+.donate_donation_option {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.donate_donation_option_P {
+    color: rgba(124, 124, 124, 1);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.donate_option_btn_wrapper {
+    height: 50%;
+    width: 50%;
+    /* background: cyan; */
+}
+
+.donate_one_time_btn {
+    width: 50%;
+    height: 80%;
+    border: none;
+    background-color: rgba(23, 183, 136, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.donate_montly_btn {
+    width: 50%;
+    height: 80%;
+    background: none;
+    border: 1px solid rgba(23, 183, 136, 1);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(23, 183, 136, 1);
+}
+
+.donate_donation_type {
+    width: 100%;
+    color: rgba(124, 124, 124, 1);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+
+.donate_donation_type select {
+    width: 100%;
+    height: 40%;
+    border: 2px solid rgba(23, 183, 136, 1);
+    border-radius: 5px;
+    outline: none;
+}
+
+.donate_name_wrapper {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donate_first_name {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: rgba(124, 124, 124, 1);
+}
+
+.donate_first_name input {
+    height: 50%;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgba(23, 183, 136, 1);
+}
+
+.donate_email_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: rgba(124, 124, 124, 1);
+}
+
+.donate_email_wrapper input {
+    width: 100%;
+    height: 40%;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgba(23, 183, 136, 1);
+}
+
+.donate_cancel_wrapper {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donate_cancel_btn {
+    width: 25%;
+    height: 40%;
+    border: 2px solid rgba(23, 183, 136, 1);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: rgba(23, 183, 136, 1);
+    background: none;
+}
+
+.donate_checkout_btn {
+    width: 25%;
+    height: 40%;
+    border: 2px solid rgba(23, 183, 136, 1);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(23, 183, 136, 1);
+}

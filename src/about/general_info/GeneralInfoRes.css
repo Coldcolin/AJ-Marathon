@@ -1,0 +1,160 @@
+@media screen and (max-width: 576px) {
+
+
+    .general_info_hero_section_wrapper {
+        width: 100%;
+        /* height: 40vh; */
+        background: url(../../assets//generalInfo.png) no-repeat center center;
+        background-size: cover;
+    }
+
+    .general_info_hero_section_body{
+        margin: 10vh 0px;
+    }
+
+
+    .general_info_hero_section_body_P {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .general_info_hero_section_body_H1 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .general_info_hero_section_bck_btn_wrapper {
+        width: 35%;
+    }
+
+    .general_info_hero_section_bck_btn_P {
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 16.41px;
+    }
+
+    .general_info_hero_section_bck_btn_Icon {
+        font-size: 48px;
+    }
+
+    .general_info_article_section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .general_info_article_section_img_holder{
+        height: 40vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .general_info_article_section_img{
+        height: 100%;
+    }
+
+    .general_info_register_container {
+        height: 60vh;
+    }
+
+    .general_info_article_holder{
+        width: 100%;
+    }
+
+    .general_info_register_main_body {
+        width: 100%;
+        height: 80%;
+    }
+
+    .general_info_register_main_body_section {
+        width: 100%;
+        align-items: center;
+    }
+
+    .general_info_register_main_body_section_H1 {
+        font-size: 24px;
+        line-height: 28.13px;
+        text-align: center;
+    }
+
+    .general_info_register_main_body_section_P {
+        text-align: center;
+    }
+
+    .general_info_register_main_body_section_btn {
+        width: 80%;
+    }
+
+    .general_info_learnMore_wrapper {
+        width: 90%;
+        /* height: 50vh; */
+        flex-direction: column;
+    }
+
+    .general_learn_more_card_body {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 35px;
+    }
+
+    .general_learn_more_card_content {
+        width: 85%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .general_learn_more_card_content_H2{
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .general_find_route_container {
+        background: url(../../assets/generalInfo4.png) no-repeat center center;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .general_find_route_left_wrapper {
+        width: 100%;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 1);
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .general_find_route_left_wrapper_H1{
+        font-size: 24px;
+        line-height: 28.13px;
+        text-align: center;
+    }
+
+    .general_find_route_left_wrapper_P{
+        text-align: center;
+    }
+
+    .general_find_route_left_wrapper_btn{
+        width: 80%;
+    }
+
+    .general_find_route_left_wrapper_btn{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.09px;
+        height: 15%;
+        margin-top: 10px;
+    }
+
+    .general_find_route_right_wrapper {
+        display: none;
+    }
+
+
+
+
+}

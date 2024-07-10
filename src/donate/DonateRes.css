@@ -1,0 +1,110 @@
+@media screen and (max-width: 576px) {
+
+    .donate_main_wrapper {
+        width: 90%;
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
+    .donate_wrapper {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .donate_wrapper_H1 {
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .donate_wrapper_P {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .donate_wrapper_H2 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 90%;
+        margin: 20px 0px;
+    }
+
+    .donate_donation_option {
+        width: 90%;
+        height: 14vh;
+    }
+
+    .donate_donation_option_P {
+        font-size: 20px;
+    }
+
+    .donate_option_btn_wrapper {
+        width: 100%;
+    }
+
+    .donate_one_time_btn {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .donate_montly_btn {
+        font-size: 20px;
+        line-height: 30px;
+        background: rgba(255, 255, 255, 1);
+    }
+
+    .donate_donation_type {
+        font-size: 20px;
+        width: 90%;
+        height: 16vh;
+    }
+
+    .donate_name_wrapper {
+        flex-direction: column;
+        height: 28vh;
+    }
+
+    .donate_first_name {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .donate_email_wrapper {
+        width: 90%;
+        height: 16vh;
+        font-size: 20px;
+    }
+
+    .donate_cancel_wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .donate_cancel_btn {
+        width: 100%;
+        height: 35%;
+        font-size: 24px;
+        line-height: 28.13px;
+        background: rgba(255, 255, 255, 1);
+    }
+
+    .donate_checkout_btn {
+        height: 35%;
+        width: 100%;
+        font-size: 24px;
+        line-height: 28.13px;
+    }
+
+
+
+
+
+
+
+
+
+}

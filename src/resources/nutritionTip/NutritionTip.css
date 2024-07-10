@@ -1,0 +1,313 @@
+.nutrition_tip_mainBody {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nutrition_tip_hero_section {
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/nutrition2.svg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.nutrition_hero_wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(164, 240, 218, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.nutrition_tip_main_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nutrition_tip_main_wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nutrition_tip_H1_holder {
+    width: 100%;
+    height: 50vh;
+    /* background: red; */
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.nutrition_tip_H1_container {
+    width: 40%;
+}
+
+.nutirition_tip_H1 {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 84px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.nutirition_tip_P {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    font-size: 35px;
+    line-height: 84px;
+}
+
+.nutrition_tip_H2 {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 67px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.nutrition_tip_P2 {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nutrition_tip_H1_image_wrapper {
+    width: 47%;
+    height: 50vh;
+    border-radius: 120px 0px 0px 0px;
+    /* background: green; */
+}
+
+.nutrition_tip_H1_image {
+    width: 100%;
+    height: 100%;
+}
+
+.nutrition_eating_enough_wrapper {
+    width: 100%;
+    height: 60vh;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.nutrition_eating_enough_img_holder {
+    width: 40%;
+    height: 85%;
+    background: rgba(23, 183, 136, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nutrition_eating_enough_img {
+    width: 70%;
+    height: 90%
+}
+
+.nutrition_eating_enough_article {
+    width: 45%;
+}
+
+.nutrition_eating_enough_H2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: rgba(19, 19, 19, 1);
+    line-height: 67px;
+    margin-top: 20px;
+}
+
+.nutrition_eating_enough_H2_Span {
+    text-decoration: underline;
+}
+
+.nutrition_eating_enough_P {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.nutrition_coffee_drink_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.coffe_card_body {
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coffee_card_icon_wrapper {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee_card_icon {
+    width: 40%;
+    height: 100%;
+}
+
+
+.coffee_card_text_wrapper {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee_card_text_wrapper_P {
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.nutrition_go_H1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 67px;
+    color: rgba(19, 19, 19, 1);
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+
+.nutrition_few_days_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.few_days_card_body {
+    width: 40%;
+    height: 70vh;
+    background: rgba(250, 254, 253, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.few_days_card_img_wrapper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.few_days_card_img {
+    width: 90%;
+    height: 90%;
+}
+
+.few_days_card_txt_wrapper {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.few_days_card_txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    width: 55%;
+    text-align: center;
+}
+
+.rest_card_body {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+.rest_card_txt_holder {
+    width: 50%;
+    height: 100%;
+}
+
+.rest_card_txt_H1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 67px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.rest_card_txt_P {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 1);
+    width: 78%;
+}
+
+.rest_card_img_holder {
+    width: 48%;
+    height: 100%;
+}
+
+.rest_card_img {
+    width: 100%;
+    height: 100%;
+}
+
+.nutrition_learn_more_btn_container {
+    width: 100%;
+    /* height: 15vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: green; */
+    margin-top: 50px;
+}
+
+.nutrition_learn_more_btn_wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutrition_learn_more_btn {
+    width: 30%;
+    height: 9vh;
+    background: rgba(245, 245, 245, 1);
+    border: 2px solid rgba(23, 183, 136, 1);
+    color: rgba(23, 183, 136, 1);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    outline: none;
+}

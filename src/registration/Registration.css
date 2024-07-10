@@ -1,0 +1,412 @@
+.Registration-Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.Registration-Form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & button{
+        width: 20%;
+        height: 40px;
+        background-color: #17B788;
+        color: white;
+        border: none;
+        transition: all 350ms;
+        border-radius: 5px;
+    }
+    & button:hover{
+        cursor: pointer;
+        background-color: #12916b;
+        transition: all 350ms;
+    }
+}
+
+.Registration-Header{
+    width: 100%;
+    background-color: #17B788;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.Registration-One{
+    width: 100%;
+    display: flex;
+    padding-block: 7px;
+    height: auto;
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        & input{
+            flex: 1;
+            padding-inline: 5px;
+            height: 30px;
+        }
+    }
+}
+.Registration-Two{
+    width: 100%;
+    display: flex;
+    padding-block: 7px;
+    height: auto;
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & input{
+            flex: 1;
+            padding-inline: 5px;
+            height: 30px;
+        }
+        & select{
+            flex: 1;
+            padding-inline: 5px;
+            height: 30px;
+        }
+    }
+}
+.Registration-Three{
+    width: 100%;
+    display: flex;
+    padding-block: 7px;
+    height: auto;
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & input{
+            flex: 1;
+            padding-inline: 5px;
+            height: 30px;
+        }
+    }
+}
+.Registration-Four{
+    width: 100%;
+    display: flex;
+    padding-block: 7px;
+    height: auto;
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        & input{
+            flex: 1;
+            padding: 5px;
+            height: 30px;
+        }
+        & select{
+            flex: 1;
+            padding: 5px;
+            height: 30px;
+        }
+        
+    }
+}
+.Registration-Five{
+    width: 100%;
+    display: flex;
+    padding-block: 7px;
+    height: auto;
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        & input{
+            flex: 1;
+            padding: 5px;
+            height: 30px;
+        }
+        
+    }
+}
+.Registration-Six{
+    width: 100%;
+    display: flex;
+    padding-block: 7px;
+    height: auto;
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+
+        & div{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            & input{
+                width: 100%;
+                padding: 5px;
+                height: 30px;
+            }
+        }
+        
+    }
+}
+
+.Registration-Seven{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 7px;
+    height: auto;
+    gap: 20px;
+
+    .Registration-Category{
+        width: 100%;
+
+        & select{
+            width: 100%;
+            height: 30px;
+        }
+    }
+
+    & p{
+        flex: 1;
+    }
+    & div{
+        flex: 4;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & div{
+            display: flex;
+            flex-direction: column;
+
+            & input{
+                width: 30px;
+                height: 30px;
+                border-radius: 10px;
+                accent-color: #17B788;
+            }
+        }
+    }
+}
+.Registration-Payment {
+    width: 100%;
+
+    & h3{
+        background-color: #17B788;
+        color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    & .Registration-Eight{
+        width: 100%;
+        display: flex;
+        padding-block: 7px;
+        height: auto;
+    
+        & p{
+            flex: 1;
+        }
+        & div{
+            flex: 4;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            flex-wrap: wrap;
+    
+            & div{
+                display: flex;
+                flex-direction: column;
+    
+                & input{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 10px;
+                    accent-color: #17B788;
+                }
+            }
+        }
+    }
+}
+.Registration-Waiver{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & h3{
+        background-color: #17B788;
+        color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    & div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        & input{
+            width: 30px;
+            height: 30px;
+            border-radius: 10px;
+            accent-color: #17B788;
+        }
+    }
+}
+
+@media screen and (width <= 580px) {
+    .Registration-Container{
+        font-size: 14px;
+    }
+}
+@media screen and (width <= 575px) {
+    .Registration-Container{
+        font-size: 12px;
+    }
+    .Registration-Form{
+        width: 70%;
+
+        & button {
+            width: 70%;
+        }
+    }
+    .Registration-Payment{
+            & .Registration-Eight{
+                flex-direction: column;
+            & div{
+                & div{
+                    font-size: 10px;
+                    & input{
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 5px;
+                        accent-color: #17B788;
+                    }
+                }
+            }
+        }
+    }
+    .Registration-Seven {
+        & div{
+            & div{
+                font-size: 10px;
+                & input{
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 5px;
+                    accent-color: #17B788;
+                }
+            }
+        }
+    }
+
+    .Registration-Six{
+        flex-direction: column;
+
+        & div{
+            flex-direction: column;
+            & div{
+                width: 100%;
+            }
+        }
+    }
+    .Registration-Five{
+        flex-direction: column;
+
+        & div{
+            flex-direction: column;
+
+        }
+    }
+
+    .Registration-Four{
+        flex-direction: column;
+
+        & div{
+            flex-direction: column;
+
+        }
+    }
+    .Registration-Three{
+        flex-direction: column;
+
+        & div{
+            flex-direction: column;
+            & input {
+                width: 100%;
+            }
+        }
+    }
+    .Registration-Two{
+        flex-direction: column;
+
+        & div{
+            flex-direction: column;
+            align-items: flex-start;
+
+            & input {
+                width: 100%;
+            }
+        }
+    }
+    .Registration-One{
+        flex-direction: column;
+
+        & div{
+            flex-direction: column;
+
+            & input {
+                width: 100%;
+            }
+
+        }
+    }
+}

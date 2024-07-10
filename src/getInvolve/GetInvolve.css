@@ -1,0 +1,124 @@
+.get_involve_main_body {
+    width: 100%;
+    min-height: max-content;
+    height: max-content;
+}
+
+.get_involve_hero_container {
+    width: 100%;
+    height: 70vh;
+    background: url('../assets/getInvolved.png') no-repeat center center;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40%;
+}
+
+.get_involve_card_container {
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_involve_card_wrapper {
+    width: 75%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    margin-top: 10vh;
+}
+
+.get_involve_card_wrapper .getInvolveCard:last-child {
+    margin-bottom: 10vh;
+}
+
+.getInvolveCard {
+    width: 100%;
+    height: 50vh;
+    /* background: gray; */
+    display: flex;
+    box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.getInvolveCardContainer {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.getInvolveCardContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.getInvolveCardWrite {
+    width: 50%;
+    height: 80%;
+    /* background: rgb(152, 152, 220); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.get_involve_card_h1 {
+    width: 85%;
+    height: 15%;
+    /* background: crimson; */
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+}
+
+
+.get_involve_card_p {
+    width: 85%;
+    height: 50%;
+    /* background: rgb(159, 127, 133); */
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.get_involve_card_p span{
+font-weight: 600;
+
+
+}
+
+.get_involve_card_btn {
+    width: 85%;
+    height: 25%;
+}
+
+.get_involve_card_btn button {
+    border: 1px solid rgba(23, 183, 136, 1);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(23, 183, 136, 1);
+    width: 50%;
+    height: 80%;
+    background: none;
+}

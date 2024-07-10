@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+
+    .race_result_mainBody_article_section_wrapper{
+        flex-direction: column;
+        margin-top: 0rem;
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+
+    .race_result_mainBody_article_section_wrapper_img_container{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .race_result_mainBody_article_section_wrapper_article_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .race_result_H5{
+        font-size: 14px;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+}

@@ -1,0 +1,58 @@
+@media screen and (max-width: 576px) {
+
+.gallery_hero_wrapper{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 70px;
+    height: 45vh;
+}
+
+.gallery_hero_writeUp_wrapper {
+    height: 18vh;
+}
+
+.gallery_hero_writeUp_wrapper_h1{
+    display: none;
+}
+
+.gallery_hero_writeUp_wrapper_h2{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.gallery_hero_writeUp_wrapper_p{
+    display: none;
+}
+
+.gallery_card_wrapper{
+    flex-direction: column;
+}
+
+.gallery_card_body {
+    width: 100%;
+    height: 60vh;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.gallery_if_you_feel_container {
+    height: 40vh;
+}
+
+
+.gallery_if_you_feel_body {
+    width: 70%;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+.gallery_make_the_diff_wrapper {
+display: none;
+}
+
+
+
+
+}
