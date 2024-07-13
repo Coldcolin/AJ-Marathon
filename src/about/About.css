@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    container: aboutWrapper / inline-size;
 }
 
 .about_hero_wrapper {
@@ -74,44 +75,60 @@
 
 .about_AJCYM_project_div {
     font-weight: 800;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 90px;
     text-align: center;
     color: rgba(38, 38, 38, 1);
     margin-top: 70px;
     margin-bottom: 30px;
+    width: 90%;
 }
 
 
 .about_AJYCM_project_article_wrapper {
     width: 90%;
     display: flex;
-    justify-content: space-between;
     height: auto;
 }
-
-.about_AJYCM_project_article_image_wrapper {
+    
+.about_AJYCM_project_article_wrapper_top{
     width: 45%;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    gap: 20px;
+}
+.about_AJYCM_project_article_down_image{
+    height: 40%;
+    width: 100%;
+
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.about_AJYCM_project_article_image_wrapper {
+    width: 100%;
+    display: flex;
+    height: 60%;
     /* background-color: yellow; */
     /* flex-wrap: wrap; */
     align-items: center;
     gap: 20px;
-
 }
 
 .about_AJYCM_project_article_left_image_container1 {
     width: 50%;
-    height: 35vh;
-    margin-bottom: 30px;
-
+    height: 100%;
+    /* margin-bottom: 30px; */
+    /* background-color: rebeccapurple; */
 }
 
 .about_AJYCM_project_article_left_image {
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 
@@ -136,32 +153,64 @@
 
 .about_AJYCM_project_article_right_image_container2 {
     width: 50%;
-    height: 35vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: red; */
+
+}
+.about_AJYCM_project_article_right_image_top{
+    height: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* background-color: yellow; */
-
 }
-
+.about_AJYCM_project_article_right_image_bottom{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .about_AJYCM_project_article_right_image1 {
     width: 100%;
-    height: 100%;
+    height: 85%;
     object-fit: cover;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .about_AJYCM_project_article_right_image2 {
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
 }
 
 .about_AJYCM_project_article {
-    width: 44%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: yellow; */
+}
+@container aboutWrapper (max-width: 768px) {
+    .about_AJYCM_project_article_wrapper{
+        flex-direction: column;
+    }
+    .about_AJYCM_project_article_wrapper_top{
+        width: 100%;
+    }
+    .about_AJYCM_project_article{
+        width: 100%;
+    }
+}
+
+@container aboutWrapper (max-width: 425px) {
+    .about_AJYCM_project_article_image_wrapper {
+        flex-direction: column;
+        & div{
+            width: 100%;
+        }
+    }
 }
 
 .about_AJCYM_project_marathon {
@@ -180,7 +229,7 @@
 .about_AJYCM_project_article_P {
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     color: rgba(38, 38, 38, 0.8);
     margin-bottom: 25px;
     width: 91%;
@@ -189,7 +238,7 @@
 .about_AJYCM_project_article_SPAN {
     font-weight: 700;
     font-size: 18px;
-    line-height: 20.7px;
+    /* line-height: 20.7px; */
     font-style: italic;
 }
 
@@ -214,12 +263,13 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .about_AJYCM_local_committee_body_P {
     font-weight: 800;
     line-height: 27px;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
@@ -234,7 +284,7 @@
 
 .about_card_body {
     width: 21%;
-    height: 60vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -244,8 +294,12 @@
 
 .about_card_img_div {
     width: 100%;
-    height: 70%;
+    /* height: 70%; */
     overflow: hidden;
+
+    & img{
+        aspect-ratio: 3/3.5;
+    }
 }
 
 .about_card_img {

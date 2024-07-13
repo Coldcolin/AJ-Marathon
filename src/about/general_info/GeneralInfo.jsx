@@ -235,7 +235,7 @@ const GeneralInfo = () => {
                 </div>
             </div>
             <GeneralRegister />
-            <GeneralLearnMore />
+            {/* <GeneralLearnMore /> */}
             <GeneralFindRoute />
         </div>
     )

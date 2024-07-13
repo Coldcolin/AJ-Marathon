@@ -6,11 +6,13 @@ import oba2 from '../assets/oba2.png'
 import oba3 from '../assets/oba3.png'
 import fatai from "../assets/HonFatai.jpg"
 import Okeowo from "../assets/HonOkeowo.jpg"
+import ObaNew from "../assets/ObaNew.png"
 import ObaImg from "../assets/ObaImg.jpg"
 import about4 from '../assets/about4.png'
 import about5 from '../assets/about5.png'
 import about6 from '../assets/about6.png'
 import lawal from "../assets/Lawal.jpg"
+import BillBoard from "../assets/BillBoard.png"
 import newCommitee1 from '../assets/newCommitee1.jpg'
 import newCommitee2 from '../assets/newCommitee2.jpg'
 import newCommitee3 from '../assets/newCommitee3.jpg'
@@ -87,29 +89,38 @@ const About = () => {
         </div>
       </div>
       <div className="about_AJCYM_project_div">
-        AJCYM Project
+      AJEGUNLE CITY YOUTH MARATHON PROJECT
       </div>
       {/* <div className="about_AJCYM_project_marathon">
         “ABOUT AJEGUNLE CITY YOUTH MARATHON”
       </div> */}
       <div className="about_AJYCM_project_article_wrapper">
+      <div className='about_AJYCM_project_article_wrapper_top'>
         <div className="about_AJYCM_project_article_image_wrapper">
           <div className="about_AJYCM_project_article_left_image_container1">
-            <img src={ObaImg} alt="athlete" className='about_AJYCM_project_article_left_image' />
+            <img src={ObaNew} alt="athlete" className='about_AJYCM_project_article_left_image' />
             <p className='about_AJYCM_project_article_right_image_container2_P1'><span className='about_AJYCM_project_article_right_image_container2_P1_Span'>HIS ROYAL MAJESTY </span>
               <br />OBA MOROOF OYEKUNLE ATANDA
               AMODU TIJANI (AMORE III)
               OLU OF IWA AND APAPA KINGDOM</p>
           </div>
           <div className="about_AJYCM_project_article_right_image_container2">
+            <div className='about_AJYCM_project_article_right_image_top'>
             <img src={fatai} alt="athlete" className='about_AJYCM_project_article_right_image1' />
             <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. FATAI ADEKUNLE AYOOLA
               EXECUTIVE CHAIRMAN
               AJEROMI-IFELODUN LGA</p>
+            </div>
+            <div className='about_AJYCM_project_article_right_image_bottom'>
             <img src={Okeowo} alt="athlete" className='about_AJYCM_project_article_right_image2' />
-            <p style={{textAlign: "center", fontWeight: 600}}>HON. OLUFEMI OKEOWO AKANBI
+            <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. OLUFEMI OKEOWO AKANBI
               EXECUTIVE CHAIRMAN
               IFELODUN LCDA</p>
+            </div>
+          </div>
+          </div>
+          <div className='about_AJYCM_project_article_down_image'>
+            <img src={BillBoard}/>
           </div>
         </div>
         <div className="about_AJYCM_project_article">
@@ -133,7 +144,7 @@ const About = () => {
       <div className="about_AJYCM_local_committee_container">
         <div className="about_AJYCM_local_committee_body">
           <h1 className='about_AJYCM_local_committee_body_H1'>Local Organising Committee</h1>
-          <p className='about_AJYCM_local_committee_body_P'> Names of LOC Members and short profile</p>
+          <p className='about_AJYCM_local_committee_body_P'>Meet Our LOC Members </p>
           <div className="about_AJYCM_local_committee_card_body">
             <AboutCard img={newCommitee1} H2='ISAAC MOSES' P={"GENERAL SECRETARY, NYCN-AJIF/PROJECT LEAD, ACYM2024"} />
             <AboutCard img={newCommitee2} H2='AMB. ISAAC SUCCESS OMOYELE' P={"COORDINATOR, NYCN-AJIF/YOUTH HOST & HEAD OF PUBLIC RELATIONS, AJCYM2024"} />

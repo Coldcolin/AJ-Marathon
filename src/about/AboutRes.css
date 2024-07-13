@@ -1,3 +1,56 @@
+@media screen and (width <= 1440px) {
+    .about_card_body{
+        height: max-content;
+    }
+    .about_card_img_div{
+        /* height: 50%; */
+        & img{
+            aspect-ratio: 3/3.5;
+        }
+    }
+    .about_card_name_committe_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 130px;
+        /* background-color: aqua; */
+    }
+}
+@media screen and (width <= 1024px) {
+    .about_AJYCM_project_article{
+        /* width: 50%; */
+    }
+    .about_AJYCM_project_article_wrapper_top{
+        /* width: 50%; */
+    }
+    .about_AJYCM_project_article_right_image_container2_P1{
+        font-size: 12px;
+    }
+    .about_AJYCM_project_article_P{
+        font-size: 12px;
+    }
+    .about_card_img_div{
+        /* background-color: aqua; */
+        height: 65%;
+
+        & img{
+            aspect-ratio: 3/3.5;
+        }
+    }
+    .about_card_name_committe_P{
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+@media screen and (width <= 768px) {
+    .about_card_name_committe_H2{
+        line-height: 16px;
+    }
+    .about_card_name_committe_P{
+        font-size: 9px;
+        line-height: 11px;
+    }
+}
 @media screen and (max-width: 576px) {
 
     .about_hero_wrapper {
@@ -34,56 +87,56 @@
     }
 
     .about_AJYCM_project_article_right_image_container1 {
-        display: none;
+        /* display: none; */
     }
 
     .about_AJYCM_project_article_image_wrapper{
-        width: 100%;
-        height: 40vh;
+        /* width: 100%;
+        height: 40vh; */
     }
 
     .about_AJYCM_project_article_left_image_container1{
-        display: none;
+        /* display: none; */
     }
 
     .about_AJYCM_project_article_right_image_container2 {
-        width: 100%;
-        flex-direction: row;
+        /* width: 100%;
+        flex-direction: row; */
         /* align-items: center; */
     }
 
     .about_AJYCM_project_article_right_image_container2_P1{
-        display: none;
+        /* display: none; */
     }
 
     .about_AJYCM_project_article_wrapper {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .about_AJYCM_project_article_left_image {
-        display: none;
+        /* display: none; */
     }
 
     .about_AJYCM_project_article_right_image1 {
-        display: none;
+        /* display: none; */
     }
 
     .about_AJYCM_project_article_right_image2{
-        width: 50%;
+        /* width: 50%; */
     }
 
     .about_AJYCM_project_article{
-        width: 100%;
+        /* width: 100%; */
     }
 
     .about_AJCYM_project_marathon {
-        width: 100%;
-        font-weight: 600;
+        /* width: 100%;
+        font-weight: 600; */
         font-size: 24px;
         line-height: 36px;
-        margin-top: 20px;
+        /* margin-top: 20px;
         margin-bottom: 20px;
-        text-align: center;
+        text-align: center; */
     }
 
     .about_AJYCM_project_article_P{
@@ -113,6 +166,7 @@
 
     .about_AJYCM_local_committee_body_P{
         width: 80%;
+        font-size: 18px;
     }
 
     .about_AJYCM_local_committee_card_body{
@@ -123,22 +177,35 @@
 
     .about_card_body{
         width: 80%;
+        height: auto;
     }
 
     .about_card_name_committe_wrapper{
-        padding-top: 2px;
+        padding-block: 20px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20%;
+        
+    }
+    .about_card_img_div{
+        height: 80%;
     }
 
     .about_card_name_committe_H2{
         margin-top: 0px;
-        line-height: 16px;
+        line-height: 25px;
+        font-size: 18px;
     }
 
 .about_card_name_committe_P{
-    font-size: 10px;
+    font-size: 12px;
 }
 
-
+.about_card_img{
+    aspect-ratio: 3/3.5;
+}
 
 
 
