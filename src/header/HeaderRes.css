@@ -16,10 +16,10 @@
 
     .header_mobile_menu {
         width: 170px;
-        height: 40vh;
+        height: 50vh;
         background: #17B788;
         position: absolute;
-        left: -136px;
+        left: -138px;
         top: 100%;
     }
 
