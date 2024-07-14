@@ -7,6 +7,7 @@ import image4 from '../assets/readyNew.png'
 import arctIcon from '../assets/arcticons_lets-go-fitness.png'
 import map from '../assets/ajegunleMap.png'
 import Slider from "react-slick";
+import Raffle2 from "../assets/Raffle.png"
 // import curve from '../assets/theCurve.png'
 // import ajegunle from '../assets/ajegunleHub.png'
 // import newsImage1 from '../assets/newsImage1.png'
@@ -244,9 +245,9 @@ const LandingPage = () => {
                             <p className='landing_ready_wrapper_P'>#RUNAjegunle | 30th November, 2024</p>
                         </div>
                         <div className="landing_ready_wrapper_card_contain">
-                            <ReadyCard pix={image2} link='Click here to Register for to participate at the Ajegunle City Youth Marathon, 2024' bg='rgba(23, 183, 136, 1)' tag={"/register"} />
-                            <ReadyCard pix={image3} link='Click here to purchases a raffle tickets and stand a chance to win awesome prizes at the raffle draw event.' bg='rgba(122, 144, 249, 1)' tag={"https://paystack.com/buy/PROD_vxkwxr3edops7u9"} />
-                            <ReadyCard pix={image4} link='Click here to place an order for your T-Shirt & Face Cap to support the Ajegunle City Youth Marathon Project.' bg='rgba(23, 150, 183, 1)' tag={"https://paystack.com/pay/o7t1hpl2mt"} />
+                            <ReadyCard pix={image2} link='Click here to Register for to participate at the Ajegunle City Youth Marathon, 2024' bg='#1796B7' tag={"/register"} />
+                            <ReadyCard pix={Raffle2} link='Click here to purchases a raffle tickets and stand a chance to win awesome prizes at the raffle draw event.' bg='#346F7C' tag={"https://paystack.com/buy/PROD_vxkwxr3edops7u9"} />
+                            <ReadyCard pix={image4} link='Click here to place an order for your T-Shirt & Face Cap to support the Ajegunle City Youth Marathon Project.' bg='#17B788' tag={"https://paystack.com/pay/o7t1hpl2mt"} />
                         </div>
                     </div>
                 </div>
@@ -262,7 +263,7 @@ const LandingPage = () => {
                                 l2='Hand crank (all males age under 18 -29) 2.5km'
                             />
                             <CategoryCard
-                                h2='Open Division (Individuals) – Adolescents and Young Persons aged 18 - 35years (5km)'
+                                h2='Open Division -Individuals 18-35 years (5km)'
                                 // h3='Adolescents and Young Persons aged 16 - 35years (5km)'
                                 l1='High School Students (all current high school students)'
                                 l2='College Students (all current college students)'
@@ -272,14 +273,15 @@ const LandingPage = () => {
                                 // l6="Government Agency (all current or retired from same government agency)"
                             />
                             <CategoryCard
-                                h2='Corporate Division - Group / Team (5km)  '
+                                h2='  Corporate Division -
+     Group/Team(5km) '
                                 // h3='all employees from the same company/organisation (5km)'
                                 l1='All employees from the same company/organisation (18 – 35 years)'
                                 l2='Police or Military (all males and females 18 – 35 years)'
                                 l3="Government Agency ((all males and females 18 – 35 years)"
                             />
                             <CategoryCard
-                                h2='VVIP/VIP Division - Individual or Group'
+                                h2='VVIP/VIP Division -Individual /Group'
                                 // h3='Individual or Group'
                                 l1='Sponsors/Representatives, '
                                 l2='Government Stakeholders'
@@ -340,27 +342,28 @@ const LandingPage = () => {
                     <h1 className='landing_news_h1'>News and updates</h1>
                     <div className="landing_news_wrapper">
                         <Newscard
-                            H4={"AJCYM 2024 -"}
-                            Span={"End Point"}
+                            H4={"July 5, 2024 / "}
+                            Span={"News"}
                             img={news1}
-                            content={"The Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2024; 30th November, 2024 @The Sports Ground, Nigeria Army Signals Barracks, Mile 2."}
+                            content={"Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 30th November, 2024 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed."}
                         />
                         <Newscard
-                            H4={"AJCYM 2024 -"}
-                            Span={"Flag-Off"}
+                            H4={"July 17, 2024 /"}
+                            Span={"News"}
                             img={news2}
-                            content={"The Ajegunle City Youth Marathon is Raging higher as we officially flagged-off the project at the floor of The Ifelodun Local Youth Council Management Committee Meeting. Watch out for the biggest gig ever in the city of Ajegunle,.......Coming Soon!"}
+                            content={"Ajegunle City Youth Marathon, 2024 Volunteer Registration Open! ...Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary! "}
                         />
                         <Newscard
                             img={news3}
-                            H4={"AJCYM 2024 -"}
-                            Span={"Volunteer!"}
-                            content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary!"}
+                            H4={"April 9, 2024 /"}
+                            Span={"News"}
+                            content={"The Ajegunle City Youth Marathon project is raging higher as the team officially flagged-off the community engagement exercise at the floor of The Ifelodun Local Youth Council Management Committee Meeting."}
                         />
                     </div>
                     <btn className="landing_news_view_more_btn" onClick={() => nav("/blog")}>View more post</btn>
                 </div>
                 <div className="landing_become_a_sponsor">
+                <div className="landing_become_a_sponsor_top">“get your brand on our front banner to make a positive and lasting impact in the lives of our youth”</div>
                     <div className="landing_become_a_sponsor_wrapper">
                         <div className="landing_beome_a_sponsor_container">
                             <div className='landing_become_a_sponsor_wrapper_1'>

@@ -1,3 +1,22 @@
+@media screen and (width <= 1024px) {
+    .landing_category_card{
+        gap: 15px;
+    }
+    .landing_category_card_h2{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .landing_category_card ul {
+        padding: 5px 10px;
+        & li{
+            gap: 2px;
+            font-size: 10px;
+        }
+    }
+    .landing_news_view_more_btn{
+        font-size: 11px;
+    }
+}
 @media screen and (max-width: 576px) {
 
 
@@ -167,5 +186,29 @@
         line-height: 22.5px;
         font-size: 15px;
         font-weight: 700;
+    }
+
+    .landing_category_card ul{
+        & li{
+            font-size: 10px;
+        }
+    }
+    .landing_category_card_h2 {
+        font-size: 20px;
+    }
+    .landing_ready_wrapper_P{
+        font-size: 14.5px;
+    }
+    .landing_news_view_more_btn{
+        font-size: 16px;
+    }
+    .landing_become_a_sponsor_top{
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 }
