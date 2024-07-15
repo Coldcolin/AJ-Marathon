@@ -28,7 +28,7 @@ import newSponsor10 from '../assets/newSponsor10.jpg'
 import newSponsor11 from '../assets/newSponsor11.jpg'
 import newSponsor12 from '../assets/newSponsor12.jpg'
 import { GoArrowRight } from 'react-icons/go';
-import { GiThrowingBall } from 'react-icons/gi'
+import newIcon from "../assets/new-icon.png"
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 
 
@@ -109,7 +109,7 @@ const LandingPage = () => {
             <div className='landing_category_card'>
                 <div className="landing_category_card_currency_div">
                     {/* &#8358; */}
-                    <GiThrowingBall />
+                    <img src={newIcon} alt="icon"/>
                 </div>
                 <div className="landing_category_card_title_div">
                     <h2 className='landing_category_card_h2'>{props.h2}</h2>
@@ -295,7 +295,7 @@ const LandingPage = () => {
                 </div>
                 <div className="landing_price_category">
                     <div className="landing_price_price_container">
-                        <p className='landing_price_price_container_P'>The Ajegunle City Youth Marathon celebrates the resilience and determination of the ajegunle youth, and is a source of inspiration for the entire community</p>
+                        <p className='landing_price_price_container_P'>&quot;The Ajegunle City Youth Marathon celebrates the resilience and determination of the ajegunle youth, and is a source of inspiration for the entire community.&quot;</p>
                         <div className="landing_price_category_wrapper">
                             <PriceWon icon='&#8358;' title='Join The Race' article='The  Marathon goes beyond a race. It is one way to get inspired.' bg='rgba(122, 144, 249, 1)' />
                             <PriceWon icon='&#8358;' title='N300k To Be Won' article='About 300,000 naira is available to be won by contestants.' bg='rgba(23, 183, 136, 1)' />

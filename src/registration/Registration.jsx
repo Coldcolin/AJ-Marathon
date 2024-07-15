@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Registration.css";
 import axios from "axios";
 import Swal from "sweetalert2";
+import { PaystackButton, usePaystackPayment } from 'react-paystack'
 
 const Registration = () => {
     const [userData, setUserData] = useState({});
@@ -19,19 +20,44 @@ const Registration = () => {
         }
       })
 
-    const submit= async(e)=>{
-        e.preventDefault();
+      const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
 
+      const componentProps = {
+        email: userData.email,
+        amount: 100000,
+        metadata: {
+          name: userData.firstName,
+          phone: userData.Phone,
+        },
+        publicKey,
+        text: "Pay Now",
+        onSuccess: () =>
+        //   alert("Thanks for doing business with us! Come back soon!!"),
+        submit(),
+        onClose: () => alert("Wait! Don't leave :("),
+      }
+
+      const config = {
+        reference: new Date().getTime().toString(),
+        email: userData.email,
+        amount: 100000,
+        publicKey,
+        firstname: userData.firstName,
+        lastname: userData.lastName,
+      };
+
+      const initializePayment = usePaystackPayment(config);
+
+      const saveUser= async()=>{
         try{
             setLoading(true)
+            
             await axios.post("https://marathonapi.onrender.com/api/v1/signup", userData)
-        
             Toast.fire({
                 icon: 'success',
                 title: 'You have successfully signed up'
             })
             setLoading(false)
-            window.location.href = "https://paystack.com/pay/ajegunlecityyouthmarathon2024";
         }catch(err){
             console.log(err.message)
             Toast.fire({
@@ -39,6 +65,23 @@ const Registration = () => {
                 title: "something went wrong, try again"
             })
         }
+      }
+      const onSuccess =(reference) => {
+        // Implementation for whatever you want to do with reference and after success call.
+            saveUser()
+
+      };
+      
+      const onClose = () => {
+        Toast.fire({
+            icon:'error',
+            title: "closed payment"
+        })
+      };
+
+    const submit= (e)=>{
+        e.preventDefault();
+        initializePayment({onSuccess, onClose})
     }
   return (
     <div className="Registration-Container">
@@ -95,7 +138,7 @@ const Registration = () => {
                             <option value="Ifelodun LCDA">Ifelodun LCDA</option>
                             <option value="">others</option>
                         </select>
-                        <input placeholder="If others please indicate" required={true} onChange={(e)=> setUserData((p)=> {return {...p, LGA: e.target.value}})}/>
+                        <input placeholder="If others please indicate" onChange={(e)=> setUserData((p)=> {return {...p, LGA: e.target.value}})}/>
                         <input placeholder="Ward" required={true} onChange={(e)=> setUserData((p)=> {return {...p, Ward: e.target.value}})}/>
                     </div>
                     
@@ -173,6 +216,7 @@ const Registration = () => {
                 </div>
             </div>
             <button type="submit" disabled={agree=== true? false: true} style={agree?{}:{backgroundColor: "#7bf8d2"}}>{loading === true? "Paying...": "Pay"}</button>
+            {/* <PaystackButton {...componentProps} /> */}
         </form>
     </div>
   )

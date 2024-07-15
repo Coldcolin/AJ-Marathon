@@ -2,6 +2,10 @@ import './Footer.css'
 import './FooterRes.css'
 import ajCityMarathon from '../assets/newLogo.gif'
 import { NavLink } from 'react-router-dom'
+// import { CiFacebook } from "react-icons/ci";
+import facebook from "../assets/facebook.png"
+import instagram from "../assets/instagram.png"
+import X from "../assets/X.png"
 
 const Footer = () => {
     return (
@@ -45,7 +49,15 @@ const Footer = () => {
                     <li>News &Updates</li>
                     <li><NavLink className={'menu_not_active'}>Blog</NavLink></li>
                 </ul>
+                <ul>
+                    <li>News &Updates</li>
+                    <li><NavLink className={'menu_not_active'}>Support Email</NavLink></li>
+                    <li><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/ajegunlecity_youthmarathon?igsh=MXB0cW5mem5kZmh6YQ==" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/> Instagram</a></li>
+                    <li><a className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/>  X</a></li>
+                </ul>
             </div>
+            <p style={{color: "white"}} className='footer_P'>Copyright 2024 © Ajegunle City Youth Marathon. All Rights Reserved.</p>
         </div>
     )
 }
