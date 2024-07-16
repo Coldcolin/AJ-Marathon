@@ -4,7 +4,7 @@ import ajCityMarathon from '../assets/newLogo.gif'
 import { NavLink } from 'react-router-dom'
 // import { CiFacebook } from "react-icons/ci";
 import facebook from "../assets/facebook.png"
-import instagram from "../assets/instagram.png"
+import instagram from "../assets/instaNew.png"
 import X from "../assets/X.png"
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footer_wrapper">
 
                 <div className="footer_wrapper_img_holder">
-                    <img src={ajCityMarathon} alt="" />
+                    <img src={ajCityMarathon} alt="" className="footer_top_image"/>
 
                 </div>
 
@@ -52,10 +52,13 @@ const Footer = () => {
                 <ul>
                     <li>News &Updates</li>
                     <li><NavLink className={'menu_not_active'}>Support Email</NavLink></li>
-                    <li><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/>Facebook</a></li>
-                    <li><a href="https://www.instagram.com/ajegunlecity_youthmarathon?igsh=MXB0cW5mem5kZmh6YQ==" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/> Instagram</a></li>
-                    <li><a className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/>  X</a></li>
+                    <div>
+                    <div><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/></a></div>
+                        <div><a href="https://www.instagram.com/ajegunlecity_youthmarathon?igsh=MXB0cW5mem5kZmh6YQ==" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/></a></div>
+                        <div><a className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/></a></div>
+                </div>
                 </ul>
+                
             </div>
             <p style={{color: "white"}} className='footer_P'>Copyright 2024 © Ajegunle City Youth Marathon. All Rights Reserved.</p>
         </div>

@@ -3,7 +3,7 @@ import './LandingPageRes.css'
 import { IoTrophyOutline } from 'react-icons/io5'
 import image2 from '../assets/runImg.jpg'
 import image3 from '../assets/newImg.jpg'
-import image4 from '../assets/readyNew.png'
+import image4 from '../assets/new_Face_Cap 1 (1).png'
 import arctIcon from '../assets/arcticons_lets-go-fitness.png'
 import map from '../assets/ajegunleMap.png'
 import Slider from "react-slick";
@@ -15,13 +15,14 @@ import Raffle2 from "../assets/Raffle.png"
 import news1 from '../assets/news1.jpg'
 import news2 from '../assets/news2.jpg'
 import news3 from '../assets/news3.jpg'
+import update1 from "../assets/UpdateSOHAI_LOGOonline_Web 1.png"
 import newSponsor1 from '../assets/newSponsor1.jpg'
 import newSponsor2 from '../assets/newSponsor2.jpg'
 import newSponsor3 from '../assets/newSponsor3.jpg'
 import newSponsor4 from '../assets/newSponsor4.jpg'
 import newSponsor5 from '../assets/newSponsor5.jpg'
 import newSponsor6 from '../assets/newSponsor6.jpg'
-import newSponsor7 from '../assets/newSponsor7.jpg'
+import newSponsor7 from '../assets/newAjegunle_Co-Working_Hub_Web 1.png'
 import newSponsor8 from '../assets/newSponsor8.jpg'
 import newSponsor9 from '../assets/newSponsor9.jpg'
 import newSponsor10 from '../assets/newSponsor10.jpg'
@@ -234,7 +235,7 @@ const LandingPage = () => {
                         </div>
                         <p className='landing_hero_wrapper_p'>ACYM2024 THEME: “Creating a Peaceful and Eco-friendly Environment for an Expanded Meaningful Youth Engagement through Sports.”</p>
                         <div className="landing_hero_btn_holder">
-                            <button className='landing_hero_btn'><NavLink to={"/register"} className={"landing_hero_btn_navLink"}>Register now</NavLink></button>
+                            <NavLink className='landing_hero_btn' to={"/register"} >Register now</NavLink>
                         </div>
                     </div>
                 </div>
@@ -265,10 +266,10 @@ const LandingPage = () => {
                             <CategoryCard
                                 h2='Open Division -Individuals 18-35 years (5km)'
                                 // h3='Adolescents and Young Persons aged 16 - 35years (5km)'
-                                l1='High School Students (all current high school students)'
-                                l2='College Students (all current college students)'
-                                l3="Youth Self-Employed/Entrepreneurs"
-                                l4="Youth out of school/NEET (Not in Education, Employment and Training)"
+                                l1='High School Students'
+                                l2='Undergraduates'
+                                l3="Youth self-Employed/Entrepreneurs"
+                                l4="Youth out of school/Not in Education, Employment and Training"
                                 // l5="Police or Military (all active duty or retired firemen, policemen or military personnel"
                                 // l6="Government Agency (all current or retired from same government agency)"
                             />
@@ -276,18 +277,18 @@ const LandingPage = () => {
                                 h2='  Corporate Division -
      Group/Team(5km) '
                                 // h3='all employees from the same company/organisation (5km)'
-                                l1='All employees from the same company/organisation (18 – 35 years)'
-                                l2='Police or Military (all males and females 18 – 35 years)'
-                                l3="Government Agency ((all males and females 18 – 35 years)"
+                                l1='Employees from same company(18 - 35years)'
+                                l2='Police/military (both gender 18 -35 years)'
+                                l3="Government Agency( both gender 18 -35years)"
                             />
                             <CategoryCard
                                 h2='VVIP/VIP Division -Individual /Group'
                                 // h3='Individual or Group'
-                                l1='Sponsors/Representatives, '
+                                l1='Sponsors/Representatives'
                                 l2='Government Stakeholders'
-                                l3="Private Partners/Representatives"
-                                l4="Key community stakeholders."
-                                l5="Celebrities/High Profile Personalities"
+                                l3="Private Partners/Representatives."
+                                l4="Key community stakeholders"
+                                l5="Celebrities/High profile personalities."
                             />
 
                         </div>
@@ -312,11 +313,11 @@ const LandingPage = () => {
                 <div className="landing_meet_sponsor">
                     <h1 className='landing_meet_sponsor_h1'>Meet our Partners</h1>
                     <div className='SponsorsLogo'>
-                        <img src={newSponsor1} alt="SOHAI" className='Sponsors-Logos' />
-
-                        <img src={newSponsor3} alt="AJIF Sports Council" className='Sponsors-Logos' />
+                        <img src={update1} alt="SOHAI" className='Sponsors-Logos' />
 
                         <img src={newSponsor2} alt="NYCN-AJIF" className='Sponsors-Logos' />
+
+                        <img src={newSponsor3} alt="AJIF Sports Council" className='Sponsors-Logos' />
 
                         <img src={newSponsor4} alt=" KOBIS GLOBAL" className='Sponsors-Logos' />
 
@@ -326,9 +327,9 @@ const LandingPage = () => {
 
                         <img src={newSponsor7} alt=" Ajegunle Co-Working Hub" className='Sponsors-Logos' />
 
-                        <img src={newSponsor8} alt=" NYCN-IFELODUN" className='Sponsors-Logos' />
-
                         <img src={newSponsor9} alt="MULA Integrated Concepts" className='Sponsors-Logos' />
+
+                        <img src={newSponsor8} alt=" NYCN-IFELODUN" className='Sponsors-Logos' />
 
                         <img src={newSponsor10} alt="Heart To Give Initiative" className='Sponsors-Logos' />
 

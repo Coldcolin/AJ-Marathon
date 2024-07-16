@@ -25,6 +25,12 @@
 
 .footer_wrapper ul {
     list-style-type: none;
+
+    & div{
+        display: flex;
+        justify-content: space-around;
+        margin-block: 3px;
+    }
 }
 
 .footer_wrapper ul li:first-child {

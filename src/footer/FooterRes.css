@@ -2,6 +2,7 @@
 
     .footer_mainBody {
         /* display: none; */
+        justify-content: center;
     }
 
     .footer_wrapper {
@@ -12,6 +13,10 @@
 
     .footer_wrapper_img_holder {
         width: 100%;
+        & .footer_top_image{
+            width: 100px;
+            margin-bottom: 10px;
+        }
     }
 
     .footer_wrapper ul {
