@@ -19,6 +19,7 @@ import HealthTip from './resources/healthTip/HealthTip'
 import NutritionTip from './resources/nutritionTip/NutritionTip'
 import ScrollToTop from './scrollToTop/ScrollToTop'
 import Registration from './registration/Registration'
+import ViewReg from './viewReg/ViewReg'
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
             <Route path='health_tips' element={<HealthTip />} />
             <Route path='nutrition_tips' element={<NutritionTip />} />
             <Route path='register' element={<Registration />} />
+            <Route path='viewreg024' element={<ViewReg />} />
           </Route>
         </Routes>
       </HashRouter>
