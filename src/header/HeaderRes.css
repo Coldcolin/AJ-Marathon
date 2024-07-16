@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
     .header_logo_container {
         width: 10%;
@@ -31,6 +31,14 @@
         flex-direction: column;
         justify-content: space-evenly;
         padding-left: 15px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .header_menu_wrapper{
+        width: 85%;
     }
 
 }
