@@ -1,18 +1,18 @@
 @media screen and (width <= 1440px) {
     .about_card_body{
-        height: max-content;
+        height: 420px;
     }
     .about_card_img_div{
         /* height: 50%; */
         & img{
-            aspect-ratio: 3/3.5;
+            aspect-ratio: 3/3;
         }
     }
     .about_card_name_committe_wrapper{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 130px;
+        height: 108px;
         /* background-color: aqua; */
     }
 }
@@ -31,11 +31,11 @@
     }
     .about_card_img_div{
         /* background-color: aqua; */
-        height: 65%;
+        /* height: 65%;
 
         & img{
             aspect-ratio: 3/3.5;
-        }
+        } */
     }
     .about_card_name_committe_P{
         font-size: 10px;
@@ -176,8 +176,13 @@
     }
 
     .about_card_body{
-        width: 80%;
-        height: auto;
+        height: 420px;
+    }
+    .about_card_img_div{
+        /* height: 50%; */
+        & img{
+            aspect-ratio: 3/3;
+        }
     }
 
     .about_card_name_committe_wrapper{
@@ -186,7 +191,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 20%;
+        /* height: 20%; */
         
     }
     .about_card_img_div{
@@ -203,9 +208,7 @@
     font-size: 12px;
 }
 
-.about_card_img{
-    aspect-ratio: 3/3.5;
-}
+
 
 
 

@@ -12,9 +12,9 @@ const routes = [
     { path: '/', name: 'Home' },
     { path: '/about', name: 'About' },
     { path: '/get_involve', name: 'Get involve' },
-    { path: '/blog', name: 'Blog' },
-    { path: '/resources', name: 'Resources' },
-    { path: '/gallery', name: 'Gallery' },
+    // { path: '/blog', name: 'Blog' },
+    // { path: '/resources', name: 'Resources' },
+    // { path: '/gallery', name: 'Gallery' },
     { path: '/donate', name: 'Donate' },
     { path: '/contact_us', name: 'Contact us' }
 ];
