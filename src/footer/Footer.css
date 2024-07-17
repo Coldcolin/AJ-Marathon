@@ -18,13 +18,19 @@
 
 }
 
-.footer_wrapper img {
+.footer_wrapper_img_holder {
     width: 80px;
     height: 75px;
 }
 
 .footer_wrapper ul {
     list-style-type: none;
+
+    & div{
+        display: flex;
+        justify-content: space-around;
+        margin-block: 3px;
+    }
 }
 
 .footer_wrapper ul li:first-child {
@@ -42,4 +48,10 @@
     line-height: 18.75px;
     margin-top: 17px;
     color: rgba(255, 255, 255, 1);
+}
+.atag{
+    width: 18px;
+    height: 18px;
+    /* object-fit: cover; */
+    margin-right: 5px;
 }

@@ -1,3 +1,22 @@
+@media screen and (max-width: 1024px) {
+    .landing_category_card{
+        gap: 15px;
+    }
+    .landing_category_card_h2{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .landing_category_card ul {
+        padding: 5px 10px;
+        & li{
+            gap: 2px;
+            font-size: 10px;
+        }
+    }
+    .landing_news_view_more_btn{
+        font-size: 11px;
+    }
+}
 @media screen and (max-width: 576px) {
 
 
@@ -93,11 +112,14 @@
         display: none;
     }
 
-
+    .landing_meet_sponsor{
+        
+    }
     .landing_meet_sponsor_h1 {
         font-size: 24px;
         line-height: 36px;
         text-align: center;
+        margin-bottom: 0px;
     }
 
     .landing_news_h1 {
@@ -150,12 +172,12 @@
     }
 
     .landing_become_a_sponsor_wrapper_2 ul{
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .landing_become_a_sponsor_wrapper_2_button {
-        width: 100%;
-        height: 59%;
+        width: 150px;
+        height: 50px;
     }
 
     .landing_road_map {
@@ -167,5 +189,29 @@
         line-height: 22.5px;
         font-size: 15px;
         font-weight: 700;
+    }
+
+    .landing_category_card ul{
+        & li{
+            font-size: 10px;
+        }
+    }
+    .landing_category_card_h2 {
+        font-size: 20px;
+    }
+    .landing_ready_wrapper_P{
+        font-size: 14.5px;
+    }
+    .landing_news_view_more_btn{
+        font-size: 16px;
+    }
+    .landing_become_a_sponsor_top{
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 }

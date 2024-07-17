@@ -2,11 +2,12 @@ import './LandingPage.css'
 import './LandingPageRes.css'
 import { IoTrophyOutline } from 'react-icons/io5'
 import image2 from '../assets/runImg.jpg'
-import image3 from '../assets/mainTicket.png'
-import image4 from '../assets/readyNew.png'
+import image3 from '../assets/newImg.jpg'
+import image4 from '../assets/new_Face_Cap 1 (1).png'
 import arctIcon from '../assets/arcticons_lets-go-fitness.png'
 import map from '../assets/ajegunleMap.png'
 import Slider from "react-slick";
+import Raffle2 from "../assets/Raffle.png"
 // import curve from '../assets/theCurve.png'
 // import ajegunle from '../assets/ajegunleHub.png'
 // import newsImage1 from '../assets/newsImage1.png'
@@ -14,20 +15,21 @@ import Slider from "react-slick";
 import news1 from '../assets/news1.jpg'
 import news2 from '../assets/news2.jpg'
 import news3 from '../assets/news3.jpg'
+import update1 from "../assets/UpdateSOHAI_LOGOonline_Web 1.png"
 import newSponsor1 from '../assets/newSponsor1.jpg'
 import newSponsor2 from '../assets/newSponsor2.jpg'
 import newSponsor3 from '../assets/newSponsor3.jpg'
 import newSponsor4 from '../assets/newSponsor4.jpg'
 import newSponsor5 from '../assets/newSponsor5.jpg'
 import newSponsor6 from '../assets/newSponsor6.jpg'
-import newSponsor7 from '../assets/newSponsor7.jpg'
+import newSponsor7 from '../assets/newAjegunle_Co-Working_Hub_Web 1.png'
 import newSponsor8 from '../assets/newSponsor8.jpg'
 import newSponsor9 from '../assets/newSponsor9.jpg'
 import newSponsor10 from '../assets/newSponsor10.jpg'
 import newSponsor11 from '../assets/newSponsor11.jpg'
 import newSponsor12 from '../assets/newSponsor12.jpg'
 import { GoArrowRight } from 'react-icons/go';
-import { GiThrowingBall } from 'react-icons/gi'
+import newIcon from "../assets/new-icon.png"
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 
 
@@ -108,7 +110,7 @@ const LandingPage = () => {
             <div className='landing_category_card'>
                 <div className="landing_category_card_currency_div">
                     {/* &#8358; */}
-                    <GiThrowingBall />
+                    <img src={newIcon} alt="icon"/>
                 </div>
                 <div className="landing_category_card_title_div">
                     <h2 className='landing_category_card_h2'>{props.h2}</h2>
@@ -233,7 +235,7 @@ const LandingPage = () => {
                         </div>
                         <p className='landing_hero_wrapper_p'>ACYM2024 THEME: “Creating a Peaceful and Eco-friendly Environment for an Expanded Meaningful Youth Engagement through Sports.”</p>
                         <div className="landing_hero_btn_holder">
-                            <button className='landing_hero_btn'><NavLink to={"/register"} className={"landing_hero_btn_navLink"}>Register now</NavLink></button>
+                            <NavLink className='landing_hero_btn' to={"/register"} >Register now</NavLink>
                         </div>
                     </div>
                 </div>
@@ -244,16 +246,16 @@ const LandingPage = () => {
                             <p className='landing_ready_wrapper_P'>#RUNAjegunle | 30th November, 2024</p>
                         </div>
                         <div className="landing_ready_wrapper_card_contain">
-                            <ReadyCard pix={image2} link='Click here to Register for to participate at the Ajegunle City Youth Marathon, 2024' bg='rgba(23, 183, 136, 1)' tag={"/register"} />
-                            <ReadyCard pix={image3} link='Click here to purchases a raffle tickets and stand a chance to win awesome prizes at the raffle draw event.' bg='rgba(122, 144, 249, 1)' tag={"https://paystack.com/buy/PROD_vxkwxr3edops7u9"} />
-                            <ReadyCard pix={image4} link='Click here to place an order for your T-Shirt & Face Cap to support the Ajegunle City Youth Marathon Project.' bg='rgba(23, 150, 183, 1)' tag={"https://paystack.com/pay/o7t1hpl2mt"} />
+                            <ReadyCard pix={image2} link='Click here to Register for to participate at the Ajegunle City Youth Marathon, 2024' bg='#1796B7' tag={"/register"} />
+                            <ReadyCard pix={Raffle2} link='Click here to purchases a raffle tickets and stand a chance to win awesome prizes at the raffle draw event.' bg='#346F7C' tag={"https://paystack.com/buy/PROD_vxkwxr3edops7u9"} />
+                            <ReadyCard pix={image4} link='Click here to place an order for your T-Shirt & Face Cap to support the Ajegunle City Youth Marathon Project.' bg='#17B788' tag={"https://paystack.com/pay/o7t1hpl2mt"} />
                         </div>
                     </div>
                 </div>
                 <div className="landing_category">
                     <div className="landing_category_wrapper">
                         <h1 className='landing_category_wrapper_h1'>CATEGORY OF PARTICIPANTS</h1>
-                        <p className='landing_category_wrapper_p'>Teams can compete in the following <span>categories</span>;</p>
+                        <p className='landing_category_wrapper_p'>Teams can compete in the following categories;</p>
                         <div className="landing_category_card_container">
                             <CategoryCard
                                 h2='Master Division - Persons with Disability'
@@ -262,30 +264,31 @@ const LandingPage = () => {
                                 l2='Hand crank (all males age under 18 -29) 2.5km'
                             />
                             <CategoryCard
-                                h2='Open Division (Individuals) – Adolescents and Young Persons aged 18 - 35years (5km)'
+                                h2='Open Division -Individuals 18-35 years (5km)'
                                 // h3='Adolescents and Young Persons aged 16 - 35years (5km)'
-                                l1='High School Students (all current high school students)'
-                                l2='College Students (all current college students)'
-                                l3="Youth Self-Employed/Entrepreneurs"
-                                l4="Youth out of school/NEET (Not in Education, Employment and Training)"
+                                l1='High School Students'
+                                l2='Undergraduates'
+                                l3="Youth self-Employed/Entrepreneurs"
+                                l4="Youth out of school/Not in Education, Employment and Training"
                                 // l5="Police or Military (all active duty or retired firemen, policemen or military personnel"
                                 // l6="Government Agency (all current or retired from same government agency)"
                             />
                             <CategoryCard
-                                h2='Corporate Division - Group / Team (5km)  '
+                                h2='  Corporate Division -
+     Group/Team(5km) '
                                 // h3='all employees from the same company/organisation (5km)'
-                                l1='All employees from the same company/organisation (18 – 35 years)'
-                                l2='Police or Military (all males and females 18 – 35 years)'
-                                l3="Government Agency ((all males and females 18 – 35 years)"
+                                l1='Employees from same company(18 - 35years)'
+                                l2='Police/military (both gender 18 -35 years)'
+                                l3="Government Agency( both gender 18 -35years)"
                             />
                             <CategoryCard
-                                h2='VVIP/VIP Division - Individual or Group'
+                                h2='VVIP/VIP Division -Individual /Group'
                                 // h3='Individual or Group'
-                                l1='Sponsors/Representatives, '
+                                l1='Sponsors/Representatives'
                                 l2='Government Stakeholders'
-                                l3="Private Partners/Representatives"
-                                l4="Key community stakeholders."
-                                l5="Celebrities/High Profile Personalities"
+                                l3="Private Partners/Representatives."
+                                l4="Key community stakeholders"
+                                l5="Celebrities/High profile personalities."
                             />
 
                         </div>
@@ -293,10 +296,10 @@ const LandingPage = () => {
                 </div>
                 <div className="landing_price_category">
                     <div className="landing_price_price_container">
-                        <p className='landing_price_price_container_P'>The Ajegunle City Youth Marathon celebrates the resilience and determination of the ajegunle youth, and is a source of inspiration for the entire community</p>
+                        <p className='landing_price_price_container_P'>&quot;The Ajegunle City Youth Marathon celebrates the resilience and determination of the ajegunle youth, and is a source of inspiration for the entire community.&quot;</p>
                         <div className="landing_price_category_wrapper">
                             <PriceWon icon='&#8358;' title='Join The Race' article='The  Marathon goes beyond a race. It is one way to get inspired.' bg='rgba(122, 144, 249, 1)' />
-                            <PriceWon icon='&#8358;' title='N300k To Be Won' article='About 300,000 naira is available to be won by contestants.' bg='rgba(23, 183, 136, 1)' />
+                            <PriceWon icon='&#8358;' title='N300k To Be Won' article='Over 2 Million naira is available to be won by contestants.' bg='rgba(23, 183, 136, 1)' />
                             <PriceWon icon={<IoTrophyOutline />} title='Amazing Prizes' article='Complementary prices are  up for grabs.' bg='rgba(52, 199, 89, 1)' />
                             <PriceWon icon={<FitImage />} title='Stay Fit' article='As race day gets closer, you should also begin to fine-tune some aspects of your diet.' bg='rgba(255, 45, 85, 1)' />
                         </div>
@@ -310,11 +313,11 @@ const LandingPage = () => {
                 <div className="landing_meet_sponsor">
                     <h1 className='landing_meet_sponsor_h1'>Meet our Partners</h1>
                     <div className='SponsorsLogo'>
-                        <img src={newSponsor1} alt="SOHAI" className='Sponsors-Logos' />
-
-                        <img src={newSponsor3} alt="AJIF Sports Council" className='Sponsors-Logos' />
+                        <img src={update1} alt="SOHAI" className='Sponsors-Logos' />
 
                         <img src={newSponsor2} alt="NYCN-AJIF" className='Sponsors-Logos' />
+
+                        <img src={newSponsor3} alt="AJIF Sports Council" className='Sponsors-Logos' />
 
                         <img src={newSponsor4} alt=" KOBIS GLOBAL" className='Sponsors-Logos' />
 
@@ -324,9 +327,9 @@ const LandingPage = () => {
 
                         <img src={newSponsor7} alt=" Ajegunle Co-Working Hub" className='Sponsors-Logos' />
 
-                        <img src={newSponsor8} alt=" NYCN-IFELODUN" className='Sponsors-Logos' />
-
                         <img src={newSponsor9} alt="MULA Integrated Concepts" className='Sponsors-Logos' />
+
+                        <img src={newSponsor8} alt=" NYCN-IFELODUN" className='Sponsors-Logos' />
 
                         <img src={newSponsor10} alt="Heart To Give Initiative" className='Sponsors-Logos' />
 
@@ -340,10 +343,10 @@ const LandingPage = () => {
                     <h1 className='landing_news_h1'>News and updates</h1>
                     <div className="landing_news_wrapper">
                         <Newscard
-                            H4={"AJCYM 2024 -"}
-                            Span={"End Point"}
+                            H4={"July 5, 2024 / "}
+                            Span={"News"}
                             img={news1}
-                            content={"The Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2024; 30th November, 2024 @The Sports Ground, Nigeria Army Signals Barracks, Mile 2."}
+                            content={"Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 30th November, 2024 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed."}
                         />
                         <Newscard
                             H4={"AJCYM 2024 -"}
@@ -361,6 +364,7 @@ const LandingPage = () => {
                     <btn className="landing_news_view_more_btn" onClick={() => nav("/blog")}>View more post</btn>
                 </div>
                 <div className="landing_become_a_sponsor">
+                <div className="landing_become_a_sponsor_top">“get your brand on our front banner to make a positive and lasting impact in the lives of our youth”</div>
                     <div className="landing_become_a_sponsor_wrapper">
                         <div className="landing_beome_a_sponsor_container">
                             <div className='landing_become_a_sponsor_wrapper_1'>

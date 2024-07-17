@@ -100,8 +100,8 @@
     }
 
     .general_learn_more_card_content {
-        width: 85%;
-        height: 55%;
+        width: 100%;
+        height: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
