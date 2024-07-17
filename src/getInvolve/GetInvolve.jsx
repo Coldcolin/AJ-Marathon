@@ -6,7 +6,7 @@ import getInvolved3 from "../assets/getInvolved3.png";
 import getInvolved4 from "../assets/getInvolved4.png";
 import getInvolved5 from "../assets/getInvolved5.png";
 import getInvolved6 from "../assets/getInvolved6.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const GetInvolve = () => {
@@ -32,12 +32,9 @@ const GetInvolve = () => {
                                 raise awareness to promote: peace, youth
                                 inclusion and good governance.
                             </p>
-                            <Link to="/register">
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Register
+                                <NavLink to={"/register"}>Register</NavLink>
                             </button>
-                            </Link>
-                            
                         </div>
                     </div>
                     <div className="w-full h-80 phone:h-max flex phone:flex-col shadow-lg border border-gray-200 rounded-lg flex-row-reverse">
@@ -55,12 +52,9 @@ const GetInvolve = () => {
                                 This is a great way of making a difference with
                                 us
                             </p>
-                            <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024">
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Volunteer
+                                <NavLink to={"/contact_us"}>Volunteer</NavLink>
                             </button>
-                            </a>
-                            
                         </div>
                     </div>
                     <div className="w-full h-80 phone:h-max flex phone:flex-col shadow-lg border border-gray-200 rounded-lg">
@@ -80,12 +74,9 @@ const GetInvolve = () => {
                                 out how to become accredited and and have access
                                 to cover the race.
                             </p>
-                            <Link to="contact_us">
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Contact Us
+                                <NavLink to={"/gallery"}>Learn More</NavLink>
                             </button>
-                            </Link>
-                            
                         </div>
                     </div>
                     <div className="w-full h-80 phone:h-max flex phone:flex-col shadow-lg border border-gray-200 rounded-lg flex-row-reverse">
@@ -105,7 +96,7 @@ const GetInvolve = () => {
                                 packages for interested sponsors
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Contact Us
+                                <NavLink to={"/donate"}>Contact Us</NavLink>
                             </button>
                         </div>
                     </div>
@@ -127,7 +118,7 @@ const GetInvolve = () => {
                                 can BECOME A PARTNER
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Contact Us
+                                <NavLink to={"/contact_us"}>Contact Us</NavLink>
                             </button>
                         </div>
                     </div>
@@ -147,11 +138,9 @@ const GetInvolve = () => {
                                 thereafter will be prioritized and enrolled into
                                 developmental programs.
                             </p>
-                            <Link to="/donate">
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Donate Now
+                                <NavLink to={"/donate"}>Donate Now</NavLink>
                             </button>
-                            </Link>
                         </div>
                     </div>
                 </div>

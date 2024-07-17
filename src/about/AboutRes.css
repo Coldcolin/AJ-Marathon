@@ -1,14 +1,19 @@
+
 @media screen and (width <= 1440px) {
     .about_card_body{
         height: 420px;
     }
-    .about_card_img_div{
+
+    .about_card_img_div {
+
         /* height: 50%; */
+
         & img{
             aspect-ratio: 3/3;
         }
     }
-    .about_card_name_committe_wrapper{
+
+    .about_card_name_committe_wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -16,41 +21,50 @@
         /* background-color: aqua; */
     }
 }
-@media screen and (width <= 1024px) {
-    .about_AJYCM_project_article{
+
+@media screen and (width <=1024px) {
+    .about_AJYCM_project_article {
         /* width: 50%; */
     }
-    .about_AJYCM_project_article_wrapper_top{
+
+    .about_AJYCM_project_article_wrapper_top {
         /* width: 50%; */
     }
-    .about_AJYCM_project_article_right_image_container2_P1{
+
+    .about_AJYCM_project_article_right_image_container2_P1 {
         font-size: 12px;
     }
-    .about_AJYCM_project_article_P{
+
+    .about_AJYCM_project_article_P {
         font-size: 12px;
     }
-    .about_card_img_div{
+
+    .about_card_img_div {
         /* background-color: aqua; */
         /* height: 65%;
 
-        & img{
+        & img {
             aspect-ratio: 3/3.5;
         } */
     }
-    .about_card_name_committe_P{
+
+    .about_card_name_committe_P {
         font-size: 10px;
         line-height: 12px;
     }
 }
-@media screen and (width <= 768px) {
-    .about_card_name_committe_H2{
+
+@media screen and (width <=768px) {
+    .about_card_name_committe_H2 {
         line-height: 16px;
     }
-    .about_card_name_committe_P{
+
+    .about_card_name_committe_P {
         font-size: 9px;
         line-height: 11px;
     }
 }
+
 @media screen and (max-width: 576px) {
 
     .about_hero_wrapper {
@@ -67,13 +81,14 @@
         padding: 30px;
     }
 
-    .about_hero_UL li{
-    text-decoration: none;}
+    .about_hero_UL li {
+        text-decoration: none;
+    }
 
-    .about_menu_not_active{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
+    .about_menu_not_active {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
 
     .about_hero_img_wrapper {
         display: none;
@@ -90,12 +105,12 @@
         /* display: none; */
     }
 
-    .about_AJYCM_project_article_image_wrapper{
+    .about_AJYCM_project_article_image_wrapper {
         /* width: 100%;
         height: 40vh; */
     }
 
-    .about_AJYCM_project_article_left_image_container1{
+    .about_AJYCM_project_article_left_image_container1 {
         /* display: none; */
     }
 
@@ -105,7 +120,7 @@
         /* align-items: center; */
     }
 
-    .about_AJYCM_project_article_right_image_container2_P1{
+    .about_AJYCM_project_article_right_image_container2_P1 {
         /* display: none; */
     }
 
@@ -121,11 +136,11 @@
         /* display: none; */
     }
 
-    .about_AJYCM_project_article_right_image2{
+    .about_AJYCM_project_article_right_image2 {
         /* width: 50%; */
     }
 
-    .about_AJYCM_project_article{
+    .about_AJYCM_project_article {
         /* width: 100%; */
     }
 
@@ -139,7 +154,7 @@
         text-align: center; */
     }
 
-    .about_AJYCM_project_article_P{
+    .about_AJYCM_project_article_P {
         width: 100%;
         font-size: 14px;
         line-height: 18px;
@@ -147,33 +162,34 @@
         font-weight: lighter;
     }
 
-    .about_AJYCM_project_article_SPAN{
+    .about_AJYCM_project_article_SPAN {
         font-size: 16px;
     }
 
-    .about_AJYCM_local_committee_body{
+    .about_AJYCM_local_committee_body {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .about_AJYCM_local_committee_body_H1{
+    .about_AJYCM_local_committee_body_H1 {
         font-size: 21px;
         line-height: 36px;
         margin-bottom: 15px;
     }
 
-    .about_AJYCM_local_committee_body_P{
+    .about_AJYCM_local_committee_body_P {
         width: 80%;
         font-size: 18px;
     }
 
-    .about_AJYCM_local_committee_card_body{
+    .about_AJYCM_local_committee_card_body {
         margin-top: 30px;
         flex-direction: column;
         align-items: center;
     }
+
 
     .about_card_body{
         height: 420px;
@@ -185,30 +201,27 @@
         }
     }
 
-    .about_card_name_committe_wrapper{
+    .about_card_name_committe_wrapper {
         padding-block: 20px;
         /* background-color: aqua; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* height: 20%; */
-        
     }
-    .about_card_img_div{
+
+    .about_card_img_div {
         height: 80%;
     }
 
-    .about_card_name_committe_H2{
+    .about_card_name_committe_H2 {
         margin-top: 0px;
         line-height: 25px;
         font-size: 18px;
     }
 
-.about_card_name_committe_P{
-    font-size: 12px;
-}
-
-
+    .about_card_name_committe_P {
+        font-size: 12px;
+    }
 
 
 
