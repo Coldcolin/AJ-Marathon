@@ -20,6 +20,9 @@ import NutritionTip from './resources/nutritionTip/NutritionTip'
 import ScrollToTop from './scrollToTop/ScrollToTop'
 import Registration from './registration/Registration'
 import ResourceLinks from './resources/resourceLinks/ResourceLinks'
+import TrainingTip from './resources/trainingTip/TrainingTip'
+import BeginnerTip from './resources/beginnerTip/BeginnerTip'
+import RegularRunnerTip from './resources/regularTip/RegularRunnerTip'
 
 function App() {
 
@@ -37,7 +40,9 @@ function App() {
               <Route index element={<ResourceLinks />} />
               <Route path='resources/health_tips' element={<HealthTip />} />
               <Route path='resources/nutrition_tips' element={<NutritionTip />} />
-
+              <Route path='resources/training_tips' element={<TrainingTip />} />
+              <Route path='resources/beginners_tips' element={<BeginnerTip />} />
+              <Route path='resources/regular_runners_tips' element={<RegularRunnerTip />} />
             </Route>
             <Route path='gallery' element={<Gallery />} />
             <Route path='donate' element={<Donate />} />

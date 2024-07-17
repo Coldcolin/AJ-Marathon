@@ -6,6 +6,7 @@ import getInvolved3 from "../assets/getInvolved3.png";
 import getInvolved4 from "../assets/getInvolved4.png";
 import getInvolved5 from "../assets/getInvolved5.png";
 import getInvolved6 from "../assets/getInvolved6.png";
+import { NavLink } from "react-router-dom";
 
 
 const GetInvolve = () => {
@@ -32,7 +33,7 @@ const GetInvolve = () => {
                                 inclusion and good governance.
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Register
+                                <NavLink to={"/register"}>Register</NavLink>
                             </button>
                         </div>
                     </div>
@@ -52,7 +53,7 @@ const GetInvolve = () => {
                                 us
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Volunteer
+                                <NavLink to={"/contact_us"}>Volunteer</NavLink>
                             </button>
                         </div>
                     </div>
@@ -74,7 +75,7 @@ const GetInvolve = () => {
                                 to cover the race.
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Learn More
+                                <NavLink to={"/gallery"}>Learn More</NavLink>
                             </button>
                         </div>
                     </div>
@@ -95,7 +96,7 @@ const GetInvolve = () => {
                                 packages for interested sponsors
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Contact Us
+                                <NavLink to={"/donate"}>Contact Us</NavLink>
                             </button>
                         </div>
                     </div>
@@ -117,7 +118,7 @@ const GetInvolve = () => {
                                 can BECOME A PARTNER
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Contact Us
+                                <NavLink to={"/contact_us"}>Contact Us</NavLink>
                             </button>
                         </div>
                     </div>
@@ -138,7 +139,7 @@ const GetInvolve = () => {
                                 developmental programs.
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                Donate Now
+                                <NavLink to={"/donate"}>Donate Now</NavLink>
                             </button>
                         </div>
                     </div>

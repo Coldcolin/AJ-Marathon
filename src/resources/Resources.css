@@ -29,8 +29,15 @@
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    color: antiquewhite;
     padding: 0% 0% 0% 20%;
+}
+
+.resource_active{
+    color: rgba(23, 183, 136, 1);
+}
+
+.resources_not_active{
+    color: rgba(23, 150, 183, 1);
 }
 
 .resources_hero_wrapper_Img{
