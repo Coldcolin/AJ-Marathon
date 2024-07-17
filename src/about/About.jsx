@@ -13,18 +13,18 @@ import about5 from '../assets/about5.png'
 import about6 from '../assets/about6.png'
 import lawal from "../assets/Lawal.jpg"
 import BillBoard from "../assets/BillBoard.png"
-import newCommitee1 from '../assets/newCommitee1.jpg'
-import newCommitee2 from '../assets/newCommitee2.jpg'
-import newCommitee3 from '../assets/newCommitee3.jpg'
-import newCommitee4 from '../assets/newCommitee4.jpg'
-import newCommitee5 from '../assets/newCommitee5.jpg'
-import newCommitee6 from '../assets/newCommitee6.jpg'
-import newCommitee7 from '../assets/newCommitee7.jpg'
-import newCommitee8 from '../assets/newCommitee8.jpg'
-import newCommitee9 from '../assets/newCommitee9.jpg'
-import newCommitee10 from '../assets/newCommitee10.jpg'
-import newCommitee11 from '../assets/newCommitee11.jpg'
-import newCommitee12 from '../assets/newCommitee12.jpg'
+import newCommitee1 from '../assets/isaacNew.png'
+import newCommitee2 from '../assets/ambIsaac.png'
+import newCommitee3 from '../assets/ademolaNew.png'
+import newCommitee4 from '../assets/mcAnthony.png'
+import newCommitee5 from '../assets/wowo.png'
+import newCommitee6 from '../assets/oghene.png'
+import newCommitee7 from '../assets/sam.png'
+import newCommitee8 from '../assets/richard.png'
+import newCommitee9 from '../assets/michael.png'
+import newCommitee10 from '../assets/uche.png'
+import newCommitee11 from '../assets/oloola.png'
+import newCommitee12 from '../assets/godspower.png'
 import { NavLink } from 'react-router-dom'
 
 
@@ -128,15 +128,14 @@ const About = () => {
             “ABOUT AJEGUNLE CITY YOUTH MARATHON”
           </div>
           <p className='about_AJYCM_project_article_P'>
-            The<span className='about_AJYCM_project_article_SPAN'> Ajegunle City Youth Marathon</span> is organized by Society for Information and Human Advancement Initiative, SOHAI a non-profit making organisation in Partnership with the National Youth Council of Nigeria Ajeromi-Ifelodun Local Chapter (NYCN-AJIF) and together with other consortium partners represented on the Local Organising Committee (LOC) which includes: Ajegunle Co-Working Hub, Kobis Global Studios, Klick Designs, Mula Integrated Concepts, The Curve Africa, and National Youth Council Of Nigeria, Ifelodun Local Chapter (NYCN-Ifelodun). <br/><br/>The Ajegunle City Youth Marathon, 2024 is the maiden edition and promising to become a major sporting event in the annals of the Ajegunle community. The marathon is set to attract thousands of participants from all over Ajegunle communities and beyond, and will provide a platform to showcase the community’s potential for sports and tourism and also for young athletes to showcase their talents and compete for prizes. The Ajegunle City Youth Marathon, 2024 beyond just a sporting event; it is also a community event that will brings people together and promote peace and unity. The marathon is a celebration of the resilience and determination of the youth of Ajegunle, and it is a source of inspiration for the entire community.
-          </p>
-          <p className='about_AJYCM_project_article_P'>
-            In addition to promoting health and fitness, youth development and empowerment, the Ajegunle City Youth Marathon, 2024 also serves as a fund raiser for various community projects to support educational programs, healthcare initiatives, and other projects that will benefit the youth of Ajegunle.
-          </p>
-          <p className='about_AJYCM_project_article_P'>
-            The Ajegunle City Youth Marathon, 2024 event consists of the main 5kilometer race (5K #RUNAjegunle) event that runs through strategic routes across streets from Ajeromi-Ifelodun LGA to Ifelodun LCDA, showcasing Ajegunle’s key socio-cultural values, ethnic diversity among participants and onlookers, economic potential and abundance of humans resources in her populousness, while promoting healthiness and peaceful coexistence for building sustainable communities. The event will also feature pre/and post activities including side events (that will host dignitaries, private corporate partners, government and key community stakeholders amidst other variety of activities which will make the entire event a memorable and laudable one to enter into the annals of Ajegunle Youth Council and LGA/LCDA.
-          </p>
-          <p className='about_AJYCM_project_article_P'>
+            The<span className='about_AJYCM_project_article_SPAN'> Ajegunle City Youth Marathon</span> is organized by Society for Information and Human Advancement Initiative, SOHAI a non-profit making organisation in Partnership with the National Youth Council of Nigeria Ajeromi-Ifelodun Local Chapter (NYCN-AJIF) and together with other consortium partners represented on the Local Organising Committee (LOC) which includes: Ajegunle Co-Working Hub, Kobis Global Studios, Klick Designs, Mula Integrated Concepts, The Curve Africa, and National Youth Council Of Nigeria, Ifelodun Local Chapter (NYCN-Ifelodun), Heart to Give Initiative, Africa Network of Adolescents and Young Persons Development (ANAYD) and SMARTPadi. 
+            <br/><br/>
+            The Ajegunle City Youth Marathon, 2024 is the maiden edition and promising to become a major sporting event in the annals of the Ajegunle community. The marathon is set to attract thousands of participants from all over Ajegunle communities and beyond, and will provide a platform to showcase the community’s potential for sports and tourism and also for young athletes to showcase their talents and compete for prizes. The Ajegunle City Youth Marathon, beyond just a sporting event; it is also a community event that brings people together and promote peace and unity. The marathon is a celebration of the resilience and determination of the Ajegunle youth, and it is a source of inspiration for the entire community.
+            <br/><br/>
+            In addition to promoting health and fitness, youth development and empowerment, the Ajegunle City Youth Marathon, also serves as a fund raiser for various community projects to support educational and developmental programs, healthcare initiatives, and other projects that will benefit the youths of Ajegunle.
+            <br/><br/>
+            The Ajegunle City Youth Marathon event consists of the main 5kilometer race (5K #RUNAjegunle) event that runs through strategic routes across streets and communities from Ajeromi-Ifelodun LGA to Ifelodun LCDA, showcasing Ajegunle’s key socio-cultural values, ethnic diversity among participants and onlookers, economic potential and abundance of humans resources in her populousness, while promoting healthiness and peaceful coexistence for building sustainable communities. The event will also feature pre/and post activities including side events (that will host dignitaries, private corporate partners, government and key community stakeholders amidst other variety of activities which will make the entire event a memorable and laudable one to enter into the annals of Ajegunle Youth Council and LGA/LCDA.
+            <br/><br/>
             The Ajegunle City Youth Marathon is a symbol of hope for brighter future and inspiration for the youth of Ajegunle, and it is a reminder that our communities can only develop and thrive in a peaceful and eco-friendly atmosphere.
           </p>
         </div>

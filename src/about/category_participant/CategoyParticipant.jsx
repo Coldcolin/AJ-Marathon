@@ -33,9 +33,9 @@ const CategoyParticipant = () => {
                     </div>
                     <div className="category_article_section_wrapper_article_container">
                         <CategoryArticle H1={'Master Division – Persons with Disability'} L1={'Wheelchair (all males and females Children under 18-29) 5km'} L2={'Hand crank (all males age under 18 -29) 2.5km'} />
-                        <CategoryArticle H1={"Open Division – No age restriction (5km)"} L1={"High School Students (all current high school students)"} L2={"College Students (all current college students)"} L3={" Youth Self-Employed/Entrepreneurs"} L4={"Youth out of school/NEET (Not in Education, Employment and Training)"} L5={"Police or Military (all active duty or retired firemen, policemen or military personnel)"} L6={"Government Agency (all current or retired from same government agency)"} />
-                        <CategoryArticle H1={"Corporate Division – all employees from the same company/organisation (5km)"} L1={"Male (all males)"} L2={"Female (all females)"} />
-                        <CategoryArticle H1={"VVIP/VIP Division – All Sponsors, Government and Private Partners representatives and Key community stakeholders."} L1={"Male (all males)"} L2={"Female (all females)"} />
+                        <CategoryArticle H1={"Open Division – Individuals 18-35 years  (5km)"} L1={"High School Students"} L2={"Undergraduates"} L3={" Youth Self-Employed/Entrepreneurs"} L4={"Youth out of school/Not in Education, Employment and Training(NEET)"} L5={"Police or Military (all active duty or retired firemen, policemen or military personnel)"}/>
+                        <CategoryArticle H1={"Corporate Division – Group/Team(5km)"} L1={"Employees from same company(18 - 35years)"} L2={"Police/military (both gender 18 -35 years)"} L3={"Government Agency( both gender 18 -35years)"}/>
+                        <CategoryArticle H1={"VVIP/VIP Division – Individual /Group"} L1={"Sponsors/Representatives"} L2={"Government Stakeholders"} L3={"Private Partners/Representatives"} L4={"Key community stakeholders"} L5={"Celebrities/High profile personalities"}/>
                     </div>
                 </div>
             </div>

@@ -31,7 +31,7 @@ const Footer = () => {
                 <ul>
                     <li>Get Involved</li>
                     <li><NavLink className={'menu_not_active'}>Register for Race</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Volunteer</NavLink></li>
+                    <li><a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024" className={'menu_not_active'}>Volunteer</a></li>
                     <li><NavLink className={'menu_not_active'}>Media Accreditation</NavLink></li>
                     <li><NavLink className={'menu_not_active'}>Become a sponsor</NavLink></li>
                     <li><NavLink className={'menu_not_active'}>Partner with us</NavLink></li>
@@ -55,7 +55,7 @@ const Footer = () => {
                     <div>
                     <div><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/></a></div>
                         <div><a href="https://www.instagram.com/ajegunlecity_youthmarathon?igsh=MXB0cW5mem5kZmh6YQ==" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/></a></div>
-                        <div><a className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/></a></div>
+                        <div><a href="https://x.com/Ajegunleci93698" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/></a></div>
                 </div>
                 </ul>
                 
