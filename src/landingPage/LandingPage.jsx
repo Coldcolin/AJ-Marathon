@@ -349,16 +349,16 @@ const LandingPage = () => {
                             content={"Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 30th November, 2024 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed."}
                         />
                         <Newscard
-                            H4={"July 17, 2024 /"}
-                            Span={"News"}
-                            img={news2}
-                            content={"Ajegunle City Youth Marathon, 2024 Volunteer Registration Open! ...Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary! "}
+                            H4={"AJCYM 2024 -"}
+                            Span={"Flag-Off"}
+                            img={news3}
+                            content={"The Ajegunle City Youth Marathon is Raging higher as we officially flagged-off the project at the floor of The Ifelodun Local Youth Council Management Committee Meeting. Watch out for the biggest gig ever in the city of Ajegunle,.......Coming Soon!"}
                         />
                         <Newscard
-                            img={news3}
-                            H4={"April 9, 2024 /"}
-                            Span={"News"}
-                            content={"The Ajegunle City Youth Marathon project is raging higher as the team officially flagged-off the community engagement exercise at the floor of The Ifelodun Local Youth Council Management Committee Meeting."}
+                            img={news2}
+                            H4={"AJCYM 2024 -"}
+                            Span={"Volunteer!"}
+                            content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary!"}
                         />
                     </div>
                     <btn className="landing_news_view_more_btn" onClick={() => nav("/blog")}>View more post</btn>

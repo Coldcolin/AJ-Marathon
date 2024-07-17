@@ -19,21 +19,28 @@ import HealthTip from './resources/healthTip/HealthTip'
 import NutritionTip from './resources/nutritionTip/NutritionTip'
 import ScrollToTop from './scrollToTop/ScrollToTop'
 import Registration from './registration/Registration'
+import ResourceLinks from './resources/resourceLinks/ResourceLinks'
 import ViewReg from './viewReg/ViewReg'
+
 
 function App() {
 
   return (
     <>
       <HashRouter>
-      <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<LandingPage />} />
-            <Route path='about' element={<About />} />
+            <Route path='about' element={<About />}></Route>
             <Route path='get_involve' element={<GetInvolve />} />
             <Route path='blog' element={<Blog />} />
-            <Route path='resources' element={<Resources />} />
+            <Route path='resources' element={<Resources />} >
+              <Route index element={<ResourceLinks />} />
+              <Route path='resources/health_tips' element={<HealthTip />} />
+              <Route path='resources/nutrition_tips' element={<NutritionTip />} />
+
+            </Route>
             <Route path='gallery' element={<Gallery />} />
             <Route path='donate' element={<Donate />} />
             <Route path='contact_us' element={<Contact />} />
@@ -43,8 +50,7 @@ function App() {
             <Route path='about_routes_and_map' element={<RoadsAndMaps />} />
             <Route path='about_prizes' element={<Prizes />} />
             <Route path='about_race_result' element={<RaceResult />} />
-            <Route path='health_tips' element={<HealthTip />} />
-            <Route path='nutrition_tips' element={<NutritionTip />} />
+            {/* <Route path='health_tips' element={<HealthTip />} /> */}
             <Route path='register' element={<Registration />} />
             <Route path='viewreg024' element={<ViewReg />} />
           </Route>

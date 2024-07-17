@@ -1,11 +1,13 @@
 import './Resources.css';
 import resources from '../assets/resources1.svg'
+import AboutLayout from '../aboutLayoit/AboutLayout';
+import { NavLink, Outlet } from 'react-router-dom';
 
 const ResourcesCard = ({ Num, P1, P2, P3, P4, P5, Span1, Span2, Span3, Span4, flexD, Just }) => {
   return (
     <div className='resourcesCardBody'>
-      <div className="resources_card_mainBody" style={{flexDirection:flexD}}>
-        <div className="resources_card_number_holder" style={{justifyContent: Just}}>
+      <div className="resources_card_mainBody" style={{ flexDirection: flexD }}>
+        <div className="resources_card_number_holder" style={{ justifyContent: Just }}>
           <div className="resources_card_number">{Num}</div>
         </div>
         <div className="resources_card_text_holder">
@@ -20,15 +22,58 @@ const ResourcesCard = ({ Num, P1, P2, P3, P4, P5, Span1, Span2, Span3, Span4, fl
   )
 }
 
+export const ResourceHero = () => {
+
+  const resourceRoutes = [
+    {
+      path: "resources/health_tips",
+      name: "Health Tips "
+    },
+    {
+      path: "resources/nutrition_tips",
+      name: "Nutrition Tips "
+    },
+    {
+      path: "resources/training_tips",
+      name: "Training Tips "
+    },
+    {
+      path: "resources/beginners_tips",
+      name: "Beginners Training "
+    },
+    {
+      path: "resources/regular_runners_tips",
+      name: "Regular Runners Training "
+    },
+  ]
+
+  return (
+    <div className="resources_hero_section">
+      <div className="resources_hero_wrapper">
+        <ul className='resources_hero_wrapper_UL'>
+          {
+            resourceRoutes.map((e)=>(
+              <li key={e.path}>
+                <NavLink to={e.path} className={({isActive})=>(isActive ? "resource_active" : 'resources_not_active')}>{e.name}</NavLink>
+              </li>
+            ))
+          }
+        </ul>
+        <img src={resources} alt="resources" className='resources_hero_wrapper_Img' />
+      </div>
+    </div>
+  )
+}
+
 
 
 const Resources = () => {
   return (
     <div className='resources_mainBody'>
-      <div className="resources_hero_section">
-        <img src={resources} alt="resources" />
-      </div>
-      <div className="resources_artice_body">
+      <AboutLayout>
+        <Outlet />
+      </AboutLayout>
+      {/* <div className="resources_artice_body">
         <h1 className='resources_article_H1'>TRAINING TIPS:</h1>
         <div className="resources_article_card_wrapper">
           <ResourcesCard
@@ -100,10 +145,10 @@ const Resources = () => {
           />
 
         </div>
-      </div>
-      <div className="article_see_more_btn_container">
+      </div> */}
+      {/* <div className="article_see_more_btn_container">
         <button className='article_see_more_btn'>SEE MORE</button>
-      </div>
+      </div> */}
     </div>
   )
 }

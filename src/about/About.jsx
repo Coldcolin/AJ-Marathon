@@ -89,38 +89,38 @@ const About = () => {
         </div>
       </div>
       <div className="about_AJCYM_project_div">
-      AJEGUNLE CITY YOUTH MARATHON PROJECT
+        AJEGUNLE CITY YOUTH MARATHON PROJECT
       </div>
       {/* <div className="about_AJCYM_project_marathon">
         “ABOUT AJEGUNLE CITY YOUTH MARATHON”
       </div> */}
       <div className="about_AJYCM_project_article_wrapper">
-      <div className='about_AJYCM_project_article_wrapper_top'>
-        <div className="about_AJYCM_project_article_image_wrapper">
-          <div className="about_AJYCM_project_article_left_image_container1">
-            <img src={ObaNew} alt="athlete" className='about_AJYCM_project_article_left_image' />
-            <p className='about_AJYCM_project_article_right_image_container2_P1'><span className='about_AJYCM_project_article_right_image_container2_P1_Span'>HIS ROYAL MAJESTY </span>
-              <br />OBA MOROOF OYEKUNLE ATANDA
-              AMODU TIJANI (AMORE III)
-              OLU OF IWA AND APAPA KINGDOM</p>
-          </div>
-          <div className="about_AJYCM_project_article_right_image_container2">
-            <div className='about_AJYCM_project_article_right_image_top'>
-            <img src={fatai} alt="athlete" className='about_AJYCM_project_article_right_image1' />
-            <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. FATAI ADEKUNLE AYOOLA
-              EXECUTIVE CHAIRMAN
-              AJEROMI-IFELODUN LGA</p>
+        <div className='about_AJYCM_project_article_wrapper_top'>
+          <div className="about_AJYCM_project_article_image_wrapper">
+            <div className="about_AJYCM_project_article_left_image_container1">
+              <img src={ObaNew} alt="athlete" className='about_AJYCM_project_article_left_image' />
+              <p className='about_AJYCM_project_article_right_image_container2_P1'><span className='about_AJYCM_project_article_right_image_container2_P1_Span'>HIS ROYAL MAJESTY </span>
+                <br />OBA MOROOF OYEKUNLE ATANDA
+                AMODU TIJANI (AMORE III)
+                OLU OF IWA AND APAPA KINGDOM</p>
             </div>
-            <div className='about_AJYCM_project_article_right_image_bottom'>
-            <img src={Okeowo} alt="athlete" className='about_AJYCM_project_article_right_image2' />
-            <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. OLUFEMI OKEOWO AKANBI
-              EXECUTIVE CHAIRMAN
-              IFELODUN LCDA</p>
+            <div className="about_AJYCM_project_article_right_image_container2">
+              <div className='about_AJYCM_project_article_right_image_top'>
+                <img src={fatai} alt="athlete" className='about_AJYCM_project_article_right_image1' />
+                <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. FATAI ADEKUNLE AYOOLA
+                  EXECUTIVE CHAIRMAN
+                  AJEROMI-IFELODUN LGA</p>
+              </div>
+              <div className='about_AJYCM_project_article_right_image_bottom'>
+                <img src={Okeowo} alt="athlete" className='about_AJYCM_project_article_right_image2' />
+                <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. OLUFEMI OKEOWO AKANBI
+                  EXECUTIVE CHAIRMAN
+                  IFELODUN LCDA</p>
+              </div>
             </div>
-          </div>
           </div>
           <div className='about_AJYCM_project_article_down_image'>
-            <img src={BillBoard}/>
+            <img src={BillBoard} />
           </div>
         </div>
         <div className="about_AJYCM_project_article">
@@ -128,6 +128,7 @@ const About = () => {
             “ABOUT AJEGUNLE CITY YOUTH MARATHON”
           </div>
           <p className='about_AJYCM_project_article_P'>
+
             The<span className='about_AJYCM_project_article_SPAN'> Ajegunle City Youth Marathon</span> is organized by Society for Information and Human Advancement Initiative, SOHAI a non-profit making organisation in Partnership with the National Youth Council of Nigeria Ajeromi-Ifelodun Local Chapter (NYCN-AJIF) and together with other consortium partners represented on the Local Organising Committee (LOC) which includes: Ajegunle Co-Working Hub, Kobis Global Studios, Klick Designs, Mula Integrated Concepts, The Curve Africa, and National Youth Council Of Nigeria, Ifelodun Local Chapter (NYCN-Ifelodun), Heart to Give Initiative, Africa Network of Adolescents and Young Persons Development (ANAYD) and SMARTPadi. 
             <br/><br/>
             The Ajegunle City Youth Marathon, 2024 is the maiden edition and promising to become a major sporting event in the annals of the Ajegunle community. The marathon is set to attract thousands of participants from all over Ajegunle communities and beyond, and will provide a platform to showcase the community’s potential for sports and tourism and also for young athletes to showcase their talents and compete for prizes. The Ajegunle City Youth Marathon, beyond just a sporting event; it is also a community event that brings people together and promote peace and unity. The marathon is a celebration of the resilience and determination of the Ajegunle youth, and it is a source of inspiration for the entire community.
@@ -136,6 +137,7 @@ const About = () => {
             <br/><br/>
             The Ajegunle City Youth Marathon event consists of the main 5kilometer race (5K #RUNAjegunle) event that runs through strategic routes across streets and communities from Ajeromi-Ifelodun LGA to Ifelodun LCDA, showcasing Ajegunle’s key socio-cultural values, ethnic diversity among participants and onlookers, economic potential and abundance of humans resources in her populousness, while promoting healthiness and peaceful coexistence for building sustainable communities. The event will also feature pre/and post activities including side events (that will host dignitaries, private corporate partners, government and key community stakeholders amidst other variety of activities which will make the entire event a memorable and laudable one to enter into the annals of Ajegunle Youth Council and LGA/LCDA.
             <br/><br/>
+
             The Ajegunle City Youth Marathon is a symbol of hope for brighter future and inspiration for the youth of Ajegunle, and it is a reminder that our communities can only develop and thrive in a peaceful and eco-friendly atmosphere.
           </p>
         </div>
