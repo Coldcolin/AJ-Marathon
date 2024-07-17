@@ -105,6 +105,9 @@
 
 .general_info_article_holder {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
 
 .general_info_card_body {
@@ -115,6 +118,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 30px;
+    gap: 0.7rem;
 }
 
 .general_info_card_body_H1 {
