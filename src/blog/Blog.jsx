@@ -120,13 +120,18 @@ const Blog = () => {
           <div className="blog_landing_write_holder">
             <h1 className='blog_landing_write_holder_h1'>{"Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2024"}</h1>
             <p className='blog_landing_write_holder_p'>
-              Finally, the Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2024; 30th November, 2024 @The Sports Ground, Nigeria Army Signals Barracks, Mile 2.
-            </p>
-            <p className='blog_landing_write_holder_p'>
-              We want to greatly thank the Commander, Brig. Gen. P.A Zipele and his team, Major Umar, 2IC and Lieut. Yahaya, Admin Officer; for the warm hospitality and reception of the project as a welcomed development and the immense support in collaboration, towards fruitful results ahead.
-            </p>
-            <p className='blog_landing_write_holder_p'>
-              This is a great milestone recorded in our planning process to ensure successful implementation outcomes of the event; aimed to become the largest Youth Engagement Platform in the annals of the NYCN-AJIF Local Branch, to drive social transformation and positive change among youths and advocacy for good governance in Ajeromi-Ifelodun LGA at large.
+            Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 30th November, 2024 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed.
+<br/><br/>
+We want to greatly thank the Commander, Brig. Gen. P.A Zipele and his team, Major Umar, 2IC and Lieut. Yahaya, Admin Officer; for the warm hospitality and reception of the project as a welcomed development and the immense support in collaboration, towards fruitful results ahead. 
+<br/><br/>
+This is a great milestone recorded in our planning process to ensure successful implementation outcomes of the event; aimed to become the largest Youth Engagement Platform in the annals of the Ajeromi-Ifelodun Youth Council, to drive social transformation and positive change among youths and advocacy for good governance in Ajeromi-Ifelodun LGA at large.  
+<br/><br/>
+To join our Volunteer Youth Force simply fill out the online registration form: https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024 , submission closes by July 28th, 2024. It Can Only Get Better!
+<br/><br/>
+#ACYM2024
+#RUNAjegunle
+#AjegunleMarathon
+#AjegunleCity5KRace
             </p>
             <p className='blog_landing_write_holder_p'>
               To join our Volunteer Youth Force simply fill out the online registration form: <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025">https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024</a> , submission closes by July 28th, 2024.

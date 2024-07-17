@@ -283,7 +283,8 @@
 }
 
 .about_card_body {
-    width: 21%;
+    /* width: 21%; */
+    width: 312px;
     height: auto;
     display: flex;
     flex-direction: column;
