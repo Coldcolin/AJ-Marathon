@@ -255,7 +255,7 @@ const LandingPage = () => {
                 <div className="landing_category">
                     <div className="landing_category_wrapper">
                         <h1 className='landing_category_wrapper_h1'>CATEGORY OF PARTICIPANTS</h1>
-                        <p className='landing_category_wrapper_p'>Teams can compete in the following <span>categories</span>;</p>
+                        <p className='landing_category_wrapper_p'>Teams can compete in the following categories;</p>
                         <div className="landing_category_card_container">
                             <CategoryCard
                                 h2='Master Division - Persons with Disability'
@@ -299,7 +299,7 @@ const LandingPage = () => {
                         <p className='landing_price_price_container_P'>&quot;The Ajegunle City Youth Marathon celebrates the resilience and determination of the ajegunle youth, and is a source of inspiration for the entire community.&quot;</p>
                         <div className="landing_price_category_wrapper">
                             <PriceWon icon='&#8358;' title='Join The Race' article='The  Marathon goes beyond a race. It is one way to get inspired.' bg='rgba(122, 144, 249, 1)' />
-                            <PriceWon icon='&#8358;' title='N300k To Be Won' article='About 300,000 naira is available to be won by contestants.' bg='rgba(23, 183, 136, 1)' />
+                            <PriceWon icon='&#8358;' title='N300k To Be Won' article='Over 2 Million naira is available to be won by contestants.' bg='rgba(23, 183, 136, 1)' />
                             <PriceWon icon={<IoTrophyOutline />} title='Amazing Prizes' article='Complementary prices are  up for grabs.' bg='rgba(52, 199, 89, 1)' />
                             <PriceWon icon={<FitImage />} title='Stay Fit' article='As race day gets closer, you should also begin to fine-tune some aspects of your diet.' bg='rgba(255, 45, 85, 1)' />
                         </div>

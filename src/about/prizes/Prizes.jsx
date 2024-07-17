@@ -62,17 +62,17 @@ const Prizes = () => {
                                 <tr>
                                     <td>1 st Prize</td>
                                     <td></td>
-                                    <td>400,000/=</td>
+                                    <td>300,000/=</td>
                                 </tr>
                                 <tr>
                                     <td>2 nd Prize</td>
                                     <td></td>
-                                    <td>300,000/=</td>
+                                    <td>200,000/=</td>
                                 </tr>
                                 <tr>
                                     <td>3 rd Prize</td>
                                     <td></td>
-                                    <td>200,000/=</td>
+                                    <td>100,000/=</td>
                                 </tr>
                                 <tr>
                                     <td></td>

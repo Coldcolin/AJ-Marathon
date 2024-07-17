@@ -7,11 +7,11 @@ import { NavLink } from 'react-router-dom'
 
 
 
-const LearnMore = ({ bgImage, H2 }) => {
+const LearnMore = ({ bgImage, H2 , bg}) => {
     return (
 
         <div className='general_learn_more_card_body' style={{ backgroundImage: `url(${bgImage})` }}>
-            <div className="general_learn_more_card_content">
+            <div className="general_learn_more_card_content" style={{backgroundColor: bg}}>
                 <h2 className='general_learn_more_card_content_H2'>
                     {H2}
                 </h2>
@@ -69,9 +69,9 @@ export const GeneralLearnMore = () => {
         <>
             <div className="general_info_learnMore_container">
                 <div className="general_info_learnMore_wrapper">
-                    <LearnMore bgImage="/generalInfo4.png" H2='Training for beginner and regular runners' />
-                    <LearnMore bgImage="/generalInfo5.png" H2='Know more about health tips' />
-                    <LearnMore bgImage="/generalInfo6.png" H2='Prizes' />
+                    <LearnMore bgImage="/generalInfo4.png" H2='Training for beginner and regular runners' bg={"#1796B7"}/>
+                    <LearnMore bgImage="/Health.png" H2='Know more about health tips' bg={"#FD4D6C"}/>
+                    <LearnMore bgImage="/generalInfo6.png" H2='Prizes' bg={"#3FC274"} />
                 </div>
             </div>
 
@@ -85,7 +85,7 @@ export const GeneralFindRoute = () => {
             <div className="general_find_route_wrapper">
                 <div className="general_find_route_left_wrapper">
                     <h1 className='general_find_route_left_wrapper_H1'>Find out the route for runners</h1>
-                    <p className='general_find_route_left_wrapper_P'>Start point/Maracana Stadium - Ojokwu street - Kirikiri road - wilmer link brindge - Oregie mba road - Baale Aderemo street - Boundary road - olowo jeunjeje street- sanusi street - Layinka street - Badia ijora road - Mosafejo road - Ojo road - Signals Barraks/End point.</p>
+                    <p className='general_find_route_left_wrapper_P'>Start point/Maracana Stadium - Ojokwu street - Kirikiri road - wilmer link brindge - Oregie mba road - Baale Aderemo street - Boundary road - olowo jeunjeje street- sanusi street - Layinka street - Badia ijora road - Mosafejo road - Itire street - Ojo road - Signal Barraks/End point.</p>
                     <button className='general_find_route_left_wrapper_btn'>Explore Routes & Map</button>
                 </div>
                 <div className="general_find_route_right_wrapper">
@@ -134,7 +134,7 @@ const GeneralInfo = () => {
                             font=""
                             lineHeight="45px"
                             H1='Start & Finish'
-                            P='The starting point will be at Maracanã Stadium, Ojokwu Street, Tolu School Complex, Ajegunle Apapa, Lagos. The finish will be at Open Play Ground, Nigeria Army Signals Barracks, By Ojo, Road, Ajegunle, Apapa, lagos.'
+                            P='The starting point will be at Maracanã Stadium, Ojokwu Street, Tolu School Complex, Ajegunle Apapa, Lagos. The finish will be at Open Sports Ground, Nigeria Army Signal Barracks, By Ojo, Road, Ajegunle, Apapa, lagos.'
                         />
                         {/* <h1 className='general_info_article_holder_H1'>Start Time</h1> */}
                         <GeneralInfoCard
@@ -173,7 +173,7 @@ const GeneralInfo = () => {
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Runners Kits Collection'
-                            P='Bibs containing your unique number will be distributed to registered participants at the Ajeromi-Ifelodun LGA Council Secretariat and Ifelodun LCDA Secretariat, from August 21, 2024 to August 28, 2024 from 9:00 a.m. to 6:00 p.m. daily. Please ensure you collect your bib within the specified days.'
+                            P='Bibs containing your unique number will be distributed to registered participants at the Ajeromi-Ifelodun LGA Council Secretariat and Ifelodun LCDA Secretariat, from November 9, 2024 to November 16, 2024 from 9:00 a.m. to 5:00 p.m. daily. Please ensure you collect your bib within the specified days.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
