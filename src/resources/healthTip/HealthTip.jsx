@@ -5,7 +5,7 @@ import health3 from '../../assets/health3.svg'
 import health4 from '../../assets/health4.svg'
 import health5 from '../../assets/health5.png'
 import health6 from '../../assets/health6.png'
-import health from '../../assets/healthlogo.png'
+// import health from '../../assets/healthlogo.png'
 
 
 export const HealthCard = ({ H1, P }) => {
@@ -86,7 +86,7 @@ const HealthTip = () => {
                     <HealthProps
                         Title={"Medical Concerns"}
                         Content={"Discuss any medical problems with your general practitioner (GP). This advice supplements anything he or she says. See your GP if you have a problem that makes it a risk to run in a marathon. We are happy for people with serious medical conditions to run, but only with your GP’s agreement  If you send details of your condition and the treatment you are undergoing. Please send these to me and quote your running number when you know it. Address the envelope to the Marathon Office, mark it ‘Confidential’ and send it to:- Medical Manager Ajegunle City Youth Marathon"}
-                        Img={health}
+                        Img={health6}
                         ContentCtd={"If you have a medical problem that may lead to you having a blackout, such as fits or diabetes, put a cross on the front of your number and write the details, especially your medication, on the reverse of the number."}
                     />
 
