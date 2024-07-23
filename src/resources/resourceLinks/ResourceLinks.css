@@ -1,4 +1,4 @@
-.health_tip_mainBody {
+.resourceLink_mainBody {
     width: 100%;
     min-height: 100vh;
     height: max-content;
@@ -7,24 +7,30 @@
     align-items: center;
 }
 
-.health_tip_body_wrapper {
+.resourceLink_body_wrapper {
     width: 95%;
     border: 2px solid rgba(23, 183, 136, 1);
     background: rgba(164, 240, 218, 0.06);
-    margin-top: 30px;
-}
-
-.health_tip_body {
-    width: 100%;
+    margin: 5vh 0;
     display: flex;
     justify-content: center;
 }
 
-.health_tip_main_body {
+/* .resourceLink_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.resourceLink_main_body {
     width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    margin: 10vh 0;
 }
 
-.health_tip_H1 {
+.resourceLink_H1 {
     text-decoration: underline;
     font-weight: 700;
     font-size: 50px;
@@ -32,40 +38,40 @@
     color: rgba(35, 34, 34, 1);
 }
 
-.health_image_card{
+.resourceLink_image_card{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
-.health_image_main_container{
+.resourceLink_image_main_container{
     width: 33%;
     text-align: center;
 }
 
-.health_image_holder{
+.resourceLink_image_holder{
     width: 100%;
     height: 50vh;
     background-color: rgba(23, 183, 136, 1);
 }
 
-.health_image{
+.resourceLink_image{
     width: 100%;
     height: 100%;
 }
 
-.health_image_H1{
+.resourceLink_image_H1{
     font-weight: 400;
     font-size: 40px;
     line-height: 46.88px;
     color: rgba(0, 0, 0, 1);
 }
 
-.health_image2_card{
+.resourceLink_image2_card{
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     justify-content: center;
 }

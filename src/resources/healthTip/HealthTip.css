@@ -1,0 +1,68 @@
+.health_tip_mainBody {
+    width: 100%;
+    min-height: 100vh;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.health_tip_body_wrapper {
+    width: 90%;
+    box-shadow: 17px 9px 20.6px -1px rgba(0, 0, 0, 0.25);
+    margin: 10vh 0 4vh 0;
+    background: rgba(250, 254, 253, 1);
+}
+
+.health_title_H1 {
+    color: rgba(35, 34, 34, 1);
+    font-weight: 700;
+    line-height: 84px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.health_title_P {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 84px;
+    font-family: "Poor Story", sans-serif;
+    margin-bottom: 3vh;
+}
+
+.health_props_body {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.health_props_IMG {
+    float: right;
+    height: 40vh;
+}
+
+.health_props_Title {
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 49.52px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.health_props_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.health_props_Content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.01px;
+}
+
+.health_props_Content1 {
+    clear: right;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.01px;
+}
