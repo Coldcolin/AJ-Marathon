@@ -51,8 +51,8 @@ table {
     width: 100%;
 }
 
-th,
-td {
+.about_prize_TH,
+.about_prize_TD {
     border: 1px solid rgba(23, 150, 183, 1);
     padding: 8px;
     text-align: center;

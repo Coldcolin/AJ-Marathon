@@ -21,123 +21,123 @@ const Prizes = () => {
                         <table style={{ border: '1px solid blue' }}>
                             <thead>
                                 <tr>
-                                    <td>Winners</td>
-                                    <td>Category</td>
-                                    <td>Cash Prizes (NGN)</td>
+                                    <td className='about_prize_TD'>Winners</td>
+                                    <td className='about_prize_TD'>Category</td>
+                                    <td className='about_prize_TD'>Cash Prizes (NGN)</td>
                                 </tr>
                                 <tr>
-                                    <th></th>
-                                    <th>Wheelchair and Hand crank
+                                    <th className='about_prize_TH'></th>
+                                    <th className='about_prize_TH'>Wheelchair and Hand crank
                                         (Male and Female 18 – 29 years)
                                     </th>
-                                    <th></th>
+                                    <th className='about_prize_TH'></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1 st Prize</td>
-                                    <td></td>
-                                    <td>300,000/=</td>
+                                    <td className='about_prize_TD'>1 st Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>300,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>2 nd Prize</td>
-                                    <td></td>
-                                    <td>200,000/=</td>
+                                    <td className='about_prize_TD'>2 nd Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>200,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>3 rd Prize</td>
-                                    <td></td>
-                                    <td>100,000/=</td>
+                                    <td className='about_prize_TD'>3 rd Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>100,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
                                 </tr>
                                 <tr>
-                                    <th></th>
-                                    <th>Open Division and Corporate Division – Male category</th>
-                                    <th></th>
+                                    <th className='about_prize_TH'></th>
+                                    <th className='about_prize_TH'>Open Division and Corporate Division – Male category</th>
+                                    <th className='about_prize_TH'></th>
                                 </tr>
                                 <tr>
-                                    <td>1 st Prize</td>
-                                    <td></td>
-                                    <td>300,000/=</td>
+                                    <td className='about_prize_TD'>1 st Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>300,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>2 nd Prize</td>
-                                    <td></td>
-                                    <td>200,000/=</td>
+                                    <td className='about_prize_TD'>2 nd Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>200,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>3 rd Prize</td>
-                                    <td></td>
-                                    <td>100,000/=</td>
+                                    <td className='about_prize_TD'>3 rd Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>100,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
                                 </tr>
                                 <tr>
-                                    <th></th>
-                                    <th>Open Division and Corporate Division - Female category</th>
-                                    <th></th>
+                                    <th className='about_prize_TH'></th>
+                                    <th className='about_prize_TH'>Open Division and Corporate Division - Female category</th>
+                                    <th className='about_prize_TH'></th>
                                 </tr>
                                 <tr>
-                                    <td>1 st Prize</td>
-                                    <td></td>
-                                    <td>300,000/=</td>
+                                    <td className='about_prize_TD'>1 st Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>300,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>2 nd Prize</td>
-                                    <td></td>
-                                    <td>200,000/=</td>
+                                    <td className='about_prize_TD'>2 nd Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>200,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>3 rd Prize</td>
-                                    <td></td>
-                                    <td>100,000/=</td>
+                                    <td className='about_prize_TD'>3 rd Prize</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>100,000/=</td>
                                 </tr>
                                 <tr>
-                                    <td>4 th – 23rd Prize</td>
-                                    <td>Other 20 best Finishers (50,000/Finisher)</td>
-                                    <td>50,000/= 1M</td>
+                                    <td className='about_prize_TD'>4 th – 23rd Prize</td>
+                                    <td className='about_prize_TD'>Other 20 best Finishers (50,000/Finisher)</td>
+                                    <td className='about_prize_TD'>50,000/= 1M</td>
                                 </tr>
                                 <tr>
-                                    <td>All finishers</td>
-                                    <td></td>
-                                    <td>Certificates of participation</td>
+                                    <td className='about_prize_TD'>All finishers</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>Certificates of participation</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
                                 </tr>
                                 <tr>
-                                    <th></th>
-                                    <th>VVIP/VIP Division</th>
-                                    <th></th>
+                                    <th className='about_prize_TH'></th>
+                                    <th className='about_prize_TH'>VVIP/VIP Division</th>
+                                    <th className='about_prize_TH'></th>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td>Special Certificates of sponsorship</td>
-                                    <td>Special Branded Gift Packaged</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>Special Certificates of sponsorship</td>
+                                    <td className='about_prize_TD'>Special Branded Gift Packaged</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'></td>
                                 </tr>
                                 <tr>
-                                    <th></th>
-                                    <th>Other Awards</th>
-                                    <th></th>
+                                    <th className='about_prize_TH'></th>
+                                    <th className='about_prize_TH'>Other Awards</th>
+                                    <th className='about_prize_TH'></th>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td>Special Certificates of sponsorship and Awards</td>
-                                    <td>Special Branded Gift Packaged</td>
+                                    <td className='about_prize_TD'></td>
+                                    <td className='about_prize_TD'>Special Certificates of sponsorship and Awards</td>
+                                    <td className='about_prize_TD'>Special Branded Gift Packaged</td>
                                 </tr>
                             </tbody>
 

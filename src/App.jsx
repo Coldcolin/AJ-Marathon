@@ -20,6 +20,9 @@ import NutritionTip from './resources/nutritionTip/NutritionTip'
 import ScrollToTop from './scrollToTop/ScrollToTop'
 import Registration from './registration/Registration'
 import ResourceLinks from './resources/resourceLinks/ResourceLinks'
+import TrainingTip from './resources/trainingTip/TrainingTip'
+import BeginnerTip from './resources/beginnerTip/BeginnerTip'
+import RegularRunnerTip from './resources/regularTip/RegularRunnerTip'
 import ViewReg from './viewReg/ViewReg'
 
 function App() {
