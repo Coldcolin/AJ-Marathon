@@ -351,11 +351,11 @@ const LandingPage = () => {
                         <Newscard
                             H4={"AJCYM 2024 -"}
                             Span={"Flag-Off"}
-                            img={news2}
+                            img={news3}
                             content={"The Ajegunle City Youth Marathon is Raging higher as we officially flagged-off the project at the floor of The Ifelodun Local Youth Council Management Committee Meeting. Watch out for the biggest gig ever in the city of Ajegunle,.......Coming Soon!"}
                         />
                         <Newscard
-                            img={news3}
+                            img={news2}
                             H4={"AJCYM 2024 -"}
                             Span={"Volunteer!"}
                             content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary!"}
