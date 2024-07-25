@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Header.css';
 import './HeaderRes.css';
 // import './HeaderMedia.css';
@@ -13,7 +13,7 @@ const routes = [
     { path: '/about', name: 'About' },
     { path: '/get_involve', name: 'Get involve' },
     { path: '/blog', name: 'Blog' },
-    // { path: '/resources', name: 'Resources' },
+    { path: '/resources', name: 'Resources' },
     // { path: '/gallery', name: 'Gallery' },
     { path: '/donate', name: 'Donate' },
     { path: '/contact_us', name: 'Contact us' }

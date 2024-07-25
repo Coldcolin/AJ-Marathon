@@ -44,11 +44,21 @@
 
 .nav_active {
     color: rgba(157, 5, 28, 1);
+    transition:all 350ms;
+}
+.nav_active:hover{
+    color: #fff;
+    transition:all 350ms;
 }
 
 .menu_not_active {
     color: #ffff;
     text-decoration: none;
+    transition:all 350ms;
+}
+.menu_not_active:hover{
+    color: rgba(157, 5, 28, 1);
+    transition:all 350ms;
 }
 
 .header_main_wrapper_mobile {

@@ -69,6 +69,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 350ms;
+}
+.landing_hero_btn:hover{
+    background: rgb(16, 131, 96);
+    transition: all 350ms;
 }
 
 .landing_hero_btn_navLink{
@@ -123,7 +128,12 @@
     width: 28%;
     height: 50vh;
     max-height: 50vh;
+    transition: all 350ms;
     /* background-color: red; */
+}
+.landing_ready_card:hover{
+    transform: scale(1.03);
+    transition: all 350ms;
 }
 
 .landing_ready_card_img_holder {
@@ -215,6 +225,11 @@
     margin: 30px 0;
     gap: 15px;
     padding: 0 10px;
+    transition: all 350ms;
+}
+.landing_category_card:hover{
+    transform: scale(1.03);
+    transition: all 350ms;
 }
 .list-disc{
     /* background-color: red; */
@@ -302,6 +317,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 350ms;
+}
+.landing_price_card:hover{
+    transform: scale(1.03);
+    transition: all 350ms;
 }
 
 .landing_price_card_wrapper {
@@ -438,6 +458,12 @@
 .landing_news_card {
     width: 31%;
     height: 60vh;
+    transition: all 350ms;
+    cursor: pointer;
+}
+.landing_news_card:hover{
+    transform: scale(1.03);
+    transition: all 350ms;
 }
 
 .landing_news_img_container {
@@ -528,6 +554,13 @@
     color: rgba(23, 150, 183, 1);
     margin: 0px 0px 60px 0px;
     cursor: pointer;
+    transition: all 350ms;
+}
+.landing_news_view_more_btn:hover{
+    color: rgba(255, 255, 255, 1);
+    background: rgba(23, 150, 183, 1);
+    transition: all 350ms;
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .landing_become_a_sponsor {
@@ -630,6 +663,11 @@
     cursor: pointer;
 
 
+}
+.landing_become_a_sponsor_wrapper_2_button:hover{
+    background: rgba(255, 255, 255, 1);
+    color:rgba(23, 183, 136, 1);
+    transition: all 350ms;
 }
 
 

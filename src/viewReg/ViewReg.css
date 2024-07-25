@@ -11,27 +11,28 @@
   
   .table-header{
     display: flex;
-
-    & div{
-        flex: 1;
-    }
   }
   .table-row {
     display: flex;
-
-    & div{
-        flex: 1;
-    }
   }
   
-  .table-cell {
-    padding: 10px;
+  .table-cells {
+    padding: 5px;
     border: 1px solid #ddd;
     text-align: left;
     font-size: 12px;
-  }
-  
-  .table-header .table-cell {
     background-color: #f4f4f4;
     font-weight: bold;
+    width: 100px;
+    overflow-x: auto;
   }
+  .table-cell {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 12px;
+    width: 150px;
+    max-width: 100px;
+    overflow-x: auto;
+  }
+  

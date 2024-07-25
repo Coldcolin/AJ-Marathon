@@ -22,20 +22,6 @@ const Registration = () => {
 
       const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
 
-      const componentProps = {
-        email: userData.email,
-        amount: 100000,
-        metadata: {
-          name: userData.firstName,
-          phone: userData.Phone,
-        },
-        publicKey,
-        text: "Pay Now",
-        onSuccess: () =>
-        //   alert("Thanks for doing business with us! Come back soon!!"),
-        submit(),
-        onClose: () => alert("Wait! Don't leave :("),
-      }
 
       const config = {
         reference: new Date().getTime().toString(),
@@ -52,7 +38,7 @@ const Registration = () => {
         try{
             setLoading(true)
             
-            await axios.post("https://marathonapi.onrender.com/api/v1/signup", userData)
+            await axios.post("https://marathon-apises.vercel.app/api/v1/signup", userData)
             Toast.fire({
                 icon: 'success',
                 title: 'You have successfully signed up'
