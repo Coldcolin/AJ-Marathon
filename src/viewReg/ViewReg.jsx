@@ -30,10 +30,14 @@ const ViewReg = () => {
                   setLoading(false)
                   setEmpty(true)
                   // console.log("loading:", loading, "empty:", empty)
+                }else if(res.data.data[0] === undefined){
+                  setLoading(false)
+                  setEmpty(true)
                 }else{
                   setEmpty(false)
                   setLoading(false)
                   // console.log("loading:", loading, "empty:", empty)
+
                   setHead(Object.keys(res.data.data[0]))
                   setInfo(res.data.data)
                 }
