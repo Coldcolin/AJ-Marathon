@@ -5,14 +5,14 @@ import { HealthTitle } from '../healthTip/HealthTip'
 const TrainingTip = () => {
   return (
     <div className='w-full min-h-[100vh] flex items-center flex-col '>
-      <div className='w-[90%] shadow-[17px_9px_20.6px_-1px_rgba(0, 0, 0, 0.25)]'>
+      <div className='w-[90%] mt-[1vh] md:mt-[10vh] md:mb-[4vh] sm:shadow-[17px_9px_20.6px_-1px_rgba(0,0,0,0.25)]'>
         <HealthTitle
           Title={"TRAINING TIPS :"}
           article={"Get Yourself Ready for The Challenge! "}
         />
         <div>
           <ol className='list-decimal list-outside pl-5'>
-            <img src={logo} alt="" className='float-right h-[30vh]' />
+            <img src={logo} alt="" className='sm:float-right h-[30vh]' />
             <li>{"After your warm-up, try running at an easy training pace, throwing in bursts of speed for various distances throughout the run. Vary the speed and times of the speed sections, from as short as 15 seconds to as long as 2-3 minutes. Between these bursts, allow yourself enough recovery time to match roughly 2/3 of the effort time."}</li>
             <li>{"As we get older, the need to do a proper warm-up and cool-down is paramount. Since our muscles become brittle and lose their elasticity as we grow older, the chances of injury increase dramatically. By taking 10 to 15 minutes to thoroughly warm-up your muscles before a workout, you could save yourself from months of time off due to injury. Stretching is important, but never stretch cold muscles. Before you begin your stretching routine jog lightly to warm-up your muscles."}</li>
             <li className='clear-right'>{"There are no hard and fast rules as to how to run as everyone has their own style. However, here are a few pointers to help improve your performance: Head – Look straight ahead and focus on a point 10 to 15 meters in front. Try to run in a straight line. Body – Keep your body upright with your back straight. Try not to lean, even when running up hill. Arms – Let your arms swing naturally and in rhythm with your legs while loosely cupping your hands. Feet – Naturally, the ball of the foot lands first, followed by the heel and the toes push off a fraction after that."}</li>
@@ -33,8 +33,8 @@ const TrainingTip = () => {
             <li>{"It is really important to ease back and rest for any race, otherwise you won’t get the best out of yourself and you could under perform. The final week before race day should be a gradual decline in mileage and an increase in rest, recovery and sleep. Not everybody likes to have a complete rest day before they race but it is important to ease back so your body does recover and physically gets ready to perform to new heights. Work backwards from race day and plan your last four to five days like a military operation. Arrange your travel and kit well before race day, pack your bags the day before and make sure you get a couple of early nights to bank some sleep."}</li>
           </ol>
         </div>
-        <p className='font-normal italic text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
-      </div>
+        <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
+        </div>
     </div>
   )
 }

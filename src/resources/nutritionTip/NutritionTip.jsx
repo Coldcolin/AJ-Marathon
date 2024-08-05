@@ -56,8 +56,8 @@ const NutritionTip = () => {
 
 
     return (
-        <div className='nutrition_tip_mainBody'>
-            <div className="nutrition_tip_body_wrapper">
+        <div className='w-full min-h-[100vh] flex items-center flex-col'>
+            <div className="w-[90%] mt-[1vh] md:mt-[10vh] md:mb-[4vh] sm:shadow-[17px_9px_20.6px_-1px_rgba(0,0,0,0.25)]">
                 <HealthTitle
                     Title={"NUTRITION TIPS :"}
                     article={"Take Stock Of Your Diet Habits"}
@@ -126,8 +126,8 @@ const NutritionTip = () => {
                         Title={"Rest"}
                         Content={"Yes, you deserve it! A hard race will deplete your body’s stores of glycogen and your muscles will need at least two days rest coupled with lots of carbohydrate foods. This, of course, means you have plenty of time too."}
                     />
-                    <p className='font-normal italic text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
-                     {/* <HealthProps
+                    <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
+                    {/* <HealthProps
                         Title={""}
                         Content={""}
                     /> */}
