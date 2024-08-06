@@ -33,8 +33,8 @@ const TrainingTip = () => {
             <li className=' mb-[0.5rem] sm:mb-[1rem]'>{"It is really important to ease back and rest for any race, otherwise you won’t get the best out of yourself and you could under perform. The final week before race day should be a gradual decline in mileage and an increase in rest, recovery and sleep. Not everybody likes to have a complete rest day before they race but it is important to ease back so your body does recover and physically gets ready to perform to new heights. Work backwards from race day and plan your last four to five days like a military operation. Arrange your travel and kit well before race day, pack your bags the day before and make sure you get a couple of early nights to bank some sleep."}</li>
           </ol>
         </div>
-        <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
-        </div>
+        <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10 text-left'>Credit: Lagos City Marathon.</p>
+      </div>
     </div>
   )
 }

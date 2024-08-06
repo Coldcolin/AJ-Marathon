@@ -126,7 +126,7 @@ const NutritionTip = () => {
                         Title={"Rest"}
                         Content={"Yes, you deserve it! A hard race will deplete your body’s stores of glycogen and your muscles will need at least two days rest coupled with lots of carbohydrate foods. This, of course, means you have plenty of time too."}
                     />
-                    <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
+                    <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10 text-left'>Credit: Lagos City Marathon.</p>
                     {/* <HealthProps
                         Title={""}
                         Content={""}

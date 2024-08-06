@@ -1,6 +1,24 @@
 import { HealthTitle } from "../healthTip/HealthTip"
 import logo from '../../assets/beginnerLogo.png'
 
+
+export const Training = () => {
+  return (
+    <>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Speed Play: <span className="font-light">Training involves changing the speed at which you run throughout your training session.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Super Slow: <span className="font-light">Really, really slow, so slow it hardly seems worth putting your kit on.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Easy Jog: <span className="font-light">No pressure, just loosening up or a recovery run.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Slow: <span className="font-light">Still a slow pace but a little faster than an ‘easy jog’.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Comfortable: <span className="font-light">You can chat easily to your training partner and keep the pace consistent.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Steady: <span className="font-light">Even-paced run where you can chat in short sentences.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Brisk: <span className="font-light">Slightly breathless, not easy to hold any conversation with your training partner.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">Hard: <span className="font-light">You certainly know you’re working, conversation is definitely out.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins mt-[1rem]">W/U <span className="font-light">Warm up.</span></p>
+      <p className="font-bold text-[1.1rem] leading-[1.5rem] font-poppins">W/D <span className="font-light">Warm down</span></p>
+      </>
+  )
+}
+
 const BeginnerTip = () => {
   return (
     <div className="w-full min-h-[100vh] flex items-center flex-col">
@@ -148,7 +166,8 @@ const BeginnerTip = () => {
           </table>
           <img src={logo} alt="" className="float-right" />
         </div>
-        <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
+        <Training />
+        <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10 text-left'>Credit: Lagos City Marathon.</p>
       </div>
     </div>
   )
