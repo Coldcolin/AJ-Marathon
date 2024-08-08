@@ -30,21 +30,20 @@
     margin: 10vh 0;
 }
 
-.resourceLink_H1 {
+/* .resourceLink_H1 {
     text-decoration: underline;
     font-weight: 700;
     font-size: 50px;
     line-height: 84px;
     color: rgba(35, 34, 34, 1);
-}
+} */
 
-.resourceLink_image_card{
+/* .resourceLink_image_card{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin-bottom: 100px; */
-}
+} */
 
 .resourceLink_image_main_container{
     width: 33%;
@@ -67,6 +66,7 @@
     font-size: 40px;
     line-height: 46.88px;
     color: rgba(0, 0, 0, 1);
+    text-align: center;
 }
 
 .resourceLink_image2_card{

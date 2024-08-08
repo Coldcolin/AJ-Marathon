@@ -39,14 +39,14 @@ export const ResourceHero = () => {
       path: "resources/training_tips",
       name: "Training Tips "
     },
-    {
-      path: "resources/beginners_tips",
-      name: "Beginners Training "
-    },
-    {
-      path: "resources/regular_runners_tips",
-      name: "Regular Runners Training "
-    },
+    // {
+    //   path: "resources/beginners_tips",
+    //   name: "Beginners Training "
+    // },
+    // {
+    //   path: "resources/regular_runners_tips",
+    //   name: "Regular Runners Training "
+    // },
   ];
 
 
@@ -56,12 +56,12 @@ export const ResourceHero = () => {
   
 
   return (
-    <div className="resources_hero_section">
+    <div className="resources_hero_section w-full sm:h-[75vh] h-[45vh] bg-red-500">
       <div className="resources_hero_wrapper">
-        <ul className='resources_hero_wrapper_UL'>
+        <ul className='resources_hero_wrapper_UL sm:pl-[20%] pl-0 justify-between sm:justify-evenly text-[0.7rem] sm:text-[1rem] '>
           {
             resourceRoutes.map((e) => (
-              <li key={e.path}>
+              <li key={e.path} className=''>
                 <NavLink to={e.path} className={({ isActive }) => (isActive ? "resource_active" : 'resources_not_active')}>{e.name}</NavLink>
               </li>
             ))

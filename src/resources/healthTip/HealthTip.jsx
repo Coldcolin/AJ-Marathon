@@ -27,11 +27,17 @@ const HealthImage = ({ bgColor, Img, H1 }) => {
         </div>
     )
 }
-export const HealthTitle = ({ Title, article }) => {
+export const HealthTitle = ({ Title, article, article1, article2 }) => {
     return (
         <>
-            <h1 className='health_title_H1'>{Title}</h1>
-            <p className='health_title_P'>{article}</p>
+            <h1 className='font-bold underline text-[rgba(35, 34, 34, 1)] leading-[2.5rem] sm:leading-[5.3rem] text-[1.5rem] sm:text-[3.2rem]'>{Title}</h1>
+            <p className='leading-[2.5rem] sm:leading-[5.3rem] text-[1.5rem] sm:text-[3.2rem] font-poor-story'>{article}</p>
+            {
+                article1 && <p className='font-poor-story text-[1.6rem] leading-[1.9rem] font-light'>{article1}</p>
+            }
+            {
+                article2 && <p className='font-poor-story text-[1.6rem] leading-[1.9rem] font-light'>{article2}</p>
+            }
         </>
     )
 }
@@ -40,15 +46,15 @@ export const HealthProps = ({ Title, Content, Img, ContentCtd, ContentCtd1, Cont
     return (
         <div className='mb-[4vh]'>
             <div>
-                {Img && <img src={Img} alt="" className='health_props_IMG' />}
+                {Img && <img src={Img} alt="" className='sm:float-right sm:h-[37vh]' />}
             </div>
-            <div className='health_props_body'>
-                {Title && <h1 className='health_props_Title'>{Title}</h1>}
-                {Content && <p className='health_props_Content'>{Content}</p>}
-                {Title1 && <h1 className='health_props_Title'>{Title1}</h1>}
-                {Content1 && <p className='health_props_Content'>{Content1}</p>}
-                {ContentCtd && <p className='health_props_Content1'>{ContentCtd}</p>}
-                {ContentCtd1 && <p className='health_props_Content1'>{ContentCtd1}</p>}
+            <div className='flex flex-col gap-[1vh]'>
+                {Title && <h1 className='font-bold text-[1.3rem] sm:text-[1.5rem] leading-[3.1rem]'>{Title}</h1>}
+                {Content && <p className='font-normal text-lg leading-[1.7rem] sm:text-left text-justify'>{Content}</p>}
+                {Title1 && <h1 className='font-bold text-[1.3rem] sm:text-[1.5rem] leading-[3.1rem]'>{Title1}</h1>}
+                {Content1 && <p className='font-normal text-lg leading-[1.7rem] sm:text-left text-justify'>{Content1}</p>}
+                {ContentCtd && <p className='font-normal text-lg leading-[1.7rem] clear-right text-justify'>{ContentCtd}</p>}
+                {ContentCtd1 && <p className='font-normal text-lg leading-[1.7rem] clear-right text-justify'>{ContentCtd1}</p>}
             </div>
         </div>
 
@@ -58,26 +64,8 @@ export const HealthProps = ({ Title, Content, Img, ContentCtd, ContentCtd1, Cont
 const HealthTip = () => {
 
     return (
-        <div className='health_tip_mainBody'>
-            <div className="health_tip_body_wrapper">
-                {/* <div className="health_tip_body">
-                    <div className="health_tip_main_body">
-                        <h1 className='health_tip_H1'>Get yourself prepared! :</h1>
-                        <div className="health_image_card">
-                            <HealthImage Img={health2} H1={"Health"} />
-                            <HealthImage Img={health3} H1={"Training"} />
-                        </div>
-                        <div className="health_image2_card">
-                            <HealthImage Img={health4} H1={"Nutrition"} />
-                        </div>
-                        <div className="health_image_card">
-                            <HealthImage Img={health5} H1={"Beginner Drill"} />
-                            <HealthImage Img={health6} H1={"Regular Drill"} />
-                        </div>
-                    </div>
-                </div> */}
-                {/* <h1>HEALTH TIPS:</h1>
-                <p>Pay Attention To Your Health Needs!</p> */}
+        <div className='w-full min-h-[100vh] flex items-center flex-col'>
+            <div className="w-[90%] mt-[1vh] md:mt-[10vh] md:mb-[4vh] sm:shadow-[17px_9px_20.6px_-1px_rgba(0,0,0,0.25)]">
                 <HealthTitle
                     Title={"HEALTH TIPS:"}
                     article={"Pay Attention To Your Health Needs!"}
@@ -138,7 +126,7 @@ const HealthTip = () => {
                         Title={"And Finally…"}
                         Content={"Train sensibly. Follow this simple advice and you will probably not need medical aid. Medical aid posts are located about 20-50 m past the main drink stations and after the finish line. If you drop out, go to an aid station. Keep this advice and refer to it nearer the day and on marathon eve."}
                     />
-                    <p className='font-normal italic text-lg leading-[24px] mb-10'>Credit: Lagos City Marathon.</p>
+                    <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10 text-left'>Credit: Lagos City Marathon.</p>
                 </div>
             </div>
         </div>
