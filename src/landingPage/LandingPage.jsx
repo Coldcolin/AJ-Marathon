@@ -38,7 +38,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 export const RoadMap = () => {
     return (
         <div className="landing_road_map">
-            <iframe
+            {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7929.222631862073!2d3.352426541093896!3d6.443926885278919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8bcc76eaf46b%3A0xe296700d8fa9e6f2!2sAjegunle%2C%20Ikeja%20102272%2C%20Lagos!5e0!3m2!1sen!2sng!4v1720429094726!5m2!1sen!2sng"
                 width="100%"
                 height="600"
@@ -46,7 +46,8 @@ export const RoadMap = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-            />
+            /> */}
+            <iframe src="https://www.google.com/maps/d/embed?mid=1kytILGAp5zPnf2S0I__iUPsl461epB4&ehbc=2E312F" width="100%" height="600" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
         </div>
     )
 }
