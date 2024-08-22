@@ -216,7 +216,7 @@
     }
 }
 
-@media screen and (1025px <= width <= 1350px){
+@media screen and (1025px <= width <= 1353px){
     .landing_category_card ul li{
         font-size: 10px;
         line-height: 16px;
