@@ -53,7 +53,8 @@ const GetInvolve = () => {
                                 us
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                <NavLink to={"/contact_us"}>Volunteer</NavLink>
+                                {/* <NavLink to={"/contact_us"}>Volunteer</NavLink> */}
+                                <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024" target="_blank" rel="noreferrer">Volunteer</a>
                             </button>
                         </div>
                     </div>
@@ -75,7 +76,7 @@ const GetInvolve = () => {
                                 to cover the race.
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                <NavLink to={"/gallery"}>Learn More</NavLink>
+                                <NavLink to={"/contact_us"}>Get In touch</NavLink>
                             </button>
                         </div>
                     </div>
@@ -96,7 +97,7 @@ const GetInvolve = () => {
                                 packages for interested sponsors
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                <NavLink to={"/donate"}>Contact Us</NavLink>
+                                <NavLink to={"/contact_us"}>Get In touch</NavLink>
                             </button>
                         </div>
                     </div>
@@ -118,7 +119,7 @@ const GetInvolve = () => {
                                 can BECOME A PARTNER
                             </p>
                             <button className="w-max h-max text-2xl px-8 py-3 border border-green-500 rounded text-green-500 font-bold">
-                                <NavLink to={"/contact_us"}>Contact Us</NavLink>
+                                <NavLink to={"/contact_us"}>Get in touch</NavLink>
                             </button>
                         </div>
                     </div>

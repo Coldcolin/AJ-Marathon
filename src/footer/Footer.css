@@ -52,6 +52,6 @@
 .atag{
     width: 18px;
     height: 18px;
-    /* object-fit: cover; */
+    object-fit: cover;
     margin-right: 5px;
 }

@@ -105,7 +105,9 @@
     }
 
     .landing_price_category {
-        display: none;
+        & .landing_price_price_container_P{
+            font-size: 22px;
+        }
     }
 
     .landing_page_map_container {
@@ -236,11 +238,55 @@
     .landing_ready_card{
         min-width: 300px;
     }
+    
 }
-@media screen and (576px <= width <= 698px) {
+@media screen and (576px <= width <= 950px) {
     .landing_ready_wrapper_card_contain{
         flex-wrap: wrap;
         justify-content: center;
+        gap: 20px;
+    }
+    .landing_price_category_wrapper{
+        justify-content: center;
+        /* flex-wrap: wrap; */
+    }
+    .landing_price_card{
+        min-width: 160px;
+        margin-inline: 5px;
+    }
+    
+}
+
+@media screen and ( width <= 674px) {
+    .landing_price_category{
+        height: 100%;
+    }
+    .landing_price_category_wrapper{
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 80%;
+        justify-content: center;
+    }
+    .landing_price_card{
+        width: 80%;
+        margin-inline: 5px;
+    }
+}
+@media screen and (width <= 400px) {
+    .landing_category_card{
+        padding-inline: 15px;
+    }
+    .landing_category_card ul li{
+        margin-left: 10px;
+    }
+    & .landing_price_price_container_P{
+        margin-top: 20px;
+        line-height: 27px;
+        font-size: 23px;
+    }
+    .landing_price_card{
+        width: 95%;
+        margin-inline: 5px;
     }
 }
 

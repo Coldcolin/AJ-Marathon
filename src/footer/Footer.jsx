@@ -24,33 +24,33 @@ const Footer = () => {
                     <li><NavLink to={'/about_how_to_register'} className={'menu_not_active'}>How to register</NavLink></li>
                     <li><NavLink to={'/about_routes_and_map'} className={'menu_not_active'}>Routes & Map</NavLink></li>
                     <li><NavLink to={'/about_prizes'} className={'menu_not_active'}>Prizes</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Race</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>AJCYM Project</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Local Organising Committee</NavLink></li>
+                    {/* <li><NavLink className={'menu_not_active'}>Race</NavLink></li> */}
+                    {/* <li><NavLink className={'menu_not_active'}>AJCYM Project</NavLink></li> */}
+                    {/* <li><NavLink className={'menu_not_active'}>Local Organising Committee</NavLink></li> */}
                 </ul>
                 <ul>
                     <li>Get Involved</li>
-                    <li><NavLink className={'menu_not_active'}>Register for Race</NavLink></li>
-                    <li><a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024" className={'menu_not_active'}>Volunteer</a></li>
-                    <li><NavLink className={'menu_not_active'}>Media Accreditation</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Become a sponsor</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Partner with us</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Donate</NavLink></li>
+                    <li><NavLink to={'/register'} className={'menu_not_active'}>Register for Race</NavLink></li>
+                    <li><a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024" className={'menu_not_active'} target="_blank" rel="noreferrer">Volunteer</a></li>
+                    <li><NavLink to={'/contact_us'} className={'menu_not_active'}>Media Accreditation</NavLink></li>
+                    <li><NavLink to={'/contact_us'} className={'menu_not_active'}>Become a sponsor</NavLink></li>
+                    <li><NavLink to={'/contact_us'} className={'menu_not_active'}>Partner with us</NavLink></li>
+                    <li><NavLink to={'/donate'} className={'menu_not_active'}>Donate</NavLink></li>
                 </ul>
                 <ul>
                     <li>Resources</li>
-                    <li><NavLink to={'/health_tips'} className={'menu_not_active'}>Health Tips</NavLink></li>
-                    <li><NavLink to={'/nutrition_tips'} className={'menu_not_active'}>Nutrition Tips</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Training Tips</NavLink></li>
+                    <li><NavLink to={'/resources/resources/health_tips'} className={'menu_not_active'}>Health Tips</NavLink></li>
+                    <li><NavLink to={'/resources/resources/nutrition_tips'} className={'menu_not_active'}>Nutrition Tips</NavLink></li>
+                    <li><NavLink to={'/resources/resources/training_tips'} className={'menu_not_active'}>Training Tips</NavLink></li>
                     <li><NavLink className={'menu_not_active'}>Beginners Training</NavLink></li>
                     <li><NavLink className={'menu_not_active'}>Regular Runners Training</NavLink></li>
                 </ul>
                 <ul>
                     <li>News &Updates</li>
-                    <li><NavLink className={'menu_not_active'}>Blog</NavLink></li>
+                    <li><NavLink to={"/blog"} className={'menu_not_active'}>Blog</NavLink></li>
                 </ul>
                 <ul>
-                    <li>News &Updates</li>
+                    <li>Contact Us</li>
                     <li><NavLink className={'menu_not_active'}>Support Email</NavLink></li>
                     <div>
                     <div><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/></a></div>
