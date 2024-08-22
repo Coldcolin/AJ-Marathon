@@ -215,3 +215,32 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (1025px <= width <= 1350px){
+    .landing_category_card ul li{
+        font-size: 10px;
+        line-height: 16px;
+    }
+} 
+
+@media screen and (width <= 1218px) {
+    .landing_ready_card_A{
+        line-height: 22px;
+    }
+}
+@media screen and (width <= 980px) {
+    .landing_ready_card_A{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .landing_ready_card{
+        min-width: 300px;
+    }
+}
+@media screen and (576px <= width <= 698px) {
+    .landing_ready_wrapper_card_contain{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
