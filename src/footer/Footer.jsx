@@ -42,8 +42,8 @@ const Footer = () => {
                     <li><NavLink to={'/resources/resources/health_tips'} className={'menu_not_active'}>Health Tips</NavLink></li>
                     <li><NavLink to={'/resources/resources/nutrition_tips'} className={'menu_not_active'}>Nutrition Tips</NavLink></li>
                     <li><NavLink to={'/resources/resources/training_tips'} className={'menu_not_active'}>Training Tips</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Beginners Training</NavLink></li>
-                    <li><NavLink className={'menu_not_active'}>Regular Runners Training</NavLink></li>
+                    <li><NavLink to='/resources/resources/beginners_tips' className={'menu_not_active'}>Beginners Training</NavLink></li>
+                    <li><NavLink to='/resources/resources/regular_runners_tips' className={'menu_not_active'}>Regular Runners Training</NavLink></li>
                 </ul>
                 <ul>
                     <li>News &Updates</li>
@@ -51,7 +51,7 @@ const Footer = () => {
                 </ul>
                 <ul>
                     <li>Contact Us</li>
-                    <li><NavLink className={'menu_not_active'}>Support Email</NavLink></li>
+                    <li><NavLink to='/contact_us' className={'menu_not_active'}>Support Email</NavLink></li>
                     <div>
                     <div><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/></a></div>
                         <div><a href="https://www.instagram.com/ajegunlecity_youthmarathon?igsh=MXB0cW5mem5kZmh6YQ==" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/></a></div>

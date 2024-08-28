@@ -2,8 +2,10 @@ import './ResourceLinks.css';
 import health2 from '../../assets/health2.svg'
 import health3 from '../../assets/health3.svg'
 import health4 from '../../assets/health4.svg'
-import health5 from '../../assets/health5.png'
+// import health5 from '../../assets/health5.png'
 import health6 from '../../assets/health6.png'
+import Beginner from "../../assets/Begginer.png"
+import Regular from "../../assets/Regular.png"
 import { NavLink } from 'react-router-dom';
 
 
@@ -58,12 +60,12 @@ const ResourceLinks = () => {
                     </div>
                     <div className="resourceLink_image_card w-full flex sm:justify-between sm:flex-row flex-col gap-[7vh]">
                         <HealthImage
-                            Img={health5}
+                            Img={Beginner}
                             H1={"Beginner Drill"}
                             nav={"resources/beginners_tips"}
                         />
                         <HealthImage
-                            Img={health6}
+                            Img={Regular}
                             H1={"Regular Drill"}
                             nav={"resources/regular_runners_tips"}
                         />

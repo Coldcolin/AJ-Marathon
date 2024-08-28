@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Layout from './layout/Layout'
 import LandingPage from './landingPage/LandingPage'
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<Layout />}>
@@ -59,7 +59,7 @@ function App() {
             <Route path='viewreg024' element={<ViewReg />} />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }

@@ -22,13 +22,13 @@ export const Training = () => {
 const BeginnerTip = () => {
   return (
     <div className="w-full min-h-[100vh] flex items-center flex-col">
-      <div className="w-[90%] mt-[1vh] md:mt-[10vh] md:mb-[4vh] sm:shadow-[17px_9px_20.6px_-1px_rgba(0,0,0,0.25)]">
+      <div className="w-[90%] mt-[1vh] md:mt-[10vh] md:mb-[4vh] sm:shadow-[17px_9px_20.6px_-1px_rgba(0,0,0,0.25)] ">
         <HealthTitle
           Title={"BEGINNERS TRAINING:"}
           article={"‘Get You Round’ Programme!"}
         />
-        <div className="flex">
-          <table className=" border-2 border-[#000]">
+        <div className="flex flex-wrap justify-between w-full max-w-[100vw] overflow-x-auto">
+          <table className=" border-2 border-[#000] min-w-[500px] w-[75%] h-[100vh]">
             <thead className="bg-white mt-4">
               <tr className="bg-white text-black ">
                 <th className="bg-white text-black">WK</th>
@@ -42,7 +42,7 @@ const BeginnerTip = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">1</td>
                 <td className="text-center">30 mins easy</td>
                 <td className="text-center">Rest</td>
@@ -52,7 +52,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest</td>
                 <td className="text-center">1 hour run/walk</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">2</td>
                 <td className="text-center">40 mins easy</td>
                 <td className="text-center">Rest</td>
@@ -62,7 +62,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest/Jog</td>
                 <td className="text-center">1.25 hour easy</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">3</td>
                 <td className="text-center">30 mins easy</td>
                 <td className="text-center">Rest</td>
@@ -72,7 +72,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest/Jog</td>
                 <td className="text-center">1.5 hour very easy</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">4</td>
                 <td className="text-center">30mins easy</td>
                 <td className="text-center">Rest</td>
@@ -82,7 +82,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest</td>
                 <td className="text-center">1 hour run/walk</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">5</td>
                 <td className="text-center">30 mins easy</td>
                 <td className="text-center">1 hour</td>
@@ -92,7 +92,7 @@ const BeginnerTip = () => {
                 <td className="text-center">30 mins easy</td>
                 <td className="text-center">1.75 hours</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">6</td>
                 <td className="text-center">40mins easy</td>
                 <td className="text-center">Rest</td>
@@ -102,7 +102,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest</td>
                 <td className="text-center">2 hours easy</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">7</td>
                 <td className="text-center">20mins</td>
                 <td className="text-center">W/U 15x9 secFast W/D</td>
@@ -112,7 +112,7 @@ const BeginnerTip = () => {
                 <td className="text-center">30 mins faster</td>
                 <td className="text-center">2.25 hours very easy</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">8</td>
                 <td className="text-center">30 mins easy</td>
                 <td className="text-center">40 mins easy</td>
@@ -122,7 +122,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest </td>
                 <td className="text-center">2.5 hours or 3 hours run/walk</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">9</td>
                 <td className="text-center">Rest</td>
                 <td className="text-center">30 mins</td>
@@ -132,7 +132,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest/Jog</td>
                 <td className="text-center">Rest</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">10</td>
                 <td className="text-center">Rest</td>
                 <td className="text-center">40 mins easy</td>
@@ -142,7 +142,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest</td>
                 <td className="text-center">2 hours</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">11</td>
                 <td className="text-center">Rest</td>
                 <td className="text-center">30 mins easy</td>
@@ -152,7 +152,7 @@ const BeginnerTip = () => {
                 <td className="text-center">Rest</td>
                 <td className="text-center">Half Marathon</td>
               </tr>
-              <tr>
+              <tr className="text-[10px] sm:text-[16px]">
                 <td className="text-center">12</td>
                 <td className="text-center">Rest</td>
                 <td className="text-center">Rest</td>
@@ -164,7 +164,7 @@ const BeginnerTip = () => {
               </tr>
             </tbody>
           </table>
-          <img src={logo} alt="" className="float-right" />
+          <img src={logo} alt="" className="float-right h-[40vh]" />
         </div>
         <Training />
         <p className='font-normal italic text-sm sm:text-lg leading-[24px] mb-10 text-left'>Credit: Lagos City Marathon.</p>
