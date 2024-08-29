@@ -39,14 +39,14 @@ export const ResourceHero = () => {
       path: "resources/training_tips",
       name: "Training Tips "
     },
-    // {
-    //   path: "resources/beginners_tips",
-    //   name: "Beginners Training "
-    // },
-    // {
-    //   path: "resources/regular_runners_tips",
-    //   name: "Regular Runners Training "
-    // },
+    {
+      path: "resources/beginners_tips",
+      name: "Beginners Training "
+    },
+    {
+      path: "resources/regular_runners_tips",
+      name: "Regular Runners Training "
+    },
   ];
 
 
