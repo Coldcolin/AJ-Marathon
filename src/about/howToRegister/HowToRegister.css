@@ -113,3 +113,22 @@
     line-height: 18.75px;
     margin-bottom: 0.8rem;
 }
+
+@media screen and (width <= 706px) {
+    .how_to_register_article_section_wrapper{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .how_to_register_article_section_wrapper_img_container{
+        min-width: 300px;
+    }
+}
+@media screen and (width <= 660px) {
+    
+    .how_to_register_article_section_wrapper_img_container{
+        width: 90%;
+    }
+    .how_to_register_article_section_wrapper_article_container{
+        width: 90%;
+    }
+}
