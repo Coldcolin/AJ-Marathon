@@ -31,7 +31,7 @@ const HealthImage = ({ bgColor, Img, H1 }) => {
 export const HealthTitle = ({ Title, article, article1, article2 }) => {
     return (
         <>
-            <h1 className='font-bold underline text-[rgba(35, 34, 34, 1)] leading-[2.5rem] sm:leading-[5.3rem] text-[1.5rem] sm:text-[3.2rem]'>{Title}</h1>
+            <h1 className='font-bold underline text-[rgba(35, 34, 34, 1)] leading-[2.5rem] sm:leading-[5.3rem] text-[1.5rem] sm:text-[3.2rem] mt-7 sm:mt-0'>{Title}</h1>
             <p className='leading-[2.5rem] sm:leading-[5.3rem] text-[1.5rem] sm:text-[3.2rem] font-poor-story'>{article}</p>
             {
                 article1 && <p className='font-poor-story text-[1.6rem] leading-[1.9rem] font-light'>{article1}</p>

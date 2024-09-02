@@ -161,10 +161,13 @@
         padding: 30px;
         color: rgb(255, 255, 255);
         text-decoration: none;
+        align-items: flex-start;
+        
     }
 
     .resources_hero_wrapper_UL li {
         text-decoration: none;
+        padding-left: 20px;
     }
 
     .resource_active{
