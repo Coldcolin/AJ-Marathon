@@ -3,15 +3,17 @@ import "./Registration.css";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { PaystackButton, usePaystackPayment } from 'react-paystack'
+import {useNavigate} from "react-router-dom"
 
 const Registration = () => {
     const [userData, setUserData] = useState({});
     const [loading, setLoading] = useState(false);
     const [agree, setAgree] = useState(false);
+    const navigate = useNavigate()
 
     const Toast = Swal.mixin({
         toast: true,
-        position: 'top-end',
+        position: 'center',
         timer: 3000,
         showConfirmButton: false,
         didOpen: (toast) =>{
@@ -21,6 +23,7 @@ const Registration = () => {
       })
 
       const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
+    //   const publicKey = "pk_test_913cdce93ed1b67501ef021d5b329e58ca72fd16"
 
 
       const config = {
@@ -30,6 +33,7 @@ const Registration = () => {
         publicKey,
         firstname: userData.firstName,
         lastname: userData.lastName,
+        metadata: userData
       };
 
       const initializePayment = usePaystackPayment(config);
@@ -39,10 +43,25 @@ const Registration = () => {
             setLoading(true)
             
             await axios.post("https://marathon-apises.vercel.app/api/v1/signup", userData)
-            Toast.fire({
+            // Toast.fire({
+            //     icon: 'success',
+            //     title: 'Congratulations! you have successfully completed your registration for the Ajegunle City Youth Marathon 2024 event. You will be contacted on further details to get you prepared ahead of the race. Cheers!'
+            // })
+            const Toaster = await Swal.fire({
+                title: 'Great!',
+                text: 'Congratulations! you have successfully completed your registration for the Ajegunle City Youth Marathon 2024 event. You will be contacted on further details to get you prepared ahead of the race. Cheers!',
                 icon: 'success',
-                title: 'You have successfully signed up'
-            })
+                showCancelButton: true,
+                confirmButtonColor: '#17B788',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Continue'
+              })
+              if(Toaster.isConfirmed){
+                navigate("/")
+             }else{
+              console.log("remain")
+            }
+
             setLoading(false)
         }catch(err){
             console.log(err.message)
