@@ -6,6 +6,8 @@ import { NavLink } from 'react-router-dom'
 import facebook from "../assets/facebook.png"
 import instagram from "../assets/instaNew.png"
 import X from "../assets/X.png"
+import youtube from "../assets/youtube-icon.webp"
+
 
 const Footer = () => {
     return (
@@ -53,9 +55,10 @@ const Footer = () => {
                     <li>Contact Us</li>
                     <li><NavLink to='/contact_us' className={'menu_not_active'}>Support Email</NavLink></li>
                     <div>
-                    <div><a href='https://www.facebook.com/profile.php?id=61556186280702' className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/></a></div>
-                        <div><a href="https://www.instagram.com/ajegunlecity_youthmarathon?igsh=MXB0cW5mem5kZmh6YQ==" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/></a></div>
-                        <div><a href="https://x.com/Ajegunleci93698" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/></a></div>
+                    <div><a href='https://www.facebook.com/profile.php?id=61556186280702' target='_blank' rel="noopener noreferrer" className={'menu_not_active'} style={{display: "flex"}}> <img className='atag' src={facebook} alt="facebook"/></a></div>
+                        <div><a href="https://www.instagram.com/ajegunlecityyouthmarathon/" target='_blank' rel="noopener noreferrer" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={instagram} alt="instagram"/></a></div>
+                        <div><a href="https://x.com/Ajegunleci93698" target='_blank' rel="noopener noreferrer" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={X} alt="X"/></a></div>
+                        <div><a href="https://www.youtube.com/@ajegunlecityyouthmarathon" target='_blank' rel="noopener noreferrer" className={'menu_not_active'} style={{display: "flex"}}><img className='atag' src={youtube} alt="X"/></a></div>
                 </div>
                 </ul>
                 

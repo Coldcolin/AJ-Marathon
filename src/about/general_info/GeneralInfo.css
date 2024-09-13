@@ -232,6 +232,9 @@
     font-weight: 900;
     line-height: 18.75px;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .general_info_learnMore_container {

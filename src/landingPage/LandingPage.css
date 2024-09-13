@@ -53,6 +53,9 @@
     height: 16vh;
     display: flex;
     align-items: center;
+    gap: 50px;
+    color: red;
+    font-size: 75px;
 }
 
 .landing_hero_btn {

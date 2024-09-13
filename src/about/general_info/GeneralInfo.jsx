@@ -3,7 +3,7 @@ import './GeneralInfoRes.css'
 import { HiOutlineArrowLongLeft } from 'react-icons/hi2'
 import route from '../../assets/generalInfo4.png'
 import getInfo from "../../assets/generalInfo2.png"
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 
@@ -54,7 +54,7 @@ export const GeneralRegister = () => {
                             <div className="general_info_register_main_body_section">
                                 <h1 className='general_info_register_main_body_section_H1'>Register for the 2024 Ajegunle  City youth Marathon</h1>
                                 <p className='general_info_register_main_body_section_P'>Join us at this edition of the Ajegunle City youth Marathon 2024. We are looking forward to have you be a part of this wonderful event.</p>
-                                <button className='general_info_register_main_body_section_btn'>How to register</button>
+                                <Link to="/register" className='general_info_register_main_body_section_btn'>Register now</Link>
                             </div>
                         </div>
                     </div>
@@ -204,17 +204,17 @@ const GeneralInfo = () => {
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Drink Stations – Water spaces between the commas'
-                            P='Water Stations will be provided at: 1km, 2km, 3km, 4km, and at the finish.'
+                            P='Water Stations will be provided at:  2km, 4km, 6km, 8km and at the finish.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Sponges/Refreshment'
-                            P='Sponges will be provided at the following stations on the Marathon route: 2km, and 4km and 5k finish point.'
+                            P='Sponges will be provided at the following stations on the Marathon route: 24km, 8km and at the finish.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Toilets'
-                            P='Toilets will be provided after the following stations on the Marathon route: 2km, and 4km and 5k finish point.'
+                            P='Toilets will be provided after the following stations on the Marathon route: 4km, 8km and at the finish.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"

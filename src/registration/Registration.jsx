@@ -6,7 +6,10 @@ import { PaystackButton, usePaystackPayment } from 'react-paystack'
 import {useNavigate} from "react-router-dom"
 
 const Registration = () => {
-    const [userData, setUserData] = useState({});
+    const [userData, setUserData] = useState({
+        reference: `AjMArathon${new Date().getTime().toString()}`,
+        paymentStatus: "Payment not Confirmed"
+    });
     const [loading, setLoading] = useState(false);
     const [agree, setAgree] = useState(false);
     const navigate = useNavigate()
@@ -22,18 +25,26 @@ const Registration = () => {
         }
       })
 
-      const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
-    //   const publicKey = "pk_test_913cdce93ed1b67501ef021d5b329e58ca72fd16"
+    //   const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
+      const publicKey = "pk_test_913cdce93ed1b67501ef021d5b329e58ca72fd16"
 
 
       const config = {
-        reference: new Date().getTime().toString(),
+        reference: userData.reference,
         email: userData.email,
         amount: 100000,
         publicKey,
         firstname: userData.firstName,
         lastname: userData.lastName,
-        metadata: userData
+        metadata: {
+            custom_fields:[
+                {
+                    display_name: "Phone Number",
+                    variable_name: "phone_number",
+                    value: userData.Phone 
+                }
+            ]
+        }
       };
 
       const initializePayment = usePaystackPayment(config);
@@ -41,13 +52,20 @@ const Registration = () => {
       const saveUser= async()=>{
         try{
             setLoading(true)
-            
             await axios.post("https://marathon-apises.vercel.app/api/v1/signup", userData)
-            // Toast.fire({
-            //     icon: 'success',
-            //     title: 'Congratulations! you have successfully completed your registration for the Ajegunle City Youth Marathon 2024 event. You will be contacted on further details to get you prepared ahead of the race. Cheers!'
-            // })
-            const Toaster = await Swal.fire({
+            setLoading(false)
+        }catch(err){
+            console.log(err.message)
+            Toast.fire({
+                icon:'error',
+                title: "something went wrong, try again"
+            })
+        }
+      }
+      const onSuccess =(reference) => {
+        // Implementation for whatever you want to do with reference and after success call.
+            // saveUser()
+            const Toaster = Swal.fire({
                 title: 'Great!',
                 text: 'Congratulations! you have successfully completed your registration for the Ajegunle City Youth Marathon 2024 event. You will be contacted on further details to get you prepared ahead of the race. Cheers!',
                 icon: 'success',
@@ -62,19 +80,6 @@ const Registration = () => {
               console.log("remain")
             }
 
-            setLoading(false)
-        }catch(err){
-            console.log(err.message)
-            Toast.fire({
-                icon:'error',
-                title: "something went wrong, try again"
-            })
-        }
-      }
-      const onSuccess =(reference) => {
-        // Implementation for whatever you want to do with reference and after success call.
-            saveUser()
-
       };
       
       const onClose = () => {
@@ -84,10 +89,19 @@ const Registration = () => {
         })
       };
 
-    const submit= (e)=>{
-        e.preventDefault();
-        initializePayment({onSuccess, onClose})
-    }
+    
+        
+
+        const submit= (e)=>{
+            e.preventDefault();
+            saveUser();
+            initializePayment({onSuccess, onClose});
+            // PaystackPayment()
+        }
+
+    
+
+
   return (
     <div className="Registration-Container">
         <h2>Registration Form</h2>
@@ -161,10 +175,11 @@ const Registration = () => {
                 <div>
                     <div>
                     <input placeholder="First Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyFirstName: e.target.value}})}/>
-                    <input placeholder="Relationship" onChange={(e)=> setUserData((p)=> {return {...p, EmergencyRelationship: e.target.value}})}/>
+                    <input placeholder="Last Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyLastName: e.target.value}})}/>
                     </div>
                     <div>
-                    <input placeholder="Last Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyLastName: e.target.value}})}/>
+                    <input placeholder="Relationship" onChange={(e)=> setUserData((p)=> {return {...p, EmergencyRelationship: e.target.value}})}/>
+                    
                     <input placeholder="Phone Number" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyPhone: e.target.value}})}/>
                     </div>
                 </div>

@@ -2,12 +2,16 @@ import { useEffect, useState } from "react";
 import "./ViewReg.css"
 import Swal from "sweetalert2";
 import axios from "axios";
+import * as XLSX from 'xlsx';
+import { saveAs } from 'file-saver';
 
 const ViewReg = () => {
     const [info, setInfo] = useState([]);
     const [head, setHead] = useState([]);
     const [loading, setLoading] = useState(false);
     const [empty, setEmpty] = useState(true);
+    
+    
 
     const Toast = Swal.mixin({
         toast: true,
@@ -37,8 +41,8 @@ const ViewReg = () => {
                   setEmpty(false)
                   setLoading(false)
                   // console.log("loading:", loading, "empty:", empty)
-
-                  setHead(Object.keys(res.data.data[0]))
+                  const lastIndex = res?.data?.data.length - 1;
+                  setHead(Object.keys(res.data.data[lastIndex]))
                   setInfo(res.data.data)
                 }
                 
@@ -53,6 +57,28 @@ const ViewReg = () => {
           }
           getUsers()
     }, [])
+
+    
+      const exportToExcel = () => {
+        // Create a new workbook
+        const workbook = XLSX.utils.book_new();
+    
+        // Convert JSON to worksheet
+        const worksheet = XLSX.utils.json_to_sheet(info);
+    
+        // Append the worksheet to the workbook
+        XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
+    
+        // Generate a binary string representation of the workbook
+        const excelBuffer = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+    
+        // Create a Blob from the binary string
+        const data = new Blob([excelBuffer], { type: 'application/octet-stream' });
+    
+        // Save the Blob as a file
+        saveAs(data, `MarathonData.xlsx`);
+      };
+    
     if(loading === true){
       return <div className="table-container">
         <div><h3>Loading Info...</h3></div>
@@ -84,6 +110,7 @@ const ViewReg = () => {
             ))}
           </div>
         </div>
+        <button onClick={exportToExcel} style={{paddingInline: "10px", paddingBlock: "3px", color: "white", backgroundColor: "#17B788", marginBlock: "20px"}}>Download Excel</button>
       </div>
       )
     }

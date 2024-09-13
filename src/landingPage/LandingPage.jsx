@@ -31,6 +31,7 @@ import newSponsor12 from '../assets/newSponsor12.jpg'
 import { GoArrowRight } from 'react-icons/go';
 import newIcon from "../assets/new-icon.png"
 import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { GrYoutube } from "react-icons/gr";
 
 
 
@@ -237,6 +238,9 @@ const LandingPage = () => {
                         <p className='landing_hero_wrapper_p'>ACYM2024 THEME: “Creating a Peaceful and Eco-friendly Environment for an Expanded Meaningful Youth Engagement through Sports.”</p>
                         <div className="landing_hero_btn_holder">
                             <NavLink className='landing_hero_btn' to={"/register"} >Register now</NavLink>
+                            <a href='https://www.youtube.com/@ajegunlecityyouthmarathon' target='_blank' rel="noopener noreferrer" className='landing_hero_youtube'>
+                            <GrYoutube />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -362,7 +366,7 @@ const LandingPage = () => {
                             content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary!"}
                         />
                     </div>
-                    <btn className="landing_news_view_more_btn" onClick={() => nav("/blog")}>View more post</btn>
+                    <button className="landing_news_view_more_btn" onClick={() => nav("/blog")}>View more post</button>
                 </div>
                 <div className="landing_become_a_sponsor">
                 <div className="landing_become_a_sponsor_top">“get your brand on our front banner to make a positive and lasting impact in the lives of our youth”</div>
