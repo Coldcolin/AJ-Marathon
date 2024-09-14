@@ -359,6 +359,9 @@
     background-color: rgba(23, 183, 136, 1);
     border: none;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .general_find_route_right_wrapper {

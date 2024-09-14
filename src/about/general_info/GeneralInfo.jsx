@@ -85,8 +85,8 @@ export const GeneralFindRoute = () => {
             <div className="general_find_route_wrapper">
                 <div className="general_find_route_left_wrapper">
                     <h1 className='general_find_route_left_wrapper_H1'>Find out the route for runners</h1>
-                    <p className='general_find_route_left_wrapper_P'>Start point/Maracana Stadium - Ojokwu street - Kirikiri road - wilmer link brindge - Oregie mba road - Baale Aderemo street - Boundary road - olowo jeunjeje street- sanusi street - Layinka street - Badia ijora road - Mosafejo road - Itire street - Ojo road - Signal Barraks/End point.</p>
-                    <button className='general_find_route_left_wrapper_btn'>Explore Routes & Map</button>
+                    <p className='general_find_route_left_wrapper_P'>Start point/Maracana Stadium - Start point/Maracana Stadium - Ojokwu street - Kirikiri road - wilmer link bridge - Okito street - Koripamo street - Oregie mba road - Baale Adeyemo street - Cementry street - Ojora Street -  Fakunle street - Olowojeunjeje - Sanusi street - Layinka street  - Mosafejo road - Bakare-Faro street - Adejinyan/Ishaga street - Mosafejo road - Awope/Itire street - Ojo road - Signals Barracks Sports Ground/Endpoint.</p>
+                    <Link to="/about_routes_and_map" className='general_find_route_left_wrapper_btn'>Explore Routes & Map</Link>
                 </div>
                 <div className="general_find_route_right_wrapper">
                     <img src={route} alt="" />
@@ -209,7 +209,7 @@ const GeneralInfo = () => {
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Sponges/Refreshment'
-                            P='Sponges will be provided at the following stations on the Marathon route: 24km, 8km and at the finish.'
+                            P='Sponges will be provided at the following stations on the Marathon route: 4km, 8km and at the finish.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
