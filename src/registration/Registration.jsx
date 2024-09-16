@@ -25,8 +25,8 @@ const Registration = () => {
         }
       })
 
-    //   const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
-      const publicKey = "pk_test_913cdce93ed1b67501ef021d5b329e58ca72fd16"
+      const publicKey = "pk_live_0c2a597df4ddfc08deb223cc0e4e69de1f7b8216"
+    //   const publicKey = "pk_test_913cdce93ed1b67501ef021d5b329e58ca72fd16"
 
 
       const config = {

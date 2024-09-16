@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 
 
-const LearnMore = ({ bgImage, H2 , bg}) => {
+const LearnMore = ({ bgImage, H2 , bg, path}) => {
     return (
 
         <div className='general_learn_more_card_body' style={{ backgroundImage: `url(${bgImage})` }}>
@@ -16,7 +16,7 @@ const LearnMore = ({ bgImage, H2 , bg}) => {
                     {H2}
                 </h2>
                 <div className="general_learn_more_card_content_div">
-                    <p className='general_learn_more_card_content_P'>Learn more <span className='general_learn_more_card_content_Span'> &rarr;</span></p>
+                    <Link to={`${path}`} className='general_learn_more_card_content_P'>Learn more <span className='general_learn_more_card_content_Span'> &rarr;</span></Link>
                 </div>
             </div>
         </div>
@@ -69,9 +69,9 @@ export const GeneralLearnMore = () => {
         <>
             <div className="general_info_learnMore_container">
                 <div className="general_info_learnMore_wrapper">
-                    <LearnMore bgImage="/generalInfo4.png" H2='Training for beginner and regular runners' bg={"#1796B7"}/>
-                    <LearnMore bgImage="/Health.png" H2='Know more about health tips' bg={"#FD4D6C"}/>
-                    <LearnMore bgImage="/generalInfo6.png" H2='Prizes' bg={"#3FC274"} />
+                    <LearnMore bgImage="/generalInfo4.png" H2='Training for beginner and regular runners' bg={"#1796B7"} path="/resources/resources/beginners_tips"/>
+                    <LearnMore bgImage="/Health.png" H2='Know more about health tips' bg={"#FD4D6C"} path="/resources/resources/health_tips"/>
+                    <LearnMore bgImage="/generalInfo6.png" H2='Prizes' bg={"#3FC274"} path="/about_prizes"/>
                 </div>
             </div>
 
