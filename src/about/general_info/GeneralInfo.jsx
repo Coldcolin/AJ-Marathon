@@ -219,7 +219,7 @@ const GeneralInfo = () => {
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Medical'
-                            P='An Ambulance and medical station will be available approximately 200 meters after each main drink station on the Marathon route at 2km, and 4km and 5k finish point. Service providers and Medics will also be present at every intermediary station.'
+                            P='An Ambulance and medical station will be available approximately 200 meters after each main drink station on the Marathon route at 2km, 4km, 6km, 8km and at the 10km finish point. Service providers and Medics will also be present at every intermediary station.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
