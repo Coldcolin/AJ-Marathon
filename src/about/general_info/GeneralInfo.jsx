@@ -52,8 +52,8 @@ export const GeneralRegister = () => {
                     <div className="general_info_register_body">
                         <div className="general_info_register_main_body">
                             <div className="general_info_register_main_body_section">
-                                <h1 className='general_info_register_main_body_section_H1'>Register for the 2024 Ajegunle  City youth Marathon</h1>
-                                <p className='general_info_register_main_body_section_P'>Join us at this edition of the Ajegunle City youth Marathon 2024. We are looking forward to have you be a part of this wonderful event.</p>
+                                <h1 className='general_info_register_main_body_section_H1'>Register for the 2025 Ajegunle  City youth Marathon</h1>
+                                <p className='general_info_register_main_body_section_P'>Join us at this edition of the Ajegunle City youth Marathon 2025. We are looking forward to have you be a part of this wonderful event.</p>
                                 <Link to="/register" className='general_info_register_main_body_section_btn'>Register now</Link>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ const GeneralInfo = () => {
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
                             H1='Runners Kits Collection'
-                            P='Bibs containing your unique number will be distributed to registered participants at the Ajeromi-Ifelodun LGA Council Secretariat and Ifelodun LCDA Secretariat, from November 9, 2024 to November 16, 2024 from 9:00 a.m. to 5:00 p.m. daily. Please ensure you collect your bib within the specified days.'
+                            P='Bibs containing your unique number will be distributed to registered participants at the Ajeromi-Ifelodun LGA Council Secretariat and Ifelodun LCDA Secretariat, from November 9, 2025 to November 16, 2025 from 9:00 a.m. to 5:00 p.m. daily. Please ensure you collect your bib within the specified days.'
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"

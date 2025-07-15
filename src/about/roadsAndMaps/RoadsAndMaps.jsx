@@ -21,7 +21,7 @@ const RoadsAndMaps = () => {
                     </div>
                     <div className="roads_and_map_mainBody_article_section_wrapper_article_container">
                         <p className='roads_and_map_mainBody_article_section_wrapper_article_container_P'>
-                        Ajegunle City Youth Marathon, 2024 | Route Description/Navigation 
+                        Ajegunle City Youth Marathon, 2025 | Route Description/Navigation 
                         </p><br/>
                         <p className='roads_and_map_mainBody_article_section_wrapper_article_container_P'>
                     Start point/Maracana Stadium - Ojokwu street - Kirikiri road - wilmer link bridge - Okito street - Koripamo street - Oregie mba road - Baale Adeyemo street - Cementry street - Ojora Street -  Fakunle street - Olowojeunjeje - Sanusi street - Layinka street  - Mosafejo road - Bakare-Faro street - Adejinyan/Ishaga street - Mosafejo road - Awope/Itire street - Ojo road - Signals Barracks Sports Ground/Endpoint.

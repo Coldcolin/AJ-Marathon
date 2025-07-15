@@ -67,7 +67,7 @@ const Registration = () => {
             // saveUser()
             const Toaster = Swal.fire({
                 title: 'Great!',
-                text: 'Congratulations! you have successfully completed your registration for the Ajegunle City Youth Marathon 2024 event. You will be contacted on further details to get you prepared ahead of the race. Cheers!',
+                text: 'Congratulations! you have successfully completed your registration for the Ajegunle City Youth Marathon 2025 event. You will be contacted on further details to get you prepared ahead of the race. Cheers!',
                 icon: 'success',
                 showCancelButton: true,
                 confirmButtonColor: '#17B788',

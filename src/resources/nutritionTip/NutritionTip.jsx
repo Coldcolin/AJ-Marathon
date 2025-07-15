@@ -65,7 +65,7 @@ const NutritionTip = () => {
                 <div className="nutrition_props_Title">
                     <HealthProps
                         Title={"Nutrition"}
-                        Content={"The Ajegunle City Youth Marathon, 2024 may be months and many training miles away but as far as your diet is concerned, the preparations for race day can start now. The good news is that you probably won’t have to make drastic changes to your current eating habits; there is no need to buy expensive supplements or special foods."}
+                        Content={"The Ajegunle City Youth Marathon, 2025 may be months and many training miles away but as far as your diet is concerned, the preparations for race day can start now. The good news is that you probably won’t have to make drastic changes to your current eating habits; there is no need to buy expensive supplements or special foods."}
                         Img={nutrition4}
                         Title1={"On Your Marks"}
                         Content1={"As you embark on your training programme you should take stock of your current diet habits. Remember that food is the fuel that will help to ensure your body makes it through the miles of training in the months ahead. Flunk on your diet and fluid intake and you risk feeling tired and run-down. Use this checklist to make sure you are giving yourself the right start."}
@@ -138,7 +138,7 @@ const NutritionTip = () => {
                             <h1 className='nutirition_tip_H1'>NUTRITIONAL TIPS :</h1>
                             <p className='nutirition_tip_P'>Take Stock Of Your Diet Habits</p>
                             <h2 className='nutrition_tip_H2'>Nutrition</h2>
-                            <p className='nutrition_tip_P2'>The Ajegunle City Youth Marathon, 2024 may be months and many training miles away but as far as your diet is
+                            <p className='nutrition_tip_P2'>The Ajegunle City Youth Marathon, 2025 may be months and many training miles away but as far as your diet is
                                 concerned, the preparations for race day can start now. The good news is that you probably won’t have to make
                                 drastic changes to your current eating
                                 habits; there is no need to buy expensive supplements or special foods.

@@ -129,9 +129,9 @@ const About = () => {
           </div>
           <p className='about_AJYCM_project_article_P'>
 
-            The<span className='about_AJYCM_project_article_SPAN'> "Ajegunle City Youth Marathon, 2024" </span>{" "} is organized by a consortium of indigenous youth-led organisations all represented on the Local Organizing Committee (LOC), comprising the lead partner, Society for Information and Human Advancement Initiative (SOHAI), National Youth Council of Nigeria (NYCN) Ajeromi-Ifelodun LGA and Ifelodun LCDA Local Branches and Ajeromi-Ifelodun Sports Council as coordinating and technical partners respectively; and Kobis Global Multidimensional, The Curve Africa, Klick Designs, Mula Integrated Concepts, Heart to Give Initiative, Africa Network of Adolescents and Young Persons Development (ANAYD), SMARTPadi and Ajegunle Co-Working Hub. 
+            The<span className='about_AJYCM_project_article_SPAN'> "Ajegunle City Youth Marathon, 2025" </span>{" "} is organized by a consortium of indigenous youth-led organisations all represented on the Local Organizing Committee (LOC), comprising the lead partner, Society for Information and Human Advancement Initiative (SOHAI), National Youth Council of Nigeria (NYCN) Ajeromi-Ifelodun LGA and Ifelodun LCDA Local Branches and Ajeromi-Ifelodun Sports Council as coordinating and technical partners respectively; and Kobis Global Multidimensional, The Curve Africa, Klick Designs, Mula Integrated Concepts, Heart to Give Initiative, Africa Network of Adolescents and Young Persons Development (ANAYD), SMARTPadi and Ajegunle Co-Working Hub. 
             <br/><br/>
-            The Ajegunle City Youth Marathon, 2024 is the maiden edition and promising to become a major sporting event in the annals of the Ajegunle community. The marathon is set to attract thousands of participants from all over Ajegunle communities and beyond, and will provide a platform to showcase the community’s potential for sports and tourism and also for young athletes to showcase their talents and compete for prizes. The Ajegunle City Youth Marathon, beyond just a sporting event; it is also a community event that brings people together and promoting peace and unity while empowering young people. The marathon is a celebration of the resilience and determination of the Ajegunle youth, and it is a source of inspiration for the entire community.
+            The Ajegunle City Youth Marathon, 2025 is the maiden edition and promising to become a major sporting event in the annals of the Ajegunle community. The marathon is set to attract thousands of participants from all over Ajegunle communities and beyond, and will provide a platform to showcase the community’s potential for sports and tourism and also for young athletes to showcase their talents and compete for prizes. The Ajegunle City Youth Marathon, beyond just a sporting event; it is also a community event that brings people together and promoting peace and unity while empowering young people. The marathon is a celebration of the resilience and determination of the Ajegunle youth, and it is a source of inspiration for the entire community.
             <br/><br/>
             In addition to promoting health and fitness, youth development and empowerment, the Ajegunle City Youth Marathon, also serves as a fund raiser for various community projects to support educational and developmental programs, healthcare initiatives, and other projects that will benefit the youths of Ajegunle.
             <br/><br/>
@@ -147,18 +147,18 @@ const About = () => {
           <h1 className='about_AJYCM_local_committee_body_H1'>Local Organising Committee</h1>
           <p className='about_AJYCM_local_committee_body_P'>Meet Our LOC Members </p>
           <div className="about_AJYCM_local_committee_card_body">
-            <AboutCard img={newCommitee1} H2='ISAAC MOSES' P={"GENERAL SECRETARY, NYCN-AJIF/PROJECT LEAD, ACYM2024"} />
-            <AboutCard img={newCommitee2} H2='AMB. ISAAC SUCCESS OMOYELE' P={"COORDINATOR, NYCN-AJIF/YOUTH HOST & HEAD OF PUBLIC RELATIONS, AJCYM2024"} />
-            <AboutCard img={newCommitee3} H2='COMRD. ADEMOLA IGI-ABA LAWAL' P={"COORDINATOR, NYCN-IFELODUN/YOUTH CO-HOST & HEAD OF COMMUNITY MOBILIZATION, ACYM2024"} />
-            <AboutCard img={newCommitee4} H2='HON. MC.ANTHONY ANAELECHUKWU' P={"DIRECTOR GENERAL, AJEROMI-IFELODUN SPORTS COUNCIL/TECHNICAL ADVISOR & CHIEF OFFICIAL, ACYM2024"} />
-            <AboutCard img={newCommitee5} H2='PRINCE OGAGA WOWO' P={"CEO, KOBIS GLOBAL/STRATEGIC MEDIA & COMMUNICATIONS LEAD ACYM2024"} />
-            <AboutCard img={newCommitee6} H2='OGHENEKARO RACHEAL LAWRENCE' P={"GENDER ADVOCACY FOCAL POINT, SOHAI/HEAD OF MARKETING & ADVERTISEMENT, ACYM2024"} />
-            <AboutCard img={newCommitee7} H2='SAMUEL KELECHI' P={"CEO, THE CURVE/ICT & STRATEGIC KNOWLEDGE MANAGEMENT LEAD, ACYM2024"} />
-            <AboutCard img={newCommitee8} H2='OGHENEKOME RICHARD' P={"PROJECT DIRECTOR, SOHAI/QUALITY ASSURANCE LEAD, ACYM2024"} />
-            <AboutCard img={newCommitee9} H2='MICHAEL UTEDI' P={"CEO, MULA INTEGRATED CONCEPT/LOGISTIC & SUPPLY LEAD, ACYM2024"} />
-            <AboutCard img={newCommitee10} H2="ESE UCHE GOD'S-WILL" P={"CEO, KLICK DESIGNS/CONTENT MANAGEMENT AND BRANDING LEAD, ACYM2024"} />
-            <AboutCard img={newCommitee11} H2='HON. AMUDALAT TEMITOPE OLOOLA' P={"SOCIAL SECREATRY, NYCN-IFELODUN/VOLUNTEER COORDINATOR, ACYM2024"} />
-            <AboutCard img={newCommitee12} H2='GODSPOWER  O. EBIZE' P={"CEO, KODED LAFF ENTERTAINMENT/MARKETING & PUBLICITY,  AYCM2024"} />
+            <AboutCard img={newCommitee1} H2='ISAAC MOSES' P={"GENERAL SECRETARY, NYCN-AJIF/PROJECT LEAD, ACYM2025"} />
+            <AboutCard img={newCommitee2} H2='AMB. ISAAC SUCCESS OMOYELE' P={"COORDINATOR, NYCN-AJIF/YOUTH HOST & HEAD OF PUBLIC RELATIONS, AJCYM2025"} />
+            <AboutCard img={newCommitee3} H2='COMRD. ADEMOLA IGI-ABA LAWAL' P={"COORDINATOR, NYCN-IFELODUN/YOUTH CO-HOST & HEAD OF COMMUNITY MOBILIZATION, ACYM2025"} />
+            <AboutCard img={newCommitee4} H2='HON. MC.ANTHONY ANAELECHUKWU' P={"DIRECTOR GENERAL, AJEROMI-IFELODUN SPORTS COUNCIL/TECHNICAL ADVISOR & CHIEF OFFICIAL, ACYM2025"} />
+            <AboutCard img={newCommitee5} H2='PRINCE OGAGA WOWO' P={"CEO, KOBIS GLOBAL/STRATEGIC MEDIA & COMMUNICATIONS LEAD ACYM2025"} />
+            <AboutCard img={newCommitee6} H2='OGHENEKARO RACHEAL LAWRENCE' P={"GENDER ADVOCACY FOCAL POINT, SOHAI/HEAD OF MARKETING & ADVERTISEMENT, ACYM2025"} />
+            <AboutCard img={newCommitee7} H2='SAMUEL KELECHI' P={"CEO, THE CURVE/ICT & STRATEGIC KNOWLEDGE MANAGEMENT LEAD, ACYM2025"} />
+            <AboutCard img={newCommitee8} H2='OGHENEKOME RICHARD' P={"PROJECT DIRECTOR, SOHAI/QUALITY ASSURANCE LEAD, ACYM2025"} />
+            <AboutCard img={newCommitee9} H2='MICHAEL UTEDI' P={"CEO, MULA INTEGRATED CONCEPT/LOGISTIC & SUPPLY LEAD, ACYM2025"} />
+            <AboutCard img={newCommitee10} H2="ESE UCHE GOD'S-WILL" P={"CEO, KLICK DESIGNS/CONTENT MANAGEMENT AND BRANDING LEAD, ACYM2025"} />
+            <AboutCard img={newCommitee11} H2='HON. AMUDALAT TEMITOPE OLOOLA' P={"SOCIAL SECREATRY, NYCN-IFELODUN/VOLUNTEER COORDINATOR, ACYM2025"} />
+            <AboutCard img={newCommitee12} H2='GODSPOWER  O. EBIZE' P={"CEO, KODED LAFF ENTERTAINMENT/MARKETING & PUBLICITY,  AYCM2025"} />
           </div>
 
         </div>

@@ -33,7 +33,7 @@ const Footer = () => {
                 <ul>
                     <li>Get Involved</li>
                     <li><NavLink to={'/register'} className={'menu_not_active'}>Register for Race</NavLink></li>
-                    <li><a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024" className={'menu_not_active'} target="_blank" rel="noreferrer">Volunteer</a></li>
+                    <li><a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025" className={'menu_not_active'} target="_blank" rel="noreferrer">Volunteer</a></li>
                     <li><NavLink to={'/contact_us'} className={'menu_not_active'}>Media Accreditation</NavLink></li>
                     <li><NavLink to={'/contact_us'} className={'menu_not_active'}>Become a sponsor</NavLink></li>
                     <li><NavLink to={'/contact_us'} className={'menu_not_active'}>Partner with us</NavLink></li>
@@ -63,7 +63,7 @@ const Footer = () => {
                 </ul>
                 
             </div>
-            <p style={{color: "white"}} className='footer_P'>Copyright 2024 © Ajegunle City Youth Marathon. All Rights Reserved.</p>
+            <p style={{color: "white"}} className='footer_P'>Copyright 2025 © Ajegunle City Youth Marathon. All Rights Reserved.</p>
         </div>
     )
 }

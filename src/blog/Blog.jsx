@@ -55,9 +55,9 @@ const Blog = () => {
             <img src={img} alt="" />
           </div>
           <div className="blog_landing_write_holder">
-            <h1 className='blog_landing_write_holder_h1'>{"Ajegunle City Youth Marathon, 2024 - Volunteer Registration Open!"}</h1>
+            <h1 className='blog_landing_write_holder_h1'>{"Ajegunle City Youth Marathon, 2025 - Volunteer Registration Open!"}</h1>
             <p className='blog_landing_write_holder_p'>
-              Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary! Your support will play a vital role in making this event a resounding success.
+              Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2025 event and be a part of something extraordinary! Your support will play a vital role in making this event a resounding success.
             </p>
             <div>
               <h3 className='blog_landing_write_holder_H3'>Volunteer Roles</h3>
@@ -80,18 +80,18 @@ const Blog = () => {
             </div>
             <div className='blog_landing_write_holder_Div'>
               <h3 className='blog_landing_write_holder_H3'>How to Register</h3>
-              <p className='blog_landing_write_holder_P'>If you are interested in volunteering for the Ajegunle City Youth Marathon, 2024 event, simply fill out the online registration form <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024">https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024</a> , submission closes by July 28th, 2024.
+              <p className='blog_landing_write_holder_P'>If you are interested in volunteering for the Ajegunle City Youth Marathon, 2025 event, simply fill out the online registration form <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025">https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025</a> , submission closes by July 28th, 2025.
                 Space is limited, so don't miss this chance to be part of an inspiring and rewarding experience. Join us in shaping a healthier and more active community for our youth!
               </p>
               <p className='blog_landing_write_holder_P'>For any inquiries or assistance with registration, please contact: Amudalat Temitope Oloola:
                 +234 809 315 9529.
                 Let's make a difference together!
                 Warm regards,
-                ACYM2024 | Local Organising Committee
+                ACYM2025 | Local Organising Committee
               </p>
               <ul className='blog_landing_write_holder_Div_Ul'>
                 <li>
-                  #ACYM2024
+                  #ACYM2025
                 </li>
                 <li>
                   #RUNAjegunle
@@ -118,23 +118,23 @@ const Blog = () => {
             <img src={img} alt="" />
           </div>
           <div className="blog_landing_write_holder">
-            <h1 className='blog_landing_write_holder_h1'>{"Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2024"}</h1>
+            <h1 className='blog_landing_write_holder_h1'>{"Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2025"}</h1>
             <p className='blog_landing_write_holder_p'>
-            Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 30th November, 2024 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed.
+            Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 29th November, 2025 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed.
 <br/><br/>
 We want to greatly thank the Commander, Brig. Gen. P.A Zipele and his team, Major Umar, 2IC and Lieut. Yahaya, Admin Officer; for the warm hospitality and reception of the project as a welcomed development and the immense support in collaboration, towards fruitful results ahead. 
 <br/><br/>
 This is a great milestone recorded in our planning process to ensure successful implementation outcomes of the event; aimed to become the largest Youth Engagement Platform in the annals of the Ajeromi-Ifelodun Youth Council, to drive social transformation and positive change among youths and advocacy for good governance in Ajeromi-Ifelodun LGA at large.  
 <br/><br/>
-To join our Volunteer Youth Force simply fill out the online registration form: https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024 , submission closes by July 28th, 2024. It Can Only Get Better!
+To join our Volunteer Youth Force simply fill out the online registration form: https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025 , submission closes by July 28th, 2025. It Can Only Get Better!
 <br/><br/>
-#ACYM2024
+#ACYM2025
 #RUNAjegunle
 #AjegunleMarathon
 #AjegunleCity5KRace
             </p>
             <p className='blog_landing_write_holder_p'>
-              To join our Volunteer Youth Force simply fill out the online registration form: <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025">https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2024</a> , submission closes by July 28th, 2024.
+              To join our Volunteer Youth Force simply fill out the online registration form: <a href="https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025">https://bit.ly/Volunteer-Registration-Ajegunle-City-Youth-Marathon-2025</a> , submission closes by July 28th, 2025.
             </p>
             <p className='blog_landing_write_holder_p'>
               It Can Only Get Better!
@@ -142,7 +142,7 @@ To join our Volunteer Youth Force simply fill out the online registration form: 
             <div className='blog_landing_write_holder_Div'>
               <ul className='blog_landing_write_holder_Div_Ul'>
                 <li>
-                  #ACYM2024
+                  #ACYM2025
                 </li>
                 <li>
                   #RUNAjegunle
@@ -167,7 +167,7 @@ To join our Volunteer Youth Force simply fill out the online registration form: 
             <img src={img} alt="" />
           </div>
           <div className="blog_landing_write_holder">
-            <h1 className='blog_landing_write_holder_h1'>{"Ajegunle City Youth Marathon, 2024 - flagged-off"}</h1>
+            <h1 className='blog_landing_write_holder_h1'>{"Ajegunle City Youth Marathon, 2025 - flagged-off"}</h1>
             <p className='blog_landing_write_holder_p'>
               The Ajegunle City Youth Marathon is Raging higher as we officially flagged-off the project at the floor of The Ifelodun Local Youth Council Management Committee Meeting.
               Watch out for the biggest gig ever in the city of Ajegunle,.......Coming Soon!
@@ -178,7 +178,7 @@ To join our Volunteer Youth Force simply fill out the online registration form: 
             <div className='blog_landing_write_holder_Div'>
               <ul className='blog_landing_write_holder_Div_Ul'>
                 <li>
-                  #ACYM2024
+                  #ACYM2025
                 </li>
                 <li>
                   #RUNAjegunle
@@ -210,19 +210,19 @@ To join our Volunteer Youth Force simply fill out the online registration form: 
 
                 {/* <div className="landing_news_wrapper"> */}
                 <Newscard
-                  H4={"AJCYM 2024 -"}
+                  H4={"AJCYM 2025 -"}
                   Span={"End Point"}
                   img={news1}
-                  content={"The Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2024; 30th November, 2024 @The Sports Ground, Nigeria Army Signals Barracks, Mile 2."}
+                  content={"The Venue for the End Point Event Gig of the Ajegunle City Youth Marathon, 2025; 29th November, 2025 @The Sports Ground, Nigeria Army Signals Barracks, Mile 2."}
                 />
                 <Newscard
                   img={news3}
-                  H4={"AJCYM 2024 -"}
+                  H4={"AJCYM 2025 -"}
                   Span={"Volunteer Registration!"}
-                  content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary!"}
+                  content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2025 event and be a part of something extraordinary!"}
                 />
                 <Newscard
-                  H4={"AJCYM 2024 -"}
+                  H4={"AJCYM 2025 -"}
                   Span={"Flag-Off"}
                   img={news2}
                   content={"The Ajegunle City Youth Marathon is Raging higher as we officially flagged-off the project at the floor of The Ifelodun Local Youth Council Management Committee Meeting. Watch out for the biggest gig ever in the city of Ajegunle,.......Coming Soon!"}
