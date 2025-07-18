@@ -1,6 +1,6 @@
 import './HowToRegister.css'
 import { GeneralFindRoute, GeneralHero, GeneralLearnMore, GeneralRegister } from '../general_info/GeneralInfo'
-import athlete from '../../assets/generalInfo2.png'
+import athlete from '../../assets/NewImages/HowTo.jpg'
 const ToRegisterCard = ({ H3, P1, P2 }) => {
     return (
         <div className='toRegisterCardBody'>

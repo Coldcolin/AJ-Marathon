@@ -1,7 +1,7 @@
 import { GeneralFindRoute, GeneralHero, GeneralLearnMore, GeneralRegister } from '../general_info/GeneralInfo'
 import './Prizes.css'
 import './PrizesRes.css'
-import athlete from '../../assets/generalInfo2.png'
+import athlete from '../../assets/NewImages/about_routes.jpg'
 
 
 

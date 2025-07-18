@@ -1,8 +1,8 @@
 import './GeneralInfo.css'
 import './GeneralInfoRes.css'
 import { HiOutlineArrowLongLeft } from 'react-icons/hi2'
-import route from '../../assets/generalInfo4.png'
-import getInfo from "../../assets/generalInfo2.png"
+import route from '../../assets/NewImages/about_routes.jpg'
+import getInfo from "../../assets/NewImages/General.jpg"
 import { Link, NavLink } from 'react-router-dom'
 
 

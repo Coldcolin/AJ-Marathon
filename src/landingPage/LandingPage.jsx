@@ -15,19 +15,6 @@ import Raffle2 from "../assets/Raffle.png"
 import news1 from '../assets/news1.jpg'
 import news2 from '../assets/news2.jpg'
 import news3 from '../assets/news3.jpg'
-import update1 from "../assets/UpdateSOHAI_LOGOonline_Web 1.png"
-import newSponsor1 from '../assets/newSponsor1.jpg'
-import newSponsor2 from '../assets/newSponsor2.jpg'
-import newSponsor3 from '../assets/newSponsor3.jpg'
-import newSponsor4 from '../assets/newSponsor4.jpg'
-import newSponsor5 from '../assets/newSponsor5.jpg'
-import newSponsor6 from '../assets/newSponsor6.jpg'
-import newSponsor7 from '../assets/newAjegunle_Co-Working_Hub_Web 1.png'
-import newSponsor8 from '../assets/newSponsor8.jpg'
-import newSponsor9 from '../assets/newSponsor9.jpg'
-import newSponsor10 from '../assets/newSponsor10.jpg'
-import newSponsor11 from '../assets/newSponsor11.jpg'
-import newSponsor12 from '../assets/newSponsor12.jpg'
 import { GoArrowRight } from 'react-icons/go';
 import newIcon from "../assets/new-icon.png"
 import { Link, NavLink, useNavigate } from 'react-router-dom'
@@ -171,59 +158,6 @@ const LandingPage = () => {
         )
     }
 
-    const firstSettings = {
-        dots: false,
-        infinite: true,
-        speed: 2200,
-        // slidesToShow: 3.25,
-        // slidesToScroll: 1,
-        // initialSlide: 0,
-        // autoplay: true,
-        // pauseOnHover: true,
-        // autoplaySpeed: 10000,
-        // cssEase: "linear",
-        // nextArrow: <SampleNextArrow />,
-        // prevArrow: <SampleNextArrow />,
-        // responsive: [
-        // {
-        //     breakpoint: 1024,
-        //     settings: {
-        //     slidesToShow: 2.5,
-        //     slidesToScroll: 1.5,
-        //     infinite: true,
-        //     dots: false
-        //     }
-        // },
-        // {
-        //     breakpoint: 768,
-        //     settings: {
-        //     slidesToShow: 1.5,
-        //     slidesToScroll: 1.5,
-        //     infinite: true,
-        //     dots: false
-        //     }
-        // },
-        // {
-        //     breakpoint: 600,
-        //     settings: {
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1,
-        //     infinite: true,
-        //     dots: false
-        //     }
-        // },
-        // {
-        //     breakpoint: 425,
-        //     settings: {
-        //     slidesToShow: 1,
-        //     slidesToScroll: 1,
-        //     nextArrow: null,
-        //     prevArrow: null,
-        //     }
-        // }
-        // ]
-    };
-
 
 
 
@@ -305,7 +239,7 @@ const LandingPage = () => {
                 </div>
                 <div className="landing_price_category">
                     <div className="landing_price_price_container">
-                        <p className='landing_price_price_container_P'>&quot;The Ajegunle City Youth Marathon celebrates the resilience and determination of the ajegunle youth, and is a source of inspiration for the entire community.&quot;</p>
+                        <p className='landing_price_price_container_P'>&quot;The Ajegunle City Youth Marathon celebrates the resilience and determination of the Ajegunle and Nigerian youth, and is a source of inspiration for the entire community.&quot;</p>
                         <div className="landing_price_category_wrapper">
                             <PriceWon icon='&#8358;' title='Join The Race' article='The  Marathon goes beyond a race. It is one way to get inspired.' bg='rgba(122, 144, 249, 1)' />
                             <PriceWon icon='&#8358;' title='N2 Millon Worth' article='Over 2 Million naira prizes is available to be won by contestants.' bg='rgba(23, 183, 136, 1)' />
@@ -319,29 +253,7 @@ const LandingPage = () => {
                     <RoadMap />
 
                 </div>
-                {/* <div className="landing_meet_sponsor">
-                    <h1 className='landing_meet_sponsor_h1'>Meet our Local Organising Partners</h1>
-                    <div className='SponsorsLogo'>
-                        <img src={update1} alt="SOHAI" className='Sponsors-Logos' />
-
-                        <img src={newSponsor4} alt=" KOBIS GLOBAL" className='Sponsors-Logos' />
-
-                        <img src={newSponsor5} alt="THE CURVE" className='Sponsors-Logos' />
-
-                        <img src={newSponsor6} alt=" KLICK Designs" className='Sponsors-Logos' />
-
-                        <img src={newSponsor9} alt="MULA Integrated Concepts" className='Sponsors-Logos' />
-
-                        <img src={newSponsor8} alt=" NYCN-IFELODUN" className='Sponsors-Logos' />
-
-                        <img src={newSponsor10} alt="Heart To Give Initiative" className='Sponsors-Logos' />
-
-                        <img src={newSponsor11} alt="ANAYD" className='Sponsors-Logos' />
-
-                        <img src={newSponsor12} alt="smartpadi" className='Sponsors-Logos' />
-
-                    </div>
-                </div> */}
+               
                 <LocalSponsors/>
                 <PartnersSection/>
                 <SponsorsSection/>

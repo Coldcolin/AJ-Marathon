@@ -9,7 +9,7 @@
     width: 100%;
     min-height: 75vh;
     background-image:
-        linear-gradient(to left, rgba(232, 244, 247, 0.5), rgba(44, 27, 30, 0.75)), url('../assets/image1.png');
+        linear-gradient(to left, rgba(232, 244, 247, 0.5), rgba(44, 27, 30, 0.75)), url('../assets/NewImages/LandingTop.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
