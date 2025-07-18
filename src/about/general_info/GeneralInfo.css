@@ -257,7 +257,8 @@
 
 .general_learn_more_card_body {
     width: 30%;
-    height: 64vh;
+    min-height: 64vh;
+    height: max-content;
     background: cyan;
     background-position: center;
     background-size: cover;
@@ -358,10 +359,11 @@
     border-radius: 20px;
     background-color: rgba(23, 183, 136, 1);
     border: none;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-block: 10px;
 }
 
 .general_find_route_right_wrapper {

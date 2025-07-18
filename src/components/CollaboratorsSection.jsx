@@ -10,7 +10,7 @@ import Image6 from "../assets/collaborators/Image6.jpg"
 import Image7 from "../assets/collaborators/Image7.jpg"
 import Image8 from "../assets/collaborators/Image8.jpg"
 import Image9 from "../assets/collaborators/Image9.jpg"
-// import Image10 from "../assets/collaborators/Image10.jpg"
+import Image10 from "../assets/collaborators/GAP.jpg"
 // import Image11 from "../assets/collaborators/Image11.jpg"
 // import Image12 from "../assets/collaborators/Image12.jpg"
 
@@ -23,6 +23,7 @@ const CollaboratorsSection = () => {
     { name: "SHJ", logo: Image1, alt: "SHJ Logo" },
     { name: "KUG", logo: Image2, alt: "KUG Logo" },
     { name: "Lagos State", logo: Image3, alt: "Lagos State Government Logo" },
+    { name: "GAP", logo: Image10, alt: "GAP Logo" },
     { name: "The Curve", logo: Image4, alt: "The Curve by Kora Logo" },
     { name: "Mula Integrated", logo: Image5, alt: "Mula Integrated Logo" },
     { name: "Partner 6", logo: Image6, alt: "Partner 6 Logo" },
