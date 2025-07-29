@@ -189,7 +189,7 @@ const LandingPage = () => {
                             <p className='landing_ready_wrapper_P'>#RUNAjegunle | 29th November, 2025</p>
                         </div>
                         <div className="landing_ready_wrapper_card_contain">
-                            <ReadyCard pix={image2} link='Click here to Register for to participate at the Ajegunle City Youth Marathon, 2025' bg='#1796B7' tag={"/register"} />
+                            <ReadyCard pix={image2} link='Click here to register for the 10km race to participate in the Ajegunle City Youth Marathon, 2025' bg='#1796B7' tag={"/register"} />
                             <ReadyCard pix={Raffle2} link='Click here to purchases a raffle tickets and stand a chance to win awesome prizes at the raffle draw event.' bg='#346F7C' tag={"https://paystack.com/buy/PROD_vxkwxr3edops7u9"} />
                             <ReadyCard pix={image4} link='Click here to place an order for your T-Shirt & Face Cap to support the Ajegunle City Youth Marathon Project.' bg='#17B788' tag={"https://paystack.com/pay/o7t1hpl2mt"} />
                         </div>

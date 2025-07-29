@@ -1,11 +1,11 @@
 import './ResourceLinks.css';
 import health2 from '../../assets/health2.svg'
-import health3 from '../../assets/health3.svg'
+import health3 from '../../assets/NewImages/Training.jpg'
 import health4 from '../../assets/health4.svg'
 // import health5 from '../../assets/health5.png'
 import health6 from '../../assets/health6.png'
-import Beginner from "../../assets/Begginer.png"
-import Regular from "../../assets/Regular.png"
+import Beginner from "../../assets/NewImages/BegginerDrill.jpg"
+import Regular from "../../assets/NewImages/RegularDrill.jpg"
 import { NavLink } from 'react-router-dom';
 
 

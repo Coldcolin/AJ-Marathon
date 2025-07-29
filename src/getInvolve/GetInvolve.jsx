@@ -1,11 +1,11 @@
 import "./GetInvolve.css";
 import "./GetInvolveRes.css";
-import getInvolved1 from "../assets/getInvolved1.png";
-import getInvolved2 from "../assets/getInvolved2.png";
-import getInvolved3 from "../assets/getInvolved3.png";
-import getInvolved4 from "../assets/getInvolved4.png";
-import getInvolved5 from "../assets/getInvolved5.png";
-import getInvolved6 from "../assets/getInvolved6.png";
+import getInvolved1 from "../assets/NewImages/GetINvolved.jpg";
+import getInvolved2 from "../assets/NewImages/Volunteer.jpg";
+import getInvolved3 from "../assets/NewImages/Media.jpg";
+import getInvolved4 from "../assets/NewImages/Sponsor.jpg";
+import getInvolved5 from "../assets/NewImages/Partner.jpg";
+import getInvolved6 from "../assets/NewImages/Donate.jpg";
 import { NavLink } from "react-router-dom";
 
 

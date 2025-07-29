@@ -69,7 +69,7 @@ export const GeneralLearnMore = () => {
         <>
             <div className="general_info_learnMore_container">
                 <div className="general_info_learnMore_wrapper">
-                    <LearnMore bgImage="/generalInfo4.png" H2='Training for beginner and regular runners' bg={"#1796B7"} path="/resources/resources/beginners_tips"/>
+                    <LearnMore bgImage="/FIrstOFThree.jpg" H2='Training for beginner and regular runners' bg={"#1796B7"} path="/resources/resources/beginners_tips"/>
                     <LearnMore bgImage="/Health.png" H2='Know more about health tips' bg={"#FD4D6C"} path="/resources/resources/health_tips"/>
                     <LearnMore bgImage="/generalInfo6.png" H2='Prizes' bg={"#3FC274"} path="/about_prizes"/>
                 </div>

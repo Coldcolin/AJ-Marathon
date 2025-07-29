@@ -147,9 +147,9 @@ const About = () => {
           <h1 className='about_AJYCM_local_committee_body_H1'>Local Organising Committee</h1>
           <p className='about_AJYCM_local_committee_body_P'>Meet Our LOC Members </p>
           <div className="about_AJYCM_local_committee_card_body">
-            <AboutCard img={newCommitee1} H2='ISAAC MOSES' P={"GENERAL SECRETARY, NYCN-AJIF/PROJECT LEAD, ACYM2025"} />
-            <AboutCard img={newCommitee2} H2='AMB. ISAAC SUCCESS OMOYELE' P={"COORDINATOR, NYCN-AJIF/YOUTH HOST & HEAD OF PUBLIC RELATIONS, AJCYM2025"} />
-            <AboutCard img={newCommitee3} H2='COMRD. ADEMOLA IGI-ABA LAWAL' P={"COORDINATOR, NYCN-IFELODUN/YOUTH CO-HOST & HEAD OF COMMUNITY MOBILIZATION, ACYM2025"} />
+            <AboutCard img={newCommitee1} H2='ISAAC MOSES' P={"EXECUTIVE DIRECTOR, SOHAI NAIJA/PROJECT LEAD, ACYM2025"} />
+            {/* <AboutCard img={newCommitee2} H2='AMB. ISAAC SUCCESS OMOYELE' P={"COORDINATOR, NYCN-AJIF/YOUTH HOST & HEAD OF PUBLIC RELATIONS, AJCYM2025"} /> */}
+            <AboutCard img={newCommitee3} H2='COMRD. ADEMOLA IGI-ABA LAWAL' P={"HEAD OF COMMUNITY MOBILIZATION & ADVOCACY, ACYM2025"} />
             <AboutCard img={newCommitee4} H2='HON. MC.ANTHONY ANAELECHUKWU' P={"DIRECTOR GENERAL, AJEROMI-IFELODUN SPORTS COUNCIL/TECHNICAL ADVISOR & CHIEF OFFICIAL, ACYM2025"} />
             <AboutCard img={newCommitee5} H2='PRINCE OGAGA WOWO' P={"CEO, KOBIS GLOBAL/STRATEGIC MEDIA & COMMUNICATIONS LEAD ACYM2025"} />
             <AboutCard img={newCommitee6} H2='OGHENEKARO RACHEAL LAWRENCE' P={"GENDER ADVOCACY FOCAL POINT, SOHAI/HEAD OF MARKETING & ADVERTISEMENT, ACYM2025"} />
@@ -157,8 +157,8 @@ const About = () => {
             <AboutCard img={newCommitee8} H2='OGHENEKOME RICHARD' P={"PROJECT DIRECTOR, SOHAI/QUALITY ASSURANCE LEAD, ACYM2025"} />
             <AboutCard img={newCommitee9} H2='MICHAEL UTEDI' P={"CEO, MULA INTEGRATED CONCEPT/LOGISTIC & SUPPLY LEAD, ACYM2025"} />
             <AboutCard img={newCommitee10} H2="ESE UCHE GOD'S-WILL" P={"CEO, KLICK DESIGNS/CONTENT MANAGEMENT AND BRANDING LEAD, ACYM2025"} />
-            <AboutCard img={newCommitee11} H2='HON. AMUDALAT TEMITOPE OLOOLA' P={"SOCIAL SECREATRY, NYCN-IFELODUN/VOLUNTEER COORDINATOR, ACYM2025"} />
-            <AboutCard img={newCommitee12} H2='GODSPOWER  O. EBIZE' P={"CEO, KODED LAFF ENTERTAINMENT/MARKETING & PUBLICITY,  AYCM2025"} />
+            <AboutCard img={newCommitee11} H2='AMUDALAT TEMITOPE OLOOLA' P={"CEO, HEART TO GIVE INITIATIVE/VOLUNTEER COORDINATOR, ACYM2025"} />
+            {/* <AboutCard img={newCommitee12} H2='GODSPOWER  O. EBIZE' P={"CEO, KODED LAFF ENTERTAINMENT/MARKETING & PUBLICITY,  AYCM2025"} /> */}
           </div>
 
         </div>

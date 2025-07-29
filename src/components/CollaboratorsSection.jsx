@@ -54,7 +54,7 @@ const CollaboratorsSection = () => {
   }
 
   return (
-    <div className="w-full bg-gray-50 py-16 px-4">
+    <div className="w-full bg-gray-50 py-6 px-4">
       <div className="max-w-7xl mx-auto ">
         <h2 className="landing_meet_sponsor_h1 text-center">Meet our Collaborators</h2>
 
@@ -77,7 +77,7 @@ const CollaboratorsSection = () => {
                 <img
                   src={partner.logo || "/placeholder.svg"}
                   alt={partner.alt}
-                  className="h-14 w-auto max-w-[120px] object-contain mx-auto hover:grayscale-0 transition-all duration-300"
+                  className="h-14 w-auto max-w-[140px] object-contain mx-auto hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             ))}

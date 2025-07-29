@@ -1,6 +1,7 @@
 import './HowToRegister.css'
 import { GeneralFindRoute, GeneralHero, GeneralLearnMore, GeneralRegister } from '../general_info/GeneralInfo'
-import athlete from '../../assets/NewImages/HowTo.jpg'
+import athlete from '../../assets/NewImages/HowToRegFirst.jpg'
+import { Link } from 'react-router-dom'
 const ToRegisterCard = ({ H3, P1, P2 }) => {
     return (
         <div className='toRegisterCardBody'>
@@ -19,11 +20,12 @@ const HowToRegister = () => {
             <div className="how_to_register_article_section_mainBody">
                 <div className="how_to_register_article_section_wrapper">
                     <div className="how_to_register_article_section_wrapper_img_container">
-                        <img src={athlete} alt="Athlete" className='how_to_register_article_section_wrapper_img' />
+                        <img src={athlete} alt="Athlete" className='how_to_register_article_section_wrapper_imgobject-contain ' />
                     </div>
-                    <div className="how_to_register_article_section_wrapper_article_container">
-                        <h1 className='how_to_register_article_section_wrapper_article_container_H1a'>Forms can be picked up with upon proof and confirmation of payment at following Youth Hubs:</h1>
-                        <h1 className='how_to_register_article_section_wrapper_article_container_H1b'>For group registration, Corporate: Kindly indicate at pick points to obtain the group registration form.</h1>
+                    <div className="how_to_register_article_section_wrapper_article_container mt-6">
+                        <Link to="/register" className='how_to_register_article_section_wrapper_article_container_H1a'>Click here to register online for the 10km race open division.
+                        </Link>
+                        <h1 className='how_to_register_article_section_wrapper_article_container_H1b'>For group registration, kindly visit the following youth hubs  with proof of payment for validation or call any of the corresponding contact phone number:</h1>
                         {/* <h3>1. NATIONAL YOUTH COUNCIL OF NIGERIA, AJEROMI-IFELODUN LOCAL CHAPTER (NYCN-AJIF)</h3>
                         <p>Address: C/O, office of the Head of Department, Agriculture, Rural and Youth Social Development, Ifelodun Local Council Development Area Secretariat, Dispensary Street, Mosafejo, Amukoko, Lagos.</p>
                         <p>Tel: + 234 705 640 2139</p>
@@ -53,7 +55,7 @@ const HowToRegister = () => {
                         />
                         <ToRegisterCard
                             H3={"5. THE CURVE AFRICA"}
-                            P1={"Address: 161/163 Muyibi Street, Olodi Apapa, Lagos. "}
+                            P1={"Second floor, Umunze Building, Coconut. "}
                             P2={"Tel: +234 813 725 3138"}
                         />
                         <ToRegisterCard
