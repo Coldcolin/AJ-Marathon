@@ -22,8 +22,8 @@ const RaceResult = () => {
                         <img src={athlete} alt="Athlete" className='race_result_mainBody_article_section_wrapper_img' />
                     </div>
                     <div className="race_result_mainBody_article_section_wrapper_article_container">
-                        <RaceResultLink H5={"2025 Race Results for ACYM Female – 5km –"} Span={"Click Here"} />
-                        <RaceResultLink H5={"2025 Race Results for ACYM Male – 5km –"} Span={"Click Here"} />
+                        <RaceResultLink H5={"2025 Race Results for ACYM Female – 10km –"} Span={"Click Here"} />
+                        <RaceResultLink H5={"2025 Race Results for ACYM Male – 10km –"} Span={"Click Here"} />
                         
                     </div>
                 </div>

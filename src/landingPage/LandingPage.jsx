@@ -218,7 +218,7 @@ const LandingPage = () => {
                             />
                             <CategoryCard
                                 h2='  Corporate Division -
-     Group/Team(5km) '
+     Group/Team(10km) '
                                 // h3='all employees from the same company/organisation (5km)'
                                 l1='Employees from same company(18 - 35years)'
                                 l2='Police/military (both gender 18 -35 years)'

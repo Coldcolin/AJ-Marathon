@@ -69,8 +69,8 @@ const HowToRegister = () => {
                         <h5 className='how_to_register_article_section_wrapper_article_container_H5'>All payment should be made with reference to Ajegunle Marathon into the official account:</h5>
                         <h6 className='how_to_register_article_section_wrapper_article_container_H6'>SOCIETY FOR INFO AND HUMAN ADV INIT</h6>
                         <p className='how_to_register_article_section_wrapper_article_container_H6_P'>1014459817 · Zenith Bank</p>
-                        <h4>Any athlete registered under an athletics federation or body either home or abroad is not eligible to run in the 5km #RunAjegunle race.</h4>
-                        <a href="">Click Here to Register for 5Km #RunAjegunle Race</a>
+                        <h4>Any athlete registered under an athletics federation or body either home or abroad is not eligible to run in the 10km #RunAjegunle race.</h4>
+                        <a href="">Click Here to Register for 10Km #RunAjegunle Race</a>
                         <a href="">Click Here to See Rules and Regulations</a>
                         <h5>Next Steps…</h5>
                         <h5>Are you ready to RUN?</h5><a href="">Click here for more information.</a>

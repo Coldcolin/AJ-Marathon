@@ -4,7 +4,7 @@ import './AboutRes.css'
 import oba1 from '../assets/oba1.jpg'
 import oba2 from '../assets/oba2.png'
 import oba3 from '../assets/oba3.png'
-import fatai from "../assets/HonFatai.jpg"
+import fatai from "../assets/currentChair.jpg"
 import Okeowo from "../assets/HonOkeowo.jpg"
 import ObaNew from "../assets/ObaNew.png"
 import ObaImg from "../assets/ObaImg.jpg"
@@ -107,9 +107,9 @@ const About = () => {
             <div className="about_AJYCM_project_article_right_image_container2">
               <div className='about_AJYCM_project_article_right_image_top'>
                 <img src={fatai} alt="athlete" className='about_AJYCM_project_article_right_image1' />
-                <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. FATAI ADEKUNLE AYOOLA
-                  EXECUTIVE CHAIRMAN
-                  AJEROMI-IFELODUN LGA</p>
+                <p className='about_AJYCM_project_article_right_image_container2_P1'>HON. OLALEKAN OLU AKINDIPE
+EXECUTIVE CHAIRMAN
+AJEROMI-IFELODUN LOCAL GOVERNMENT</p>
               </div>
               <div className='about_AJYCM_project_article_right_image_bottom'>
                 <img src={Okeowo} alt="athlete" className='about_AJYCM_project_article_right_image2' />

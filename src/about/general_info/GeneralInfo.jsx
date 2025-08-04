@@ -143,7 +143,7 @@ const GeneralInfo = () => {
                         />
                         <GeneralInfoCard
                             font="'Roboto', sans-serif"
-                            H1='5KM'
+                            H1='10KM'
                             Span="Start:"
                             P='The starting point will be at the entrance of the Maracanã Stadium, Ojokwu Street, Tolu School Complex, Ajegunle Apapa, Lagos'
                             Span2="Finish:"

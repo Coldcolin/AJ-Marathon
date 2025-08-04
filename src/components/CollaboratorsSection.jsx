@@ -2,7 +2,7 @@ import { useState, useRef } from "react"
 import "../landingPage/LandingPage.css"
 import "../landingPage/LandingPageRes.css"
 import Image1 from "../assets/collaborators/Image1.jpg"
-import Image2 from "../assets/collaborators/Image2.jpg"
+import Image2 from "../assets/collaborators/toChange.jpg"
 import Image3 from "../assets/collaborators/Image3.jpg"
 import Image4 from "../assets/collaborators/Image4.jpg"
 import Image5 from "../assets/collaborators/Image5.jpg"
@@ -72,12 +72,12 @@ const CollaboratorsSection = () => {
             {[...partners, ...partners, ...partners].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 bg-white rounded-lg shadow-sm p-6 border border-gray-100 min-w-[160px]"
+                className="flex-shrink-0 bg-white rounded-lg shadow-sm p-2 border border-gray-100 min-w-[160px] flex"
               >
                 <img
                   src={partner.logo || "/placeholder.svg"}
                   alt={partner.alt}
-                  className="h-14 w-auto max-w-[140px] object-contain mx-auto hover:grayscale-0 transition-all duration-300"
+                  className="h-18 w-auto max-w-[140px] object-contain mx-auto hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             ))}

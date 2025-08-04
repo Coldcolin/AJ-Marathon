@@ -51,7 +51,7 @@ const LocalSponsors = () => {
   return (
     <div className="w-full bg-gray-50 py-6 px-4">
       <div className="max-w-7xl mx-auto ">
-        <h2 className="landing_meet_sponsor_h1 text-center">Local Organising Partners</h2>
+        <h2 className="landing_meet_sponsor_h1 text-center">Meet the Local Organising Partners</h2>
 
         <div className="relative overflow-hidden">
           <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
@@ -67,12 +67,12 @@ const LocalSponsors = () => {
             {[...partners, ...partners, ...partners].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 bg-white rounded-lg shadow-sm p-6 border border-gray-100 min-w-[160px]"
+                className="flex-shrink-0 bg-white rounded-lg shadow-sm p-2 border border-gray-100 min-w-[160px] flex"
               >
                 <img
                   src={partner.logo || "/placeholder.svg"}
                   alt={partner.alt}
-                  className="h-14 w-auto max-w-[140px] object-contain mx-auto hover:grayscale-0 transition-all duration-300"
+                  className="h-18 w-auto max-w-[140px] object-contain mx-auto hover:grayscale-0 transition-all duration-300"
                 />
               </div>
             ))}
