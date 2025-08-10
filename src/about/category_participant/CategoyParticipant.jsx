@@ -1,7 +1,7 @@
 import './CategoyParticipant.css'
 import './CategoyParticipantRes.css'
 import { GeneralFindRoute, GeneralHero, GeneralLearnMore, GeneralRegister } from '../general_info/GeneralInfo'
-import athlete from '../../assets/NewImages/Category.jpg'
+import athlete from '../../assets/NewImages/categoryNew.jpg'
 
 
 const CategoryArticle = ({ H1, L1, L2, L3, L4, L5, L6 }) => {
