@@ -139,7 +139,24 @@
     .landing_news_card {
         width: 90%;
         margin: 20px 0;
-        height: 65vh;
+        min-height: 500px;
+        height: auto;
+    }
+
+    .landing_news_img_container {
+        height: 250px;
+        min-height: 250px;
+    }
+
+    .landing_news_article {
+        min-height: 250px;
+        padding: 10px 0;
+    }
+
+    .landing_news_article_content {
+        font-size: 13px;
+        line-height: 19px;
+        -webkit-line-clamp: 5;
     }
 
     .landing_news_article_header_h4{

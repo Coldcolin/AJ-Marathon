@@ -145,6 +145,54 @@ const Registration = () => {
                     <input placeholder="example@xample.com" required={true} onChange={(e)=> setUserData((p)=> {return {...p, email: e.target.value}})}/>
                 </div>
             </div>
+            
+            <div className="Registration-Five">
+            <p>State of Origin</p>
+                <div>
+                    <select required={true} onChange={(e)=> setUserData((p)=> {return {...p, State: e.target.value}})}>
+                        <option value="">--Select State--</option>
+                        <option value="Abia">Abia</option>
+                        <option value="Adamawa">Adamawa</option>
+                        <option value="Akwa Ibom">Akwa Ibom</option>
+                        <option value="Anambra">Anambra</option>
+                        <option value="Bauchi">Bauchi</option>
+                        <option value="Bayelsa">Bayelsa</option>
+                        <option value="Benue">Benue</option>
+                        <option value="Borno">Borno</option>
+                        <option value="Cross River">Cross River</option>
+                        <option value="Delta">Delta</option>
+                        <option value="Ebonyi">Ebonyi</option>
+                        <option value="Edo">Edo</option>
+                        <option value="Ekiti">Ekiti</option>
+                        <option value="Enugu">Enugu</option>
+                        <option value="Gombe">Gombe</option>
+                        <option value="Imo">Imo</option>
+                        <option value="Jigawa">Jigawa</option>
+                        <option value="Kaduna">Kaduna</option>
+                        <option value="Kano">Kano</option>
+                        <option value="Katsina">Katsina</option>
+                        <option value="Kebbi">Kebbi</option>
+                        <option value="Kogi">Kogi</option>
+                        <option value="Kwara">Kwara</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Nasarawa">Nasarawa</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Ogun">Ogun</option>
+                        <option value="Ondo">Ondo</option>
+                        <option value="Osun">Osun</option>
+                        <option value="Oyo">Oyo</option>
+                        <option value="Plateau">Plateau</option>
+                        <option value="Rivers">Rivers</option>
+                        <option value="Sokoto">Sokoto</option>
+                        <option value="Taraba">Taraba</option>
+                        <option value="Yobe">Yobe</option>
+                        <option value="Zamfara">Zamfara</option>
+                        <option value="FCT">Federal Capital Territory</option>
+                    </select>
+                    <input placeholder="LGA" required={true} onChange={(e)=> setUserData((p)=> {return {...p, StateLGA: e.target.value}})}/>
+                </div>
+            </div>
+
             <div className="Registration-Four" required={true}>
             <p>Address</p>
                 <div>
@@ -163,25 +211,16 @@ const Registration = () => {
                     
                 </div>
             </div>
-            <div className="Registration-Five">
-            <p>State of Origin</p>
-                <div>
-                    <input placeholder="State" required={true} onChange={(e)=> setUserData((p)=> {return {...p, State: e.target.value}})}/>
-                    <input placeholder="LGA" required={true} onChange={(e)=> setUserData((p)=> {return {...p, StateLGA: e.target.value}})}/>
-                </div>
-            </div>
+            
             <div className="Registration-Six">
             <p>Emergency Contact</p>
-                <div>
-                    <div>
-                    <input placeholder="First Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyFirstName: e.target.value}})}/>
-                    <input placeholder="Last Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyLastName: e.target.value}})}/>
-                    </div>
-                    <div>
-                    <input placeholder="Relationship" onChange={(e)=> setUserData((p)=> {return {...p, EmergencyRelationship: e.target.value}})}/>
-                    
-                    <input placeholder="Phone Number" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyPhone: e.target.value}})}/>
-                    </div>
+                <div className="grid grid-cols-2 gap-2 grid-rows-2 p-3">
+                    {/* <div > */}
+                    <input className="col-span-1" placeholder="First Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyFirstName: e.target.value}})}/>
+                    <input className="col-span-1" placeholder="Last Name" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyLastName: e.target.value}})}/>
+                    <input className="col-span-1" placeholder="Relationship" onChange={(e)=> setUserData((p)=> {return {...p, EmergencyRelationship: e.target.value}})}/>
+                    <input className="col-span-1" placeholder="Phone Number" required={true} onChange={(e)=> setUserData((p)=> {return {...p, EmergencyPhone: e.target.value}})}/>
+                    {/* </div> */}
                 </div>
             </div>
             <div className="Registration-Seven">

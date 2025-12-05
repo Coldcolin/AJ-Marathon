@@ -173,7 +173,7 @@ const LandingPage = () => {
                             <h1 className='landing_hero_wrapper_h1'>“AJEGUNLE CITY YOUTH MARATHON”</h1>
                             <h2 className='landing_hero_wrapper_h2'>...Building Peaceful and cohesive communities.</h2>
                         </div>
-                        <p className='landing_hero_wrapper_p'>ACYM2025 THEME: “Run Ajegunle To Light; <br/>Say No To Drugs!”</p>
+                        <p className='landing_hero_wrapper_p'>ACYM2025 THEME: “Run To The Path of Light; <br/>Say No To Drugs!”</p>
                         <div className="landing_hero_btn_holder">
                             <NavLink className='landing_hero_btn' to={"/register"} >Register now</NavLink>
                             <a href='https://www.youtube.com/@ajegunlecityyouthmarathon' target='_blank' rel="noopener noreferrer" className='landing_hero_youtube'>
@@ -186,7 +186,7 @@ const LandingPage = () => {
                     <div className="landing_ready_wrapper">
                         <div>
                             <h1 className='landing_ready_wrapper_h1'>Are you ready ?</h1>
-                            <p className='landing_ready_wrapper_P'>#RUNAjegunle | 29th November, 2025</p>
+                            <p className='landing_ready_wrapper_P'>#RUNAjegunle2.0 | 13th December, 2025</p>
                         </div>
                         <div className="landing_ready_wrapper_card_contain">
                             <ReadyCard pix={image2} link='Click here to register for the 10km race to participate in the Ajegunle City Youth Marathon, 2025' bg='#1796B7' tag={"/register"} />
@@ -262,20 +262,20 @@ const LandingPage = () => {
                     <h1 className='landing_news_h1'>News and updates</h1>
                     <div className="landing_news_wrapper">
                         <Newscard
-                            H4={"July 5, 2025 / "}
+                            H4={"July 5, 2024 / "}
                             Span={"News"}
                             img={news1}
                             content={"Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 29th November, 2025 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed."}
                         />
                         <Newscard
-                            H4={"AJCYM 2025 -"}
+                            H4={"AJCYM 2024 -"}
                             Span={"Volunteer!"}
                             img={news3}
                             content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2025 event and be a part of something extraordinary!"}
                         />
                         <Newscard
                             img={news2}
-                            H4={"AJCYM 2025 -"}
+                            H4={"AJCYM 2024 -"}
                             Span={"Flag-Off"}
                             content={"The Ajegunle City Youth Marathon is Raging higher as we officially flagged-off the project at the floor of The Ifelodun Local Youth Council Management Committee Meeting. Watch out for the biggest gig ever in the city of Ajegunle,.......Coming Soon!"}
                         />

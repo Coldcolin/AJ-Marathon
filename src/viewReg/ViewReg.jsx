@@ -30,6 +30,7 @@ const ViewReg = () => {
                 setLoading(true)
                 
                 const res = await axios.get("https://marathon-apises.vercel.app/api/v1/users")
+                console.log(res.data.data)
                 if (!res.data.data){
                   setLoading(false)
                   setEmpty(true)
