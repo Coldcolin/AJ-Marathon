@@ -265,13 +265,13 @@ const LandingPage = () => {
                             H4={"July 5, 2024 / "}
                             Span={"News"}
                             img={news1}
-                            content={"Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 29th November, 2025 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed."}
+                            content={"Finally, the venue for the end point event gig of the Ajegunle City Youth Marathon, Maiden Edition; 29th November, 2024 at the Sports Ground, Nigeria Army Signal Barracks, Mile-2 have been confirmed."}
                         />
                         <Newscard
                             H4={"AJCYM 2024 -"}
                             Span={"Volunteer!"}
                             img={news3}
-                            content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2025 event and be a part of something extraordinary!"}
+                            content={"Are you passionate about empowering youth and promoting fitness, healthy living while advocating for positive change in the community? Join us as a volunteer for the Ajegunle City Youth Marathon, 2024 event and be a part of something extraordinary!"}
                         />
                         <Newscard
                             img={news2}
